@@ -1,0 +1,2015 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:GitLogCache
+  cacheType: 3
+  lastUpdatedAtString: 2023-02-12T21:52:37.401-05:00
+  initializedAtString: 2023-02-12T16:10:20.171-05:00
+  log:
+  - commitID: 168aa433c9eb12bedea7bda367ea2db1640c8390
+    mergeA: 
+    mergeB: 
+    authorName: Hunter O'Connor
+    authorEmail: hcoconnor2001@yahoo.com
+    commitEmail: hcoconnor2001@yahoo.com
+    commitName: Hunter O'Connor
+    summary: added basics
+    description: 'added PIA PixelArt Editor
+
+      added temp player sprite
+
+      added
+      WASD controls to wizard'
+    timeString: 2023-02-12T21:52:31.000-05:00
+    commitTimeString: 2023-02-12T21:52:31.000-05:00
+    changes:
+    - path: .vs\GunWizardGame\v16\.suo
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\.vs\GunWizardGame\v16\.suo
+      projectPath: .vs\GunWizardGame\v16\.suo
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vsconfig
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\.vsconfig
+      projectPath: .vsconfig
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor.csproj
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assembly-CSharp-Editor.csproj
+      projectPath: Assembly-CSharp-Editor.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor.meta
+      projectPath: Assets\PIAPixelArtEditor.meta
+      originalPath: Assets\UPAToolkit.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAAnimator.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAAnimator.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAAnimator.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAAnimator.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAAnimator.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAAnimator.cs.meta
+      originalPath: Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIADrawer.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIADrawer.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIADrawer.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIADrawer.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIADrawer.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIADrawer.cs.meta
+      originalPath: Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAEditorWindow.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAEditorWindow.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAEditorWindow.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAEditorWindow.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAEditorWindow.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAEditorWindow.cs.meta
+      originalPath: Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAExportSettingsWindow.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAExportSettingsWindow.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAExportSettingsWindow.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAExportSettingsWindow.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAExportSettingsWindow.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAExportSettingsWindow.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAExtendedPreviewWindow.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAExtendedPreviewWindow.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAExtendedPreviewWindow.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAExtendedPreviewWindow.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAExtendedPreviewWindow.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAExtendedPreviewWindow.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAFrame.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAFrame.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAFrame.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAFrame.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAFrame.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAFrame.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAGrid.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAGrid.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAGrid.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAGrid.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAGrid.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAGrid.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAImageData.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAImageData.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAImageData.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAImageData.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAImageData.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAImageData.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAInputArea.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAInputArea.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAInputArea.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIAInputArea.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIAInputArea.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIAInputArea.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIANewImageWindow.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIANewImageWindow.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIANewImageWindow.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIANewImageWindow.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIANewImageWindow.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIANewImageWindow.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIASession.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIASession.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIASession.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIASession.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIASession.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIASession.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIATexture.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIATexture.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIATexture.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIATexture.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIATexture.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIATexture.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIATextureDatabase.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIATextureDatabase.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIATextureDatabase.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\PIATextureDatabase.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\PIATextureDatabase.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\PIATextureDatabase.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\WindowSection.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\WindowSection.cs
+      projectPath: Assets\PIAPixelArtEditor\Editor\WindowSection.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Editor\WindowSection.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Editor\WindowSection.cs.meta
+      projectPath: Assets\PIAPixelArtEditor\Editor\WindowSection.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Examples.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Examples.meta
+      projectPath: Assets\PIAPixelArtEditor\Examples.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Examples\Sample.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Examples\Sample.asset
+      projectPath: Assets\PIAPixelArtEditor\Examples\Sample.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Examples\Sample.asset.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Examples\Sample.asset.meta
+      projectPath: Assets\PIAPixelArtEditor\Examples\Sample.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Fonts.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Fonts.meta
+      projectPath: Assets\PIAPixelArtEditor\Fonts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Fonts\BAUHS93.TTF
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Fonts\BAUHS93.TTF
+      projectPath: Assets\PIAPixelArtEditor\Fonts\BAUHS93.TTF
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Fonts\BAUHS93.TTF.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Fonts\BAUHS93.TTF.meta
+      projectPath: Assets\PIAPixelArtEditor\Fonts\BAUHS93.TTF.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Fonts\Roboto-Light.ttf
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Fonts\Roboto-Light.ttf
+      projectPath: Assets\PIAPixelArtEditor\Fonts\Roboto-Light.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Fonts\Roboto-Light.ttf.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Fonts\Roboto-Light.ttf.meta
+      projectPath: Assets\PIAPixelArtEditor\Fonts\Roboto-Light.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Fonts\Roboto-Medium.ttf
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Fonts\Roboto-Medium.ttf
+      projectPath: Assets\PIAPixelArtEditor\Fonts\Roboto-Medium.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Fonts\Roboto-Medium.ttf.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Fonts\Roboto-Medium.ttf.meta
+      projectPath: Assets\PIAPixelArtEditor\Fonts\Roboto-Medium.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\Skins.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\Skins.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\Skins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\Skins\PIAPixelArtEditorSkin.guiskin
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\Skins\PIAPixelArtEditorSkin.guiskin
+      projectPath: Assets\PIAPixelArtEditor\Resources\Skins\PIAPixelArtEditorSkin.guiskin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\Skins\PIAPixelArtEditorSkin.guiskin.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\Skins\PIAPixelArtEditorSkin.guiskin.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\Skins\PIAPixelArtEditorSkin.guiskin.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addbox.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\addbox.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addbox.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addbox.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\addbox.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addbox.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxhover.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxhover.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxhover.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxhover.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxhover.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxhover.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxpressed.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxpressed.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxpressed.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxpressed.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxpressed.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addboxpressed.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addcircle.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\addcircle.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addcircle.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addcircle.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\addcircle.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addcircle.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addnotewhite.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\addnotewhite.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addnotewhite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addnotewhite.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\addnotewhite.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\addnotewhite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowdown.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowdown.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowdown.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowdown.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowdown.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowdown.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowup.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowup.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowup.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowup.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowup.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\arrowup.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\brush.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\brush.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\brush.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\brush.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\brush.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\brush.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\brushblack.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\brushblack.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\brushblack.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\brushblack.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\brushblack.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\brushblack.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblack.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblack.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblack.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblack.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblack.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblack.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblackhover.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblackhover.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblackhover.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblackhover.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblackhover.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\cancelblackhover.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\circletool.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\circletool.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\circletool.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\circletool.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\circletool.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\circletool.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\clearblack.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\clearblack.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\clearblack.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\clearblack.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\clearblack.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\clearblack.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframe.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframe.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframe.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframe.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframe.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframe.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframehover.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframehover.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframehover.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframehover.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframehover.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\copyframehover.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\deleteblack.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\deleteblack.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\deleteblack.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\deleteblack.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\deleteblack.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\deleteblack.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\deletewhite.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\deletewhite.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\deletewhite.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\deletewhite.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\deletewhite.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\deletewhite.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\ditheringtool.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\ditheringtool.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\ditheringtool.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\ditheringtool.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\ditheringtool.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\ditheringtool.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\empty.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\empty.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\empty.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\empty.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\empty.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\empty.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eraser.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\eraser.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eraser.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eraser.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\eraser.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eraser.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\export.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\export.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\export.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\export.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\export.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\export.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\exporthover.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\exporthover.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\exporthover.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\exporthover.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\exporthover.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\exporthover.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\exportpressed.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\exportpressed.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\exportpressed.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\exportpressed.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\exportpressed.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\exportpressed.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreview.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreview.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreview.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreview.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreview.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreview.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreviewhover.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreviewhover.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreviewhover.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreviewhover.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreviewhover.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\extendpreviewhover.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeoff.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeoff.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeoff.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeoff.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeoff.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeoff.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeon.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeon.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeon.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeon.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeon.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\eyeon.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\filledsquaretool.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\filledsquaretool.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\filledsquaretool.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\filledsquaretool.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\filledsquaretool.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\filledsquaretool.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimage.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimage.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimage.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimage.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimage.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimage.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagehover.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagehover.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagehover.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagehover.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagehover.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagehover.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagepressed.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagepressed.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagepressed.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagepressed.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagepressed.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\importimagepressed.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\linetool.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\linetool.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\linetool.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\linetool.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\linetool.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\linetool.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdown.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdown.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdown.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdown.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdown.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdown.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdownhover.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdownhover.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdownhover.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdownhover.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdownhover.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframdownhover.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeup.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeup.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeup.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeup.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeup.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeup.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeuphover.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeuphover.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeuphover.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeuphover.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeuphover.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\moveframeuphover.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\newlayer.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\newlayer.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\newlayer.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\newlayer.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\newlayer.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\newlayer.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openasset.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\openasset.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openasset.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openasset.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\openasset.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openasset.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassethover.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassethover.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassethover.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassethover.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassethover.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassethover.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassetpressed.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassetpressed.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassetpressed.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassetpressed.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassetpressed.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\openassetpressed.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\pen.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\pen.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\pen.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\pen.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\pen.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\pen.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\save.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\save.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\save.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\save.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\save.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\save.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\savehover.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\savehover.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\savehover.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\savehover.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\savehover.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\savehover.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\savepressed.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\savepressed.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\savepressed.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\savepressed.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\savepressed.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\savepressed.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectedlayeroverlay.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectedlayeroverlay.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectedlayeroverlay.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectedlayeroverlay.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectedlayeroverlay.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectedlayeroverlay.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectionbox.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectionbox.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectionbox.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectionbox.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectionbox.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\selectionbox.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\sides.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\sides.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\sides.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\sides.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\sides.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\sides.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\sideslight.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\sideslight.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\sideslight.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\sideslight.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\sideslight.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\sideslight.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\splitter.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\splitter.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\splitter.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\splitter.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\splitter.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\splitter.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\square.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\square.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\square.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\square.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\square.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\square.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\squaretool.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\squaretool.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\squaretool.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\squaretool.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\squaretool.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\squaretool.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\toolpressed.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\toolpressed.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\toolpressed.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\toolpressed.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\toolpressed.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\toolpressed.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\tooltipbg.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\tooltipbg.png
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\tooltipbg.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PIAPixelArtEditor\Resources\TextureDatabase\tooltipbg.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PIAPixelArtEditor\Resources\TextureDatabase\tooltipbg.png.meta
+      projectPath: Assets\PIAPixelArtEditor\Resources\TextureDatabase\tooltipbg.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt.meta
+      projectPath: Assets\PixelArt.meta
+      originalPath: Assets\UPAToolkit\Editor.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Player.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Player.meta
+      projectPath: Assets\PixelArt\Player.meta
+      originalPath: Assets\UPAToolkit\Editor\EditorGUI.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Player\Wiz_down_idle.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Player\Wiz_down_idle.asset
+      projectPath: Assets\PixelArt\Player\Wiz_down_idle.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Player\Wiz_down_idle.asset.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Player\Wiz_down_idle.asset.meta
+      projectPath: Assets\PixelArt\Player\Wiz_down_idle.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites.meta
+      projectPath: Assets\PixelArt\Sprites.meta
+      originalPath: Assets\UPAToolkit\Resources.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle.png
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle.png.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.controller
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.controller
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.controller.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.controller.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.controller.meta
+      originalPath: Assets\UPAToolkit\README.pdf.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.png
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.png.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle0.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle1.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle1.png
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle1.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle1.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle1.png.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle1.png.meta
+      originalPath: Assets\UPAToolkit\Resources\UI\duplicate.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle2.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle2.png
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle2.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle2.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle2.png.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle2.png.meta
+      originalPath: Assets\UPAToolkit\Resources\UI\add.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle3.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle3.png
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle3.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle3.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle3.png.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle3.png.meta
+      originalPath: Assets\UPAToolkit\Resources\UI\delete.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle4.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle4.png
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle4.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle4.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle4.png.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle4.png.meta
+      originalPath: Assets\UPAToolkit\Resources\UI\down.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle5.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle5.png
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle5.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle5.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle5.png.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle5.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle6.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle6.png
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle6.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle6.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle6.png.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle6.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle7.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle7.png
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle7.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle7.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle7.png.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle7.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle8.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle8.png
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle8.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle8.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle8.png.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle8.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle9.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle9.png
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle9.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle9.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wiz_down_idle9.png.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wiz_down_idle9.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wizard_Idle_Down.anim
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wizard_Idle_Down.anim
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wizard_Idle_Down.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\PixelArt\Sprites\Wizard\Wizard_Idle_Down.anim.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Wizard\Wizard_Idle_Down.anim.meta
+      projectPath: Assets\PixelArt\Sprites\Wizard\Wizard_Idle_Down.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player_Move_2D.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\Player_Move_2D.cs
+      projectPath: Assets\Player_Move_2D.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Player_Move_2D.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\Player_Move_2D.cs.meta
+      projectPath: Assets\Player_Move_2D.cs.meta
+      originalPath: Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPABlendModes.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPABlendModes.cs
+      projectPath: Assets\UPAToolkit\Editor\UPABlendModes.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPABlendModes.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPABlendModes.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPABlendModes.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPACustomTypes.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPACustomTypes.cs
+      projectPath: Assets\UPAToolkit\Editor\UPACustomTypes.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPACustomTypes.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPACustomTypes.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPACustomTypes.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPADrawer.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPADrawer.cs
+      projectPath: Assets\UPAToolkit\Editor\UPADrawer.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPADrawer.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPADrawer.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPADrawer.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPAImage.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPAImage.cs
+      projectPath: Assets\UPAToolkit\Editor\UPAImage.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPAImage.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPAImage.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPAImage.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPALayer.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPALayer.cs
+      projectPath: Assets\UPAToolkit\Editor\UPALayer.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPALayer.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPALayer.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPALayer.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPASession.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPASession.cs
+      projectPath: Assets\UPAToolkit\Editor\UPASession.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPASession.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPASession.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPASession.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\README.pdf
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\README.pdf
+      projectPath: Assets\UPAToolkit\README.pdf
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI.meta
+      projectPath: Assets\UPAToolkit\Resources\UI.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\CrossWhite.psd
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\CrossWhite.psd
+      projectPath: Assets\UPAToolkit\Resources\UI\CrossWhite.psd
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\CrossWhite.psd.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\CrossWhite.psd.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\CrossWhite.psd.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\add.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\add.png
+      projectPath: Assets\UPAToolkit\Resources\UI\add.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\delete.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\delete.png
+      projectPath: Assets\UPAToolkit\Resources\UI\delete.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\down.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\down.png
+      projectPath: Assets\UPAToolkit\Resources\UI\down.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\duplicate.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\duplicate.png
+      projectPath: Assets\UPAToolkit\Resources\UI\duplicate.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\edit.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\edit.png
+      projectPath: Assets\UPAToolkit\Resources\UI\edit.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\edit.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\edit.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\edit.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\import.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\import.png
+      projectPath: Assets\UPAToolkit\Resources\UI\import.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\import.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\import.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\import.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\locked.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\locked.png
+      projectPath: Assets\UPAToolkit\Resources\UI\locked.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\locked.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\locked.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\locked.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\merge.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\merge.png
+      projectPath: Assets\UPAToolkit\Resources\UI\merge.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\merge.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\merge.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\merge.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\unlocked.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\unlocked.png
+      projectPath: Assets\UPAToolkit\Resources\UI\unlocked.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\unlocked.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\unlocked.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\unlocked.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\up.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\up.png
+      projectPath: Assets\UPAToolkit\Resources\UI\up.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\up.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\up.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\up.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: GunWizardGame.sln
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\GunWizardGame.sln
+      projectPath: GunWizardGame.sln
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\packages-lock.json
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: eef6150b758b2ef0acf371aeed943c34af12d064
+    mergeA: 
+    mergeB: 
+    authorName: Hunter O'Connor
+    authorEmail: hcoconnor2001@yahoo.com
+    commitEmail: hcoconnor2001@yahoo.com
+    commitName: Hunter O'Connor
+    summary: Revert "created project"
+    description: This reverts commit b00abb85b9fe091adc6cff1cb3a11be311d8c226.
+    timeString: 2023-02-12T16:02:10.000-05:00
+    commitTimeString: 2023-02-12T16:02:10.000-05:00
+    changes:
+    - path: .gitignore
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: .vsconfig
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\.vsconfig
+      projectPath: .vsconfig
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\packages-lock.json
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 8c4c1d99162b85caabaebb64c4db05de510dcab8
+    mergeA: 
+    mergeB: 
+    authorName: Hunter O'Connor
+    authorEmail: hcoconnor2001@yahoo.com
+    commitEmail: hcoconnor2001@yahoo.com
+    commitName: Hunter O'Connor
+    summary: added pixel art editor
+    description: 
+    timeString: 2023-02-12T15:50:10.000-05:00
+    commitTimeString: 2023-02-12T15:50:10.000-05:00
+    changes:
+    - path: Assets\UPAToolkit.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit.meta
+      projectPath: Assets\UPAToolkit.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor.meta
+      projectPath: Assets\UPAToolkit\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI.meta
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\EditorGUI\UPALayerSettings.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPABlendModes.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPABlendModes.cs
+      projectPath: Assets\UPAToolkit\Editor\UPABlendModes.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPABlendModes.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPABlendModes.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPABlendModes.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPACustomTypes.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPACustomTypes.cs
+      projectPath: Assets\UPAToolkit\Editor\UPACustomTypes.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPACustomTypes.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPACustomTypes.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPACustomTypes.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPADrawer.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPADrawer.cs
+      projectPath: Assets\UPAToolkit\Editor\UPADrawer.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPADrawer.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPADrawer.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPADrawer.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPAImage.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPAImage.cs
+      projectPath: Assets\UPAToolkit\Editor\UPAImage.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPAImage.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPAImage.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPAImage.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPALayer.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPALayer.cs
+      projectPath: Assets\UPAToolkit\Editor\UPALayer.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPALayer.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPALayer.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPALayer.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPASession.cs
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPASession.cs
+      projectPath: Assets\UPAToolkit\Editor\UPASession.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Editor\UPASession.cs.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Editor\UPASession.cs.meta
+      projectPath: Assets\UPAToolkit\Editor\UPASession.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\README.pdf
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\README.pdf
+      projectPath: Assets\UPAToolkit\README.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\README.pdf.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\README.pdf.meta
+      projectPath: Assets\UPAToolkit\README.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources.meta
+      projectPath: Assets\UPAToolkit\Resources.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI.meta
+      projectPath: Assets\UPAToolkit\Resources\UI.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\CrossWhite.psd
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\CrossWhite.psd
+      projectPath: Assets\UPAToolkit\Resources\UI\CrossWhite.psd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\CrossWhite.psd.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\CrossWhite.psd.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\CrossWhite.psd.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\add.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\add.png
+      projectPath: Assets\UPAToolkit\Resources\UI\add.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\add.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\add.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\add.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\delete.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\delete.png
+      projectPath: Assets\UPAToolkit\Resources\UI\delete.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\delete.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\delete.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\delete.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\down.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\down.png
+      projectPath: Assets\UPAToolkit\Resources\UI\down.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\down.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\down.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\down.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\duplicate.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\duplicate.png
+      projectPath: Assets\UPAToolkit\Resources\UI\duplicate.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\duplicate.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\duplicate.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\duplicate.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\edit.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\edit.png
+      projectPath: Assets\UPAToolkit\Resources\UI\edit.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\edit.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\edit.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\edit.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\import.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\import.png
+      projectPath: Assets\UPAToolkit\Resources\UI\import.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\import.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\import.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\import.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\locked.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\locked.png
+      projectPath: Assets\UPAToolkit\Resources\UI\locked.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\locked.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\locked.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\locked.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\merge.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\merge.png
+      projectPath: Assets\UPAToolkit\Resources\UI\merge.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\merge.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\merge.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\merge.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\unlocked.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\unlocked.png
+      projectPath: Assets\UPAToolkit\Resources\UI\unlocked.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\unlocked.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\unlocked.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\unlocked.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\up.png
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\up.png
+      projectPath: Assets\UPAToolkit\Resources\UI\up.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\UPAToolkit\Resources\UI\up.png.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\UPAToolkit\Resources\UI\up.png.meta
+      projectPath: Assets\UPAToolkit\Resources\UI\up.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: b00abb85b9fe091adc6cff1cb3a11be311d8c226
+    mergeA: 
+    mergeB: 
+    authorName: Hunter O'Connor
+    authorEmail: hcoconnor2001@yahoo.com
+    commitEmail: hcoconnor2001@yahoo.com
+    commitName: Hunter O'Connor
+    summary: created project
+    description: 
+    timeString: 2023-01-29T19:13:56.000-05:00
+    commitTimeString: 2023-01-29T19:13:56.000-05:00
+    changes:
+    - path: .gitignore
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vsconfig
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\.vsconfig
+      projectPath: .vsconfig
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\packages-lock.json
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 989150b045eecaa946e910f5907b8a95a59a3610
+    mergeA: 
+    mergeB: 
+    authorName: Hunter O'Connor
+    authorEmail: hcoconnor2001@yahoo.com
+    commitEmail: hcoconnor2001@yahoo.com
+    commitName: Hunter O'Connor
+    summary: initial commit
+    description: 
+    timeString: 2023-01-29T19:06:22.000-05:00
+    commitTimeString: 2023-01-29T19:06:22.000-05:00
+    changes:
+    - path: Assets\Scenes.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\packages-lock.json
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\AudioManager.asset
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\ClusterInputManager.asset
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\DynamicsManager.asset
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\EditorSettings.asset
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\GraphicsSettings.asset
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\InputManager.asset
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\NavMeshAreas.asset
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\NetworkManager.asset
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PackageManagerSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\PackageManagerSettings.asset
+      projectPath: ProjectSettings\PackageManagerSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\Physics2DSettings.asset
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\QualitySettings.asset
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\TimeManager.asset
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\VFXManager.asset
+      projectPath: ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VersionControlSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\VersionControlSettings.asset
+      projectPath: ProjectSettings\VersionControlSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\ProjectSettings\XRSettings.asset
+      projectPath: ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
