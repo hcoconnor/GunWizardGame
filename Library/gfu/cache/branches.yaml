@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:BranchesCache
   cacheType: 2
-  lastUpdatedAtString: 2023-02-12T21:52:37.237-05:00
+  lastUpdatedAtString: 2023-02-12T21:56:30.761-05:00
   initializedAtString: 2023-02-12T17:56:24.093-05:00
   localBranches: []
   remoteBranches: []
