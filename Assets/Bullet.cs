@@ -19,8 +19,10 @@ public class Bullet : MonoBehaviour
         sr.sortingOrder = (int)-transform.position.y;
     }
 
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
     }
+    
 }

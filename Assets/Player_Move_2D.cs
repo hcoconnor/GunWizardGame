@@ -39,7 +39,8 @@ public class Player_Move_2D : MonoBehaviour
             delta = delta.normalized*hits[0].distance;
         }
         transform.Translate(delta.x, delta.y, 0);
-        sr.sortingOrder = (int)(-transform.position.y+.08f);
+        sr.sortingOrder = (int)((-transform.position.y+.08f)*(100));
+        //Debug.Log("Player: " + sr.sortingOrder+" "+ (-transform.position.y + .08f) * (100));
 
     }
 }
