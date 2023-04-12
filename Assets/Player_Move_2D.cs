@@ -16,6 +16,8 @@ public class Player_Move_2D : MonoBehaviour
     {
         rb= this.GetComponent<Rigidbody2D>();
         sr = this.GetComponent<SpriteRenderer>();
+
+        
     }
 
     // Update is called once per frame

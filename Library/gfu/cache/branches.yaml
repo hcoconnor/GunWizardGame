@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:BranchesCache
   cacheType: 2
-  lastUpdatedAtString: 2023-02-12T21:56:30.761-05:00
-  initializedAtString: 2023-02-12T17:56:24.093-05:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2023-04-11T21:32:37.625-04:00
+  initializedAtString: 2023-04-11T19:00:07.740-04:00
+  localBranches:
+  - name: main
+    tracking: origin/main
+  remoteBranches:
+  - name: origin/main
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/hcoconnor/GunWizardGame.git
@@ -26,15 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - main
+    values:
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/hcoconnor/GunWizardGame.git
+      trackingBranch: main
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
-    - Values: []
+    - Values:
+      - main
     subKeyValues:
-    - Values: []
+    - Values:
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/hcoconnor/GunWizardGame.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin

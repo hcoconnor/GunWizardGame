@@ -19,7 +19,7 @@ public class gunControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Fire1") && coolDown <= 0)
+        if (Input.GetButton("Gun") && coolDown <= 0)
         {
             Instantiate(Bullet,transform.position, aimRotate.rotation,transform);
             coolDown = coolDownMax;
