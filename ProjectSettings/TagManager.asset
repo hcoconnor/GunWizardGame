@@ -14,7 +14,7 @@ TagManager:
   - Targetable
   - bullet
   - player
-  - 
+  - Particles
   - 
   - 
   - 
@@ -44,9 +44,15 @@ TagManager:
   - name: Background
     uniqueID: 4025908207
     locked: 0
-  - name: Sprites
+  - name: UntargetableSprites
     uniqueID: 1326936091
     locked: 0
-  - name: UI
+  - name: SlowTimeOverlay
     uniqueID: 1897749827
+    locked: 0
+  - name: TargetableSprites
+    uniqueID: 3078823717
+    locked: 0
+  - name: Particle
+    uniqueID: 3363358221
     locked: 0

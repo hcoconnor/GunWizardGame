@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class playerSpellcasting : MonoBehaviour
 
 {
 
     public Spell equippedSpell;
-
+    public Image TargetingCircle;
     
 
     // Start is called before the first frame update
@@ -36,7 +36,8 @@ public class playerSpellcasting : MonoBehaviour
         }
         if (Input.GetButton("CastSpell") && equippedSpell.isTargeting())
         {
-            equippedSpell.update();
+            
+            equippedSpell.update(null);
         }
         if (Input.GetButtonUp("CastSpell") && equippedSpell.isTargeting())
         {
@@ -74,14 +75,14 @@ public abstract class Spell
         targeting = true;
     }
 
-    abstract protected void drawTargetUI(Vector3 mouseCoord, Transform targetTrans);
+    abstract protected void drawTargetUI(Texture2D targetUI, Vector3 mouseCoord, Transform targetTrans);
     
-    public void update()
+    public void update(Texture2D targetUI)
     {
-        Vector3 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mouse = Input.mousePosition;
         Transform target = this.targetObj.transform;
 
-        drawTargetUI(mouse, target);
+        drawTargetUI(targetUI, mouse, target);
     }
 
     abstract protected IEnumerator effect();
@@ -100,15 +101,21 @@ public abstract class Spell
 public class FireSpell : Spell
 {
 
-    public FireSpell(MonoBehaviour mb) : base(mb)
-    {
-
-    }
     
 
-    protected override void drawTargetUI(Vector3 mouseCoord, Transform targetTrans)
+    public FireSpell(MonoBehaviour mb) : base(mb)
     {
-        throw new System.NotImplementedException();
+        //Debug.Log("new Spell");
+    }
+
+    protected override void drawTargetUI(Texture2D targetUI, Vector3 mouseCoord, Transform targetTrans)
+    {
+        if(targetUI == null)
+        {
+            Debug.Log("null");
+        }
+       // targetUI.SetPixel((int)mouseCoord.x,(int) mouseCoord.y,new Color(1f, 1f, 1f, 0f));
+       
     }
 
     protected override IEnumerator effect()
