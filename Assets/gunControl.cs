@@ -21,7 +21,7 @@ public class gunControl : MonoBehaviour
     {
         if (Input.GetButton("Gun") && coolDown <= 0)
         {
-            Instantiate(Bullet,transform.position, aimRotate.rotation,transform);
+            Instantiate(Bullet,transform.position, aimRotate.rotation);
             coolDown = coolDownMax;
         }
 
