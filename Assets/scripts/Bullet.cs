@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     
     public float speed = 10f;
     SpriteRenderer sr;
+    public int bulletDamage;
 
     public void Start()
     {
@@ -26,8 +27,13 @@ public class Bullet : MonoBehaviour
     {
         //if(!collision.collider.gameObject == player)
         //{
-            
+
         //}
+        ObjectStats stats = collision.gameObject.GetComponent<ObjectStats>();
+        if(stats != null)
+        {
+            stats.hurt( bulletDamage,DamageType.physical);
+        }
         Destroy(gameObject);
     }
     

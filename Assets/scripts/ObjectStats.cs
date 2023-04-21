@@ -8,13 +8,13 @@ public class ObjectStats : MonoBehaviour
 
     public float health = 10;
 
-    void Start()
+    protected void Start()
     {
         
     }
 
     // Update is called once per frame
-    void Update()
+    protected void Update()
     {
         if(health <= 0)
         {

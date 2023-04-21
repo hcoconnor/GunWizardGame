@@ -8,7 +8,8 @@ public class Burnable : MonoBehaviour
 {
 
     public bool onFire = false;
-    public GameObject prefab;
+    //[SerializeField]
+    public static GameObject  prefab;
     GameObject effect;
     [HideInInspector]
     public ObjectStats stats;
@@ -17,6 +18,10 @@ public class Burnable : MonoBehaviour
     void Start()
     {
         stats = GetComponent<ObjectStats>();
+        if (prefab == null)
+        {
+            prefab = (GameObject)Resources.Load("Prefab/Fire", typeof(GameObject));
+        }
     }
 
     // Update is called once per frame

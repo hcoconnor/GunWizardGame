@@ -130,7 +130,7 @@ public class FireSpell : Spell
 {
 
     static float initialDamage = 5;
-    static float dps = 2;
+    static float dps = 2;   //5 init + 6 dot = 11 tot damage;
     static float fireTime = 3;
     static GameObject explosionPrefab;
 

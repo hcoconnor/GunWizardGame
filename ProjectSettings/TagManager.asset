@@ -47,6 +47,9 @@ TagManager:
   - name: UntargetableSprites
     uniqueID: 1326936091
     locked: 0
+  - name: Foreground
+    uniqueID: 2704313185
+    locked: 0
   - name: SlowTimeOverlay
     uniqueID: 1897749827
     locked: 0
@@ -58,4 +61,7 @@ TagManager:
     locked: 0
   - name: Targeting
     uniqueID: 69847629
+    locked: 0
+  - name: UI
+    uniqueID: 951469979
     locked: 0
