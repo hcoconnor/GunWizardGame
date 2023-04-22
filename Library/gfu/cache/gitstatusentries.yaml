@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:GitStatusCache
   cacheType: 6
-  lastUpdatedAtString: 2023-04-21T00:24:35.686-04:00
-  initializedAtString: 2023-04-20T15:45:12.313-04:00
+  lastUpdatedAtString: 2023-04-22T01:15:03.895-04:00
+  initializedAtString: 2023-04-21T22:08:18.596-04:00
   entries:
   - path: .vs\GunWizardGame\v16\.suo
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\.vs\GunWizardGame\v16\.suo
@@ -28,351 +28,111 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\frame_0_delay-0.15s.gif
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_0_delay-0.15s.gif
-    projectPath: Assets\frame_0_delay-0.15s.gif
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_0_delay-0.15s.gif.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_0_delay-0.15s.gif.meta
-    projectPath: Assets\frame_0_delay-0.15s.gif.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_1_delay-0.15s.gif
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_1_delay-0.15s.gif
-    projectPath: Assets\frame_1_delay-0.15s.gif
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_1_delay-0.15s.gif.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_1_delay-0.15s.gif.meta
-    projectPath: Assets\frame_1_delay-0.15s.gif.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_2_delay-0.15s.gif
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_2_delay-0.15s.gif
-    projectPath: Assets\frame_2_delay-0.15s.gif
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_2_delay-0.15s.gif.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_2_delay-0.15s.gif.meta
-    projectPath: Assets\frame_2_delay-0.15s.gif.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_3_delay-0.15s.gif
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_3_delay-0.15s.gif
-    projectPath: Assets\frame_3_delay-0.15s.gif
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_3_delay-0.15s.gif.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_3_delay-0.15s.gif.meta
-    projectPath: Assets\frame_3_delay-0.15s.gif.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_4_delay-0.15s.gif
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_4_delay-0.15s.gif
-    projectPath: Assets\frame_4_delay-0.15s.gif
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_4_delay-0.15s.gif.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_4_delay-0.15s.gif.meta
-    projectPath: Assets\frame_4_delay-0.15s.gif.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_5_delay-0.15s.gif
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_5_delay-0.15s.gif
-    projectPath: Assets\frame_5_delay-0.15s.gif
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_5_delay-0.15s.gif.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_5_delay-0.15s.gif.meta
-    projectPath: Assets\frame_5_delay-0.15s.gif.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_6_delay-0.15s.gif
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_6_delay-0.15s.gif
-    projectPath: Assets\frame_6_delay-0.15s.gif
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\frame_6_delay-0.15s.gif.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\frame_6_delay-0.15s.gif.meta
-    projectPath: Assets\frame_6_delay-0.15s.gif.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets\PixelArt\Sprites\BG\DungeonBG.asset
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG.asset
     projectPath: Assets\PixelArt\Sprites\BG\DungeonBG.asset
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\BG\DungeonBG.asset.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG.asset.meta
-    projectPath: Assets\PixelArt\Sprites\BG\DungeonBG.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\BG\DungeonBG.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG.png
-    projectPath: Assets\PixelArt\Sprites\BG\DungeonBG.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\PixelArt\Sprites\BG\DungeonBG.png.meta
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG.png.meta
     projectPath: Assets\PixelArt\Sprites\BG\DungeonBG.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\BG\DungeonBGBottom.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBGBottom.png
-    projectPath: Assets\PixelArt\Sprites\BG\DungeonBGBottom.png
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\PixelArt\Sprites\BG\DungeonBG_Doors0.png
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG_Doors0.png
+    projectPath: Assets\PixelArt\Sprites\BG\DungeonBG_Doors0.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\BG\DungeonBGBottom.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBGBottom.png.meta
-    projectPath: Assets\PixelArt\Sprites\BG\DungeonBGBottom.png.meta
+  - path: Assets\PixelArt\Sprites\BG\DungeonBG_Doors0.png.meta
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG_Doors0.png.meta
+    projectPath: Assets\PixelArt\Sprites\BG\DungeonBG_Doors0.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime.meta
-    projectPath: Assets\PixelArt\Sprites\Slime.meta
+  - path: Assets\PixelArt\Sprites\BG\DungeonBG_Doors1.png
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG_Doors1.png
+    projectPath: Assets\PixelArt\Sprites\BG\DungeonBG_Doors1.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle.meta
+  - path: Assets\PixelArt\Sprites\BG\DungeonBG_Doors1.png.meta
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG_Doors1.png.meta
+    projectPath: Assets\PixelArt\Sprites\BG\DungeonBG_Doors1.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle.anim
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle.anim
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle.anim
+  - path: Assets\PixelArt\Sprites\BG\DungeonBG_Doors2.png
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG_Doors2.png
+    projectPath: Assets\PixelArt\Sprites\BG\DungeonBG_Doors2.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle.anim.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle.anim.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle.anim.meta
+  - path: Assets\PixelArt\Sprites\BG\DungeonBG_Doors2.png.meta
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG_Doors2.png.meta
+    projectPath: Assets\PixelArt\Sprites\BG\DungeonBG_Doors2.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.controller
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.controller
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.controller
+  - path: Assets\PixelArt\Sprites\BG\DungeonBG_Doors3.png
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG_Doors3.png
+    projectPath: Assets\PixelArt\Sprites\BG\DungeonBG_Doors3.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.controller.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.controller.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.controller.meta
+  - path: Assets\PixelArt\Sprites\BG\DungeonBG_Doors3.png.meta
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\BG\DungeonBG_Doors3.png.meta
+    projectPath: Assets\PixelArt\Sprites\BG\DungeonBG_Doors3.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.png
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.png
+  - path: Assets\PixelArt\Sprites\UI\Frame9Sprite.asset
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\UI\Frame9Sprite.asset
+    projectPath: Assets\PixelArt\Sprites\UI\Frame9Sprite.asset
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.png.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle1.png.meta
+  - path: Assets\PixelArt\Sprites\UI\Frame9Sprite.asset.meta
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\UI\Frame9Sprite.asset.meta
+    projectPath: Assets\PixelArt\Sprites\UI\Frame9Sprite.asset.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle2.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle2.png
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle2.png
+  - path: Assets\PixelArt\Sprites\UI\Frame9Sprite.png
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\UI\Frame9Sprite.png
+    projectPath: Assets\PixelArt\Sprites\UI\Frame9Sprite.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle2.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle2.png.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle2.png.meta
+  - path: Assets\PixelArt\Sprites\UI\Frame9Sprite.png.meta
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\UI\Frame9Sprite.png.meta
+    projectPath: Assets\PixelArt\Sprites\UI\Frame9Sprite.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle3.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle3.png
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle3.png
+  - path: Assets\playerStats.cs
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\playerStats.cs
+    projectPath: Assets\playerStats.cs
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle3.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle3.png.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle3.png.meta
+  - path: Assets\playerStats.cs.meta
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\playerStats.cs.meta
+    projectPath: Assets\playerStats.cs.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle4.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle4.png
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle4.png
+  - path: Assets\Resources\Prefab\FireExplosion.prefab
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\Resources\Prefab\FireExplosion.prefab
+    projectPath: Assets\Resources\Prefab\FireExplosion.prefab
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle4.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle4.png.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle4.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle5.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle5.png
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle5.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle5.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle5.png.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle5.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle6.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle6.png
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle6.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle6.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle6.png.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_idle\Slime_idle6.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.anim
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.anim
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.anim
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.anim.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.anim.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.anim.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.asset
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.asset
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.asset
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.asset.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.asset.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk.asset.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.controller
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.controller
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.controller.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.controller.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.png
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.png.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk0.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk1.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk1.png
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk1.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk1.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk1.png.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk1.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk2.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk2.png
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk2.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk2.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk2.png.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk2.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk3.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk3.png
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk3.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk3.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk3.png.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk3.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk4.png
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk4.png
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk4.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk4.png.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk4.png.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\Slime_walk\Slime_walk4.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\SlimeAnimCtrl.controller
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\SlimeAnimCtrl.controller
-    projectPath: Assets\PixelArt\Sprites\Slime\SlimeAnimCtrl.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\PixelArt\Sprites\Slime\SlimeAnimCtrl.controller.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\PixelArt\Sprites\Slime\SlimeAnimCtrl.controller.meta
-    projectPath: Assets\PixelArt\Sprites\Slime\SlimeAnimCtrl.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Resources\Prefab\Bullet.prefab
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\Resources\Prefab\Bullet.prefab
-    projectPath: Assets\Resources\Prefab\Bullet.prefab
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Resources\Prefab\Wizard.prefab
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\Resources\Prefab\Wizard.prefab
+    projectPath: Assets\Resources\Prefab\Wizard.prefab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -382,117 +142,159 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\scripts\Bullet.cs
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\Bullet.cs
-    projectPath: Assets\scripts\Bullet.cs
+  - path: Assets\scripts\BGDoors.cs
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\BGDoors.cs
+    projectPath: Assets\scripts\BGDoors.cs
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\scripts\Burnable.cs
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\Burnable.cs
-    projectPath: Assets\scripts\Burnable.cs
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\scripts\BGDoors.cs.meta
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\BGDoors.cs.meta
+    projectPath: Assets\scripts\BGDoors.cs.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\scripts\Door.cs
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\Door.cs
+    projectPath: Assets\scripts\Door.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\scripts\Door.cs.meta
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\Door.cs.meta
+    projectPath: Assets\scripts\Door.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\scripts\DoorEditor.cs
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\DoorEditor.cs
+    projectPath: Assets\scripts\DoorEditor.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\scripts\DoorEditor.cs.meta
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\DoorEditor.cs.meta
+    projectPath: Assets\scripts\DoorEditor.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Assets\scripts\EnemySlime.cs
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\EnemySlime.cs
     projectPath: Assets\scripts\EnemySlime.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\scripts\EnemySlime.cs.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\EnemySlime.cs.meta
-    projectPath: Assets\scripts\EnemySlime.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\scripts\ObjectStats.cs
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\ObjectStats.cs
     projectPath: Assets\scripts\ObjectStats.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\scripts\playerSpellcasting.cs
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\playerSpellcasting.cs
-    projectPath: Assets\scripts\playerSpellcasting.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\scripts\TargetingColliderSetUp.cs
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\TargetingColliderSetUp.cs
-    projectPath: Assets\scripts\TargetingColliderSetUp.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\scripts\TargetingColliderSetUp.cs.meta
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Assets\scripts\TargetingColliderSetUp.cs.meta
-    projectPath: Assets\scripts\TargetingColliderSetUp.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\ArtifactDB
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\Artifacts\02\024f170f1514a380940fcea1a0cd117d
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\02\024f170f1514a380940fcea1a0cd117d
-    projectPath: Library\Artifacts\02\024f170f1514a380940fcea1a0cd117d
+  - path: Library\Artifacts\01\01807fe2f7d0213946def3a00cf96ae7
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\01\01807fe2f7d0213946def3a00cf96ae7
+    projectPath: Library\Artifacts\01\01807fe2f7d0213946def3a00cf96ae7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\02\02fa7146b762d4128816c356e76e0211
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\02\02fa7146b762d4128816c356e76e0211
-    projectPath: Library\Artifacts\02\02fa7146b762d4128816c356e76e0211
+  - path: Library\Artifacts\01\018865850d78ce3ecf49a4d033389b82
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\01\018865850d78ce3ecf49a4d033389b82
+    projectPath: Library\Artifacts\01\018865850d78ce3ecf49a4d033389b82
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\02\027c0f4a208d329219abb3e5807d953c
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\02\027c0f4a208d329219abb3e5807d953c
+    projectPath: Library\Artifacts\02\027c0f4a208d329219abb3e5807d953c
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\03\03bcd0478a9df35ac33174dcadd4cdae
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\03\03bcd0478a9df35ac33174dcadd4cdae
-    projectPath: Library\Artifacts\03\03bcd0478a9df35ac33174dcadd4cdae
+  - path: Library\Artifacts\03\0371a6036e60f44ff285b004aa8b1f92
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\03\0371a6036e60f44ff285b004aa8b1f92
+    projectPath: Library\Artifacts\03\0371a6036e60f44ff285b004aa8b1f92
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\07\073f4623f6924683f2662e9bed8a8246
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\07\073f4623f6924683f2662e9bed8a8246
-    projectPath: Library\Artifacts\07\073f4623f6924683f2662e9bed8a8246
+  - path: Library\Artifacts\04\041d6fb5f188e441b27f1ebbd74e5cd7
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\04\041d6fb5f188e441b27f1ebbd74e5cd7
+    projectPath: Library\Artifacts\04\041d6fb5f188e441b27f1ebbd74e5cd7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\0a\0a0f872257be3d23371eb33b5963bb49
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\0a\0a0f872257be3d23371eb33b5963bb49
-    projectPath: Library\Artifacts\0a\0a0f872257be3d23371eb33b5963bb49
+  - path: Library\Artifacts\04\0469ff51dec516f09ad8ff3990b80078
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\04\0469ff51dec516f09ad8ff3990b80078
+    projectPath: Library\Artifacts\04\0469ff51dec516f09ad8ff3990b80078
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\0d\0d5f8420a81f30b384d4b5461256815d
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\0d\0d5f8420a81f30b384d4b5461256815d
-    projectPath: Library\Artifacts\0d\0d5f8420a81f30b384d4b5461256815d
+  - path: Library\Artifacts\05\0593f8a67cd025ea58c4c4a9d762c2bc
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\05\0593f8a67cd025ea58c4c4a9d762c2bc
+    projectPath: Library\Artifacts\05\0593f8a67cd025ea58c4c4a9d762c2bc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\11\114f132a29337d04c277b5fec7aa644e
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\11\114f132a29337d04c277b5fec7aa644e
-    projectPath: Library\Artifacts\11\114f132a29337d04c277b5fec7aa644e
+  - path: Library\Artifacts\07\0745a25f1043fb6d7603b51acd2e90f4
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\07\0745a25f1043fb6d7603b51acd2e90f4
+    projectPath: Library\Artifacts\07\0745a25f1043fb6d7603b51acd2e90f4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\11\115f521098cc5fb13b6b0f5d9a290219
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\11\115f521098cc5fb13b6b0f5d9a290219
-    projectPath: Library\Artifacts\11\115f521098cc5fb13b6b0f5d9a290219
+  - path: Library\Artifacts\07\07eed7fc8cd0a22226e9cdaf221ec08a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\07\07eed7fc8cd0a22226e9cdaf221ec08a
+    projectPath: Library\Artifacts\07\07eed7fc8cd0a22226e9cdaf221ec08a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\08\08dbe86065c35c1140ef95f63afd4ac9
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\08\08dbe86065c35c1140ef95f63afd4ac9
+    projectPath: Library\Artifacts\08\08dbe86065c35c1140ef95f63afd4ac9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0b\0bb5833bf45a16e91968bbf75c3bba5a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\0b\0bb5833bf45a16e91968bbf75c3bba5a
+    projectPath: Library\Artifacts\0b\0bb5833bf45a16e91968bbf75c3bba5a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0d\0d1bebdceef74265efb27e3f2d8e5ca2
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\0d\0d1bebdceef74265efb27e3f2d8e5ca2
+    projectPath: Library\Artifacts\0d\0d1bebdceef74265efb27e3f2d8e5ca2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\0d\0dc37ee697b90d96e310ab0c835cb9c9
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\0d\0dc37ee697b90d96e310ab0c835cb9c9
+    projectPath: Library\Artifacts\0d\0dc37ee697b90d96e310ab0c835cb9c9
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\17\172c6cbb378a654760d0bf1abb5e8d5a
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\17\172c6cbb378a654760d0bf1abb5e8d5a
-    projectPath: Library\Artifacts\17\172c6cbb378a654760d0bf1abb5e8d5a
+  - path: Library\Artifacts\0f\0fbb021c08a7cb8864070cbdbda59574
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\0f\0fbb021c08a7cb8864070cbdbda59574
+    projectPath: Library\Artifacts\0f\0fbb021c08a7cb8864070cbdbda59574
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\17\1769924e41199e7f5f812806d92601ea
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\17\1769924e41199e7f5f812806d92601ea
-    projectPath: Library\Artifacts\17\1769924e41199e7f5f812806d92601ea
+  - path: Library\Artifacts\12\126b736a6db4f2207480fbd8d167989c
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\12\126b736a6db4f2207480fbd8d167989c
+    projectPath: Library\Artifacts\12\126b736a6db4f2207480fbd8d167989c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\12\12e21e59ee3e2d993eb6a272818cd427
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\12\12e21e59ee3e2d993eb6a272818cd427
+    projectPath: Library\Artifacts\12\12e21e59ee3e2d993eb6a272818cd427
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\16\160cc239a4f2f8d81c0b7005bb422595
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\16\160cc239a4f2f8d81c0b7005bb422595
+    projectPath: Library\Artifacts\16\160cc239a4f2f8d81c0b7005bb422595
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -500,119 +302,77 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\17\17a31c2b27c4002a655c7be45afe4d0c
     projectPath: Library\Artifacts\17\17a31c2b27c4002a655c7be45afe4d0c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\17\17d94a5d34df41fa8ff7076baf36c819
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\17\17d94a5d34df41fa8ff7076baf36c819
     projectPath: Library\Artifacts\17\17d94a5d34df41fa8ff7076baf36c819
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\17\17da0d6153a864a612641ba67c2501ff
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\17\17da0d6153a864a612641ba67c2501ff
-    projectPath: Library\Artifacts\17\17da0d6153a864a612641ba67c2501ff
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\17\17dbf59ab678771408b2ffddafafb3ab
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\17\17dbf59ab678771408b2ffddafafb3ab
+    projectPath: Library\Artifacts\17\17dbf59ab678771408b2ffddafafb3ab
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\18\18c0d869420ecc49c94ad95512bb3fb3
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\18\18c0d869420ecc49c94ad95512bb3fb3
-    projectPath: Library\Artifacts\18\18c0d869420ecc49c94ad95512bb3fb3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\19\199c0b3194e5c90f71bb4f4e97066d50
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\19\199c0b3194e5c90f71bb4f4e97066d50
-    projectPath: Library\Artifacts\19\199c0b3194e5c90f71bb4f4e97066d50
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\19\19bfb5948d63b42cc0afd588956a0b40
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\19\19bfb5948d63b42cc0afd588956a0b40
-    projectPath: Library\Artifacts\19\19bfb5948d63b42cc0afd588956a0b40
+  - path: Library\Artifacts\18\18704ee26ddaae1c945d2a5f1c8fd471
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\18\18704ee26ddaae1c945d2a5f1c8fd471
+    projectPath: Library\Artifacts\18\18704ee26ddaae1c945d2a5f1c8fd471
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\19\19d528b7c7147c69f99f3a74256f9348
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\19\19d528b7c7147c69f99f3a74256f9348
-    projectPath: Library\Artifacts\19\19d528b7c7147c69f99f3a74256f9348
+  - path: Library\Artifacts\1a\1aaee713dfe20dc547cd06e4419bd75c
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\1a\1aaee713dfe20dc547cd06e4419bd75c
+    projectPath: Library\Artifacts\1a\1aaee713dfe20dc547cd06e4419bd75c
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\1a\1a9e085edf51d3f55769e268787a3ca1
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\1a\1a9e085edf51d3f55769e268787a3ca1
-    projectPath: Library\Artifacts\1a\1a9e085edf51d3f55769e268787a3ca1
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\1b\1bcc4b8896b8aaf6331a240b97bdb604
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\1b\1bcc4b8896b8aaf6331a240b97bdb604
     projectPath: Library\Artifacts\1b\1bcc4b8896b8aaf6331a240b97bdb604
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\1d\1d15072926792683db8683938a7fb59c
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\1d\1d15072926792683db8683938a7fb59c
-    projectPath: Library\Artifacts\1d\1d15072926792683db8683938a7fb59c
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\1c\1ced149b4878f50998de08cc4b3a14ec
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\1c\1ced149b4878f50998de08cc4b3a14ec
+    projectPath: Library\Artifacts\1c\1ced149b4878f50998de08cc4b3a14ec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\1d\1d8e3838c3b21651be89a464980924f3
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\1d\1d8e3838c3b21651be89a464980924f3
     projectPath: Library\Artifacts\1d\1d8e3838c3b21651be89a464980924f3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\1d\1dc5e79d1074c560038f902bdabc0929
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\1d\1dc5e79d1074c560038f902bdabc0929
-    projectPath: Library\Artifacts\1d\1dc5e79d1074c560038f902bdabc0929
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\1e\1e1a65e2792ce7617e2bbc5a83c72735
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\1e\1e1a65e2792ce7617e2bbc5a83c72735
-    projectPath: Library\Artifacts\1e\1e1a65e2792ce7617e2bbc5a83c72735
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\1e\1e2fc233be88069b12164df8264ede3a
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\1e\1e2fc233be88069b12164df8264ede3a
-    projectPath: Library\Artifacts\1e\1e2fc233be88069b12164df8264ede3a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\1e\1ef84f9382df40b8fb20ff6502748098
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\1e\1ef84f9382df40b8fb20ff6502748098
-    projectPath: Library\Artifacts\1e\1ef84f9382df40b8fb20ff6502748098
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\21\2107f8854c88c4ed245995297dc0eecc
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\21\2107f8854c88c4ed245995297dc0eecc
-    projectPath: Library\Artifacts\21\2107f8854c88c4ed245995297dc0eecc
+  - path: Library\Artifacts\1f\1ffeba13d072516beac0218931bd2cc8
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\1f\1ffeba13d072516beac0218931bd2cc8
+    projectPath: Library\Artifacts\1f\1ffeba13d072516beac0218931bd2cc8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\21\21a064e2cee0537dd57874a3dc9fca75
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\21\21a064e2cee0537dd57874a3dc9fca75
-    projectPath: Library\Artifacts\21\21a064e2cee0537dd57874a3dc9fca75
+  - path: Library\Artifacts\20\20bb3431bc69b5bb30e739e4c66b8be8
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\20\20bb3431bc69b5bb30e739e4c66b8be8
+    projectPath: Library\Artifacts\20\20bb3431bc69b5bb30e739e4c66b8be8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\21\21f3fde681fbd5d86423a206718bd15d
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\21\21f3fde681fbd5d86423a206718bd15d
-    projectPath: Library\Artifacts\21\21f3fde681fbd5d86423a206718bd15d
+  - path: Library\Artifacts\22\228234e20217ff3ab646374a1dca03fd
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\22\228234e20217ff3ab646374a1dca03fd
+    projectPath: Library\Artifacts\22\228234e20217ff3ab646374a1dca03fd
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\22\225e55fab39239b872ad56bd0991eb4b
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\22\225e55fab39239b872ad56bd0991eb4b
-    projectPath: Library\Artifacts\22\225e55fab39239b872ad56bd0991eb4b
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\24\241f01316525408483f58e8980f67a99
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\24\241f01316525408483f58e8980f67a99
+    projectPath: Library\Artifacts\24\241f01316525408483f58e8980f67a99
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\23\231cbfe399e777330a25e1f66f1b7549
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\23\231cbfe399e777330a25e1f66f1b7549
-    projectPath: Library\Artifacts\23\231cbfe399e777330a25e1f66f1b7549
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\24\24e92bcb2172dfc59932f2d412372723
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\24\24e92bcb2172dfc59932f2d412372723
+    projectPath: Library\Artifacts\24\24e92bcb2172dfc59932f2d412372723
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -620,227 +380,299 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\26\266b05e459b06c0c2e365e4cf2c68751
     projectPath: Library\Artifacts\26\266b05e459b06c0c2e365e4cf2c68751
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\2a\2a7827cf3e87f27a35f8842a53ff6185
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\2a\2a7827cf3e87f27a35f8842a53ff6185
-    projectPath: Library\Artifacts\2a\2a7827cf3e87f27a35f8842a53ff6185
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\27\27331ca39b8e33c767fd67f7efafb3d2
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\27\27331ca39b8e33c767fd67f7efafb3d2
+    projectPath: Library\Artifacts\27\27331ca39b8e33c767fd67f7efafb3d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2b\2b58577aa61e461ce6d1063b306de050
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\2b\2b58577aa61e461ce6d1063b306de050
+    projectPath: Library\Artifacts\2b\2b58577aa61e461ce6d1063b306de050
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2c\2ce2efbd63aa04a94b7c1de61c4c9075
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\2c\2ce2efbd63aa04a94b7c1de61c4c9075
+    projectPath: Library\Artifacts\2c\2ce2efbd63aa04a94b7c1de61c4c9075
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2c\2ce4a14b406146c16084e1f2b0d43e49
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\2c\2ce4a14b406146c16084e1f2b0d43e49
+    projectPath: Library\Artifacts\2c\2ce4a14b406146c16084e1f2b0d43e49
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\2e\2e7c13ccf571dadfc197e4db28625179
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\2e\2e7c13ccf571dadfc197e4db28625179
+    projectPath: Library\Artifacts\2e\2e7c13ccf571dadfc197e4db28625179
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\30\3075bfaeb4be868f2138e7ebec9d00bb
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\30\3075bfaeb4be868f2138e7ebec9d00bb
+    projectPath: Library\Artifacts\30\3075bfaeb4be868f2138e7ebec9d00bb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\30\3094d16e227cc69df6ef80f406b8fad6
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\30\3094d16e227cc69df6ef80f406b8fad6
+    projectPath: Library\Artifacts\30\3094d16e227cc69df6ef80f406b8fad6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\31\31c0f3e40d400445e0d5f409c34d759d
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\31\31c0f3e40d400445e0d5f409c34d759d
+    projectPath: Library\Artifacts\31\31c0f3e40d400445e0d5f409c34d759d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\32\325f1d8d1c9d0d7fba2eec56b6c90332
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\32\325f1d8d1c9d0d7fba2eec56b6c90332
     projectPath: Library\Artifacts\32\325f1d8d1c9d0d7fba2eec56b6c90332
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\34\34eb8e4ee5272b5c5ea3eec918fa05dc
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\34\34eb8e4ee5272b5c5ea3eec918fa05dc
-    projectPath: Library\Artifacts\34\34eb8e4ee5272b5c5ea3eec918fa05dc
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\35\3589c88aed63a344468c142010293ab6
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\35\3589c88aed63a344468c142010293ab6
-    projectPath: Library\Artifacts\35\3589c88aed63a344468c142010293ab6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\39\392e1d4fa51fc772366fac4c535bcc2c
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\39\392e1d4fa51fc772366fac4c535bcc2c
-    projectPath: Library\Artifacts\39\392e1d4fa51fc772366fac4c535bcc2c
+  - path: Library\Artifacts\34\343715bf885cf2351c1e798491c84ac7
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\34\343715bf885cf2351c1e798491c84ac7
+    projectPath: Library\Artifacts\34\343715bf885cf2351c1e798491c84ac7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\3d\3d5555ecfa804062cf7edd7318f5f145
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\3d\3d5555ecfa804062cf7edd7318f5f145
-    projectPath: Library\Artifacts\3d\3d5555ecfa804062cf7edd7318f5f145
+  - path: Library\Artifacts\36\36a17fdfdb71138f929a05cf0c0c97e9
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\36\36a17fdfdb71138f929a05cf0c0c97e9
+    projectPath: Library\Artifacts\36\36a17fdfdb71138f929a05cf0c0c97e9
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\36\36aafbf68538c74ab045e6266df52b9c
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\36\36aafbf68538c74ab045e6266df52b9c
+    projectPath: Library\Artifacts\36\36aafbf68538c74ab045e6266df52b9c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\3f\3f1162b5c8c7caf89d05144b7a4468b4
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\3f\3f1162b5c8c7caf89d05144b7a4468b4
-    projectPath: Library\Artifacts\3f\3f1162b5c8c7caf89d05144b7a4468b4
+  - path: Library\Artifacts\37\37b49654f12d2bef4f3a568785e98c14
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\37\37b49654f12d2bef4f3a568785e98c14
+    projectPath: Library\Artifacts\37\37b49654f12d2bef4f3a568785e98c14
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\3f\3fa096b5bf47d163b3f20ece74cb5237
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\3f\3fa096b5bf47d163b3f20ece74cb5237
-    projectPath: Library\Artifacts\3f\3fa096b5bf47d163b3f20ece74cb5237
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3c\3c4156ef64acc40a81281d66ca5a4537
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\3c\3c4156ef64acc40a81281d66ca5a4537
+    projectPath: Library\Artifacts\3c\3c4156ef64acc40a81281d66ca5a4537
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\3e\3e9007ca83af756fce6ae7000f38de85
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\3e\3e9007ca83af756fce6ae7000f38de85
+    projectPath: Library\Artifacts\3e\3e9007ca83af756fce6ae7000f38de85
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\42\4243e860a794e6e1ceba61a88bd6c6fc
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\42\4243e860a794e6e1ceba61a88bd6c6fc
+    projectPath: Library\Artifacts\42\4243e860a794e6e1ceba61a88bd6c6fc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\42\42ee526dcd92a3693da31d303c2c83be
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\42\42ee526dcd92a3693da31d303c2c83be
     projectPath: Library\Artifacts\42\42ee526dcd92a3693da31d303c2c83be
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\42\42fbc14dbc12b84fdbd9d5c7150e5b5b
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\42\42fbc14dbc12b84fdbd9d5c7150e5b5b
-    projectPath: Library\Artifacts\42\42fbc14dbc12b84fdbd9d5c7150e5b5b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\45\45834c062faae1b1e2864ce0cc3b10f5
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\45\45834c062faae1b1e2864ce0cc3b10f5
-    projectPath: Library\Artifacts\45\45834c062faae1b1e2864ce0cc3b10f5
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\44\44310a92c5e05eb40548ba0ed1720bf4
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\44\44310a92c5e05eb40548ba0ed1720bf4
+    projectPath: Library\Artifacts\44\44310a92c5e05eb40548ba0ed1720bf4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\44\449351c1e8f4ba0f64ddf0c458a67aad
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\44\449351c1e8f4ba0f64ddf0c458a67aad
+    projectPath: Library\Artifacts\44\449351c1e8f4ba0f64ddf0c458a67aad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\45\4593f1acf27f594fabe2ee63719175d2
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\45\4593f1acf27f594fabe2ee63719175d2
+    projectPath: Library\Artifacts\45\4593f1acf27f594fabe2ee63719175d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\45\45ac77a8e2b1b1fcc2e23f4a280c4361
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\45\45ac77a8e2b1b1fcc2e23f4a280c4361
     projectPath: Library\Artifacts\45\45ac77a8e2b1b1fcc2e23f4a280c4361
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\46\46121b12da6e1a803ad9154e5734bea2
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\46\46121b12da6e1a803ad9154e5734bea2
     projectPath: Library\Artifacts\46\46121b12da6e1a803ad9154e5734bea2
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\48\48bdf044b01223cf4e7082ba40ae1d2d
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\48\48bdf044b01223cf4e7082ba40ae1d2d
-    projectPath: Library\Artifacts\48\48bdf044b01223cf4e7082ba40ae1d2d
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\4b\4bba32950a486a2e181997a16894e1d8
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\4b\4bba32950a486a2e181997a16894e1d8
-    projectPath: Library\Artifacts\4b\4bba32950a486a2e181997a16894e1d8
+  - path: Library\Artifacts\47\476eac725d7a07406ff8ad75f15c56ed
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\47\476eac725d7a07406ff8ad75f15c56ed
+    projectPath: Library\Artifacts\47\476eac725d7a07406ff8ad75f15c56ed
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\50\505b0a2c0edcfded39e0a64642e3f155
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\50\505b0a2c0edcfded39e0a64642e3f155
-    projectPath: Library\Artifacts\50\505b0a2c0edcfded39e0a64642e3f155
+  - path: Library\Artifacts\47\47e70a444d7e187845a4f28dd746ae28
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\47\47e70a444d7e187845a4f28dd746ae28
+    projectPath: Library\Artifacts\47\47e70a444d7e187845a4f28dd746ae28
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\48\4803c7719ccbc85ebddbdd801c0339d2
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\48\4803c7719ccbc85ebddbdd801c0339d2
+    projectPath: Library\Artifacts\48\4803c7719ccbc85ebddbdd801c0339d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\48\487539faac9f4aaee5d68a0a3624b6f5
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\48\487539faac9f4aaee5d68a0a3624b6f5
+    projectPath: Library\Artifacts\48\487539faac9f4aaee5d68a0a3624b6f5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\48\48be12aa8985f6d56f1525474e29c905
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\48\48be12aa8985f6d56f1525474e29c905
+    projectPath: Library\Artifacts\48\48be12aa8985f6d56f1525474e29c905
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\49\493802db289802b7dc4be138372b9ebe
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\49\493802db289802b7dc4be138372b9ebe
+    projectPath: Library\Artifacts\49\493802db289802b7dc4be138372b9ebe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\52\52739b1179a584a9298f361f1e078ca7
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\52\52739b1179a584a9298f361f1e078ca7
     projectPath: Library\Artifacts\52\52739b1179a584a9298f361f1e078ca7
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\52\52ee63411e480231e74de875b5a736e1
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\52\52ee63411e480231e74de875b5a736e1
     projectPath: Library\Artifacts\52\52ee63411e480231e74de875b5a736e1
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\53\531e29ccfcc3f9d9b22d82bfcf0eb378
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\53\531e29ccfcc3f9d9b22d82bfcf0eb378
-    projectPath: Library\Artifacts\53\531e29ccfcc3f9d9b22d82bfcf0eb378
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\54\540fe13a187bf83b3947409f4a10adea
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\54\540fe13a187bf83b3947409f4a10adea
-    projectPath: Library\Artifacts\54\540fe13a187bf83b3947409f4a10adea
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\54\5495e03032457bb49a06d9052cbefd7f
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\54\5495e03032457bb49a06d9052cbefd7f
-    projectPath: Library\Artifacts\54\5495e03032457bb49a06d9052cbefd7f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\55\5511350a425bccd179fde5930f4f4fe0
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\55\5511350a425bccd179fde5930f4f4fe0
     projectPath: Library\Artifacts\55\5511350a425bccd179fde5930f4f4fe0
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\55\55b620dcd596c468678bc2d710119b9f
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\55\55b620dcd596c468678bc2d710119b9f
-    projectPath: Library\Artifacts\55\55b620dcd596c468678bc2d710119b9f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\5a\5ab6f3e7bbb8e95e09ad51ba23661dd8
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\5a\5ab6f3e7bbb8e95e09ad51ba23661dd8
-    projectPath: Library\Artifacts\5a\5ab6f3e7bbb8e95e09ad51ba23661dd8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\5d\5d2288e8ceedf40afce057eb96d27adc
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\5d\5d2288e8ceedf40afce057eb96d27adc
-    projectPath: Library\Artifacts\5d\5d2288e8ceedf40afce057eb96d27adc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\60\60df9e6bc1e23c371f4ae8ba4c07ec11
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\60\60df9e6bc1e23c371f4ae8ba4c07ec11
-    projectPath: Library\Artifacts\60\60df9e6bc1e23c371f4ae8ba4c07ec11
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\62\628a067eab7577c853412ae5ecab8fe2
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\62\628a067eab7577c853412ae5ecab8fe2
-    projectPath: Library\Artifacts\62\628a067eab7577c853412ae5ecab8fe2
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\57\57a56af7b224711fd19a1716be1c4e1e
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\57\57a56af7b224711fd19a1716be1c4e1e
+    projectPath: Library\Artifacts\57\57a56af7b224711fd19a1716be1c4e1e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\57\57ce5f91ac9b00bac16ad20babaebc94
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\57\57ce5f91ac9b00bac16ad20babaebc94
+    projectPath: Library\Artifacts\57\57ce5f91ac9b00bac16ad20babaebc94
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\59\5921f27cb7de49f1c2fe6a24e627b04d
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\59\5921f27cb7de49f1c2fe6a24e627b04d
+    projectPath: Library\Artifacts\59\5921f27cb7de49f1c2fe6a24e627b04d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\5b\5b0d44c5dda0f6c386171972e0f1082a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\5b\5b0d44c5dda0f6c386171972e0f1082a
+    projectPath: Library\Artifacts\5b\5b0d44c5dda0f6c386171972e0f1082a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\5d\5d667018b19a4fff407c224d7b311923
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\5d\5d667018b19a4fff407c224d7b311923
+    projectPath: Library\Artifacts\5d\5d667018b19a4fff407c224d7b311923
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\5f\5fac090f8e3d5ef63311e5809fd2dcec
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\5f\5fac090f8e3d5ef63311e5809fd2dcec
+    projectPath: Library\Artifacts\5f\5fac090f8e3d5ef63311e5809fd2dcec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\60\607a9637b418316d7aa8f10861a1e0d8
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\60\607a9637b418316d7aa8f10861a1e0d8
+    projectPath: Library\Artifacts\60\607a9637b418316d7aa8f10861a1e0d8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\60\60f9a5c9ace580e10491ce70404f8df3
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\60\60f9a5c9ace580e10491ce70404f8df3
+    projectPath: Library\Artifacts\60\60f9a5c9ace580e10491ce70404f8df3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\61\616454725ed079b8a9c7da610ca3d2a7
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\61\616454725ed079b8a9c7da610ca3d2a7
+    projectPath: Library\Artifacts\61\616454725ed079b8a9c7da610ca3d2a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\61\61d4ce50abe2f3b0550e24abce2a38fb
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\61\61d4ce50abe2f3b0550e24abce2a38fb
+    projectPath: Library\Artifacts\61\61d4ce50abe2f3b0550e24abce2a38fb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\62\62d44ae6b575009a8c21b4fc1b3b2b93
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\62\62d44ae6b575009a8c21b4fc1b3b2b93
+    projectPath: Library\Artifacts\62\62d44ae6b575009a8c21b4fc1b3b2b93
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\63\6309a5e3c0016ecde4bd20a913dd05af
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\63\6309a5e3c0016ecde4bd20a913dd05af
     projectPath: Library\Artifacts\63\6309a5e3c0016ecde4bd20a913dd05af
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\63\63641471eb6e41a570bfacaef8cf8af4
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\63\63641471eb6e41a570bfacaef8cf8af4
-    projectPath: Library\Artifacts\63\63641471eb6e41a570bfacaef8cf8af4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\63\636b947cf3b19e410605d0ac7a81bf90
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\63\636b947cf3b19e410605d0ac7a81bf90
-    projectPath: Library\Artifacts\63\636b947cf3b19e410605d0ac7a81bf90
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\63\63ae0a769dcdbef1b29c67873c1c61fe
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\63\63ae0a769dcdbef1b29c67873c1c61fe
-    projectPath: Library\Artifacts\63\63ae0a769dcdbef1b29c67873c1c61fe
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\64\6419dc3a06bef710f889b464173c95a6
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\64\6419dc3a06bef710f889b464173c95a6
-    projectPath: Library\Artifacts\64\6419dc3a06bef710f889b464173c95a6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\66\665636f3fec0835ccd267f6dda80a863
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\66\665636f3fec0835ccd267f6dda80a863
-    projectPath: Library\Artifacts\66\665636f3fec0835ccd267f6dda80a863
+  - path: Library\Artifacts\69\69d6bc31e4ae737d90e29bd9b696d89b
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\69\69d6bc31e4ae737d90e29bd9b696d89b
+    projectPath: Library\Artifacts\69\69d6bc31e4ae737d90e29bd9b696d89b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\67\6712b85914ba8362aa3c2da1f8732332
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\67\6712b85914ba8362aa3c2da1f8732332
-    projectPath: Library\Artifacts\67\6712b85914ba8362aa3c2da1f8732332
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\68\686c2eda8c0eaa88808638d8e181487a
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\68\686c2eda8c0eaa88808638d8e181487a
-    projectPath: Library\Artifacts\68\686c2eda8c0eaa88808638d8e181487a
+  - path: Library\Artifacts\6c\6c77f1c1efc2cb1490974814cc79b37a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\6c\6c77f1c1efc2cb1490974814cc79b37a
+    projectPath: Library\Artifacts\6c\6c77f1c1efc2cb1490974814cc79b37a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\71\71e0bb6f444dfa8aff3f237ae534d715
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\71\71e0bb6f444dfa8aff3f237ae534d715
-    projectPath: Library\Artifacts\71\71e0bb6f444dfa8aff3f237ae534d715
+  - path: Library\Artifacts\6d\6d5b7966488940065d89afb89feb5635
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\6d\6d5b7966488940065d89afb89feb5635
+    projectPath: Library\Artifacts\6d\6d5b7966488940065d89afb89feb5635
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\73\738a35aeee8b3cdb064ad65c0f208305
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\73\738a35aeee8b3cdb064ad65c0f208305
-    projectPath: Library\Artifacts\73\738a35aeee8b3cdb064ad65c0f208305
+  - path: Library\Artifacts\6f\6f43b4cb6541d09ea8e764292306a4da
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\6f\6f43b4cb6541d09ea8e764292306a4da
+    projectPath: Library\Artifacts\6f\6f43b4cb6541d09ea8e764292306a4da
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\70\708e6b733b49e63363b542be35ebea6a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\70\708e6b733b49e63363b542be35ebea6a
+    projectPath: Library\Artifacts\70\708e6b733b49e63363b542be35ebea6a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\70\70d1a057d30c2c46f7123e63f4106109
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\70\70d1a057d30c2c46f7123e63f4106109
+    projectPath: Library\Artifacts\70\70d1a057d30c2c46f7123e63f4106109
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -848,119 +680,83 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\75\754fac5f06ebd043db9c18a4e149ecae
     projectPath: Library\Artifacts\75\754fac5f06ebd043db9c18a4e149ecae
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\75\75d4107fd824fefd1ef75ffd5a01e2c9
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\75\75d4107fd824fefd1ef75ffd5a01e2c9
-    projectPath: Library\Artifacts\75\75d4107fd824fefd1ef75ffd5a01e2c9
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\75\75c5d5f98b8975a83f4182095c040388
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\75\75c5d5f98b8975a83f4182095c040388
+    projectPath: Library\Artifacts\75\75c5d5f98b8975a83f4182095c040388
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\76\766813f8c35901a56bca8d8dfbf8fd5a
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\76\766813f8c35901a56bca8d8dfbf8fd5a
-    projectPath: Library\Artifacts\76\766813f8c35901a56bca8d8dfbf8fd5a
+  - path: Library\Artifacts\76\7622b85b9f098a66a8d0f8c16aaf2ef0
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\76\7622b85b9f098a66a8d0f8c16aaf2ef0
+    projectPath: Library\Artifacts\76\7622b85b9f098a66a8d0f8c16aaf2ef0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\76\769865317a560b4bc0dcf7cf9f4c474b
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\76\769865317a560b4bc0dcf7cf9f4c474b
+    projectPath: Library\Artifacts\76\769865317a560b4bc0dcf7cf9f4c474b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\76\76993018609ab59b80d396c8a37df1b7
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\76\76993018609ab59b80d396c8a37df1b7
+    projectPath: Library\Artifacts\76\76993018609ab59b80d396c8a37df1b7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7a\7ab7d14e7977c552d8790d116392808c
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\7a\7ab7d14e7977c552d8790d116392808c
+    projectPath: Library\Artifacts\7a\7ab7d14e7977c552d8790d116392808c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7c\7c3267a36ec463b4477649fca26337fa
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\7c\7c3267a36ec463b4477649fca26337fa
+    projectPath: Library\Artifacts\7c\7c3267a36ec463b4477649fca26337fa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\7e\7e88089c8a3d403baa4c0e44a46cf6f2
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\7e\7e88089c8a3d403baa4c0e44a46cf6f2
+    projectPath: Library\Artifacts\7e\7e88089c8a3d403baa4c0e44a46cf6f2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\81\81722987e22d0156006d77c6f24b3224
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\81\81722987e22d0156006d77c6f24b3224
+    projectPath: Library\Artifacts\81\81722987e22d0156006d77c6f24b3224
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\76\76d46ccb22b2a49ab89b1dfb4e7a7107
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\76\76d46ccb22b2a49ab89b1dfb4e7a7107
-    projectPath: Library\Artifacts\76\76d46ccb22b2a49ab89b1dfb4e7a7107
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7a\7a99ef9ea257c6af365796946e57d075
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\7a\7a99ef9ea257c6af365796946e57d075
-    projectPath: Library\Artifacts\7a\7a99ef9ea257c6af365796946e57d075
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\7a\7ad417a81dad05e7b2b25b093b48de84
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\7a\7ad417a81dad05e7b2b25b093b48de84
-    projectPath: Library\Artifacts\7a\7ad417a81dad05e7b2b25b093b48de84
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7d\7de3b275c88ef8d155ac9a945eca1b9b
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\7d\7de3b275c88ef8d155ac9a945eca1b9b
-    projectPath: Library\Artifacts\7d\7de3b275c88ef8d155ac9a945eca1b9b
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\7f\7f58f35e926269187a62a9423381a1c4
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\7f\7f58f35e926269187a62a9423381a1c4
-    projectPath: Library\Artifacts\7f\7f58f35e926269187a62a9423381a1c4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\80\80999acb577767e52ab0ebf5a2891248
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\80\80999acb577767e52ab0ebf5a2891248
-    projectPath: Library\Artifacts\80\80999acb577767e52ab0ebf5a2891248
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\81\818f7f57dadfaa6506ec5caa64488a0a
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\81\818f7f57dadfaa6506ec5caa64488a0a
     projectPath: Library\Artifacts\81\818f7f57dadfaa6506ec5caa64488a0a
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\81\8195b7885aed6e091899fc5e70260831
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\81\8195b7885aed6e091899fc5e70260831
     projectPath: Library\Artifacts\81\8195b7885aed6e091899fc5e70260831
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\82\826f9050442cd505ff50651e7d098942
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\82\826f9050442cd505ff50651e7d098942
-    projectPath: Library\Artifacts\82\826f9050442cd505ff50651e7d098942
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\84\8441d2a962d03e9a3f8421f2fc97130f
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\84\8441d2a962d03e9a3f8421f2fc97130f
-    projectPath: Library\Artifacts\84\8441d2a962d03e9a3f8421f2fc97130f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\84\8447e91c2578c56c6ef175ced9d1f4ec
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\84\8447e91c2578c56c6ef175ced9d1f4ec
-    projectPath: Library\Artifacts\84\8447e91c2578c56c6ef175ced9d1f4ec
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\84\846904735a4f63467a6055066284b224
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\84\846904735a4f63467a6055066284b224
-    projectPath: Library\Artifacts\84\846904735a4f63467a6055066284b224
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\86\86aa4e65e0cc8e43fc300bc708515472
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\86\86aa4e65e0cc8e43fc300bc708515472
-    projectPath: Library\Artifacts\86\86aa4e65e0cc8e43fc300bc708515472
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\Artifacts\87\87228d00ce7c2dddd94c90b26395aacc
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\87\87228d00ce7c2dddd94c90b26395aacc
     projectPath: Library\Artifacts\87\87228d00ce7c2dddd94c90b26395aacc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\87\87b23a0ecd5ad92e45355677cb09360b
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\87\87b23a0ecd5ad92e45355677cb09360b
-    projectPath: Library\Artifacts\87\87b23a0ecd5ad92e45355677cb09360b
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\8a\8a3a8a6073e4c6442e49ead2600051ee
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\8a\8a3a8a6073e4c6442e49ead2600051ee
+    projectPath: Library\Artifacts\8a\8a3a8a6073e4c6442e49ead2600051ee
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\89\89b62fe910152b2a7ce9475c88e885c9
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\89\89b62fe910152b2a7ce9475c88e885c9
-    projectPath: Library\Artifacts\89\89b62fe910152b2a7ce9475c88e885c9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\8a\8ac594ff7b31f0edefe0c833e36505bf
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\8a\8ac594ff7b31f0edefe0c833e36505bf
-    projectPath: Library\Artifacts\8a\8ac594ff7b31f0edefe0c833e36505bf
+  - path: Library\Artifacts\8a\8aa706604e1e3e86fd531877d48a716c
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\8a\8aa706604e1e3e86fd531877d48a716c
+    projectPath: Library\Artifacts\8a\8aa706604e1e3e86fd531877d48a716c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -968,71 +764,35 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\8c\8cff98d856b853872c1e91307e3ccd5b
     projectPath: Library\Artifacts\8c\8cff98d856b853872c1e91307e3ccd5b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\8e\8e8424912d6fb64fad04ca8626437efc
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\8e\8e8424912d6fb64fad04ca8626437efc
     projectPath: Library\Artifacts\8e\8e8424912d6fb64fad04ca8626437efc
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\8e\8edb9ce7ee2fb08ef3b4980ac0fddd8f
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\8e\8edb9ce7ee2fb08ef3b4980ac0fddd8f
     projectPath: Library\Artifacts\8e\8edb9ce7ee2fb08ef3b4980ac0fddd8f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\90\904b8bccf01da256a02070ee8d1cec71
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\90\904b8bccf01da256a02070ee8d1cec71
     projectPath: Library\Artifacts\90\904b8bccf01da256a02070ee8d1cec71
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\90\90afa132d6e96661127e00441fc343e7
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\90\90afa132d6e96661127e00441fc343e7
-    projectPath: Library\Artifacts\90\90afa132d6e96661127e00441fc343e7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\91\91c806c5e94804010060a9afdd7ec153
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\91\91c806c5e94804010060a9afdd7ec153
-    projectPath: Library\Artifacts\91\91c806c5e94804010060a9afdd7ec153
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\92\92e90c0ba6bbc1c2ca35939ba7824d1d
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\92\92e90c0ba6bbc1c2ca35939ba7824d1d
-    projectPath: Library\Artifacts\92\92e90c0ba6bbc1c2ca35939ba7824d1d
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\92\92ea9ff9de41818700a10dbf5bf66185
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\92\92ea9ff9de41818700a10dbf5bf66185
-    projectPath: Library\Artifacts\92\92ea9ff9de41818700a10dbf5bf66185
+  - path: Library\Artifacts\91\918b9099ece94f190ad9385c69081680
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\91\918b9099ece94f190ad9385c69081680
+    projectPath: Library\Artifacts\91\918b9099ece94f190ad9385c69081680
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\93\936cde5e5be9903aa28ef9e506ec903c
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\93\936cde5e5be9903aa28ef9e506ec903c
-    projectPath: Library\Artifacts\93\936cde5e5be9903aa28ef9e506ec903c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\95\9560f68f4c7e8f0634dfcfaa2ca5dfc8
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\95\9560f68f4c7e8f0634dfcfaa2ca5dfc8
-    projectPath: Library\Artifacts\95\9560f68f4c7e8f0634dfcfaa2ca5dfc8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\96\969f94a1be95d661c434701ec03a73f9
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\96\969f94a1be95d661c434701ec03a73f9
-    projectPath: Library\Artifacts\96\969f94a1be95d661c434701ec03a73f9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\97\976f9a2e08b4e697b011c6ef2cc6c049
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\97\976f9a2e08b4e697b011c6ef2cc6c049
-    projectPath: Library\Artifacts\97\976f9a2e08b4e697b011c6ef2cc6c049
+  - path: Library\Artifacts\91\91da62c1c688af6fdeab5fb93e3ba495
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\91\91da62c1c688af6fdeab5fb93e3ba495
+    projectPath: Library\Artifacts\91\91da62c1c688af6fdeab5fb93e3ba495
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -1040,23 +800,17 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\98\9887e6e9c327bf7af4cbc158a4be1550
     projectPath: Library\Artifacts\98\9887e6e9c327bf7af4cbc158a4be1550
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9a\9a383df94118721506a814e375785630
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\9a\9a383df94118721506a814e375785630
-    projectPath: Library\Artifacts\9a\9a383df94118721506a814e375785630
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\9d\9d490e36741d544fe623f4322ad82af1
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\9d\9d490e36741d544fe623f4322ad82af1
-    projectPath: Library\Artifacts\9d\9d490e36741d544fe623f4322ad82af1
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\9d\9d853b44d3549558445367e182f006d4
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\9d\9d853b44d3549558445367e182f006d4
-    projectPath: Library\Artifacts\9d\9d853b44d3549558445367e182f006d4
+  - path: Library\Artifacts\9a\9a31df0237865eb2c4e6a3dbb82a10e3
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\9a\9a31df0237865eb2c4e6a3dbb82a10e3
+    projectPath: Library\Artifacts\9a\9a31df0237865eb2c4e6a3dbb82a10e3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\9c\9c839aae235e43448a09040a805f3e33
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\9c\9c839aae235e43448a09040a805f3e33
+    projectPath: Library\Artifacts\9c\9c839aae235e43448a09040a805f3e33
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1064,11 +818,23 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\9f\9f655d689a28624ae6482fc02e51ac55
     projectPath: Library\Artifacts\9f\9f655d689a28624ae6482fc02e51ac55
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\a1\a1ed1679bc458d89c1b907060546b1b8
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\a1\a1ed1679bc458d89c1b907060546b1b8
+    projectPath: Library\Artifacts\a1\a1ed1679bc458d89c1b907060546b1b8
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\a3\a348a98aa1e2dbff4a66f8fd2eb525f5
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\a3\a348a98aa1e2dbff4a66f8fd2eb525f5
-    projectPath: Library\Artifacts\a3\a348a98aa1e2dbff4a66f8fd2eb525f5
+  - path: Library\Artifacts\a3\a3e05ba89904d0b6d90d0b9e0e0df465
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\a3\a3e05ba89904d0b6d90d0b9e0e0df465
+    projectPath: Library\Artifacts\a3\a3e05ba89904d0b6d90d0b9e0e0df465
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a4\a41b9a6272db6611f069ef571a82505e
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\a4\a41b9a6272db6611f069ef571a82505e
+    projectPath: Library\Artifacts\a4\a41b9a6272db6611f069ef571a82505e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1076,47 +842,41 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\a4\a4561c84c572d23981ac4e4dd7092837
     projectPath: Library\Artifacts\a4\a4561c84c572d23981ac4e4dd7092837
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a5\a520efff6c3c6102e65b2698b8034132
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\a5\a520efff6c3c6102e65b2698b8034132
-    projectPath: Library\Artifacts\a5\a520efff6c3c6102e65b2698b8034132
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\a5\a5d9c6cfe6235c54ce1a29db430be2a5
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\a5\a5d9c6cfe6235c54ce1a29db430be2a5
     projectPath: Library\Artifacts\a5\a5d9c6cfe6235c54ce1a29db430be2a5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\a6\a6ff033efd02fa7afc0848cc9092f3a7
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\a6\a6ff033efd02fa7afc0848cc9092f3a7
     projectPath: Library\Artifacts\a6\a6ff033efd02fa7afc0848cc9092f3a7
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\a9\a97dcc5217f73dee1c2f52a010127029
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\a9\a97dcc5217f73dee1c2f52a010127029
-    projectPath: Library\Artifacts\a9\a97dcc5217f73dee1c2f52a010127029
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ab\ab218cb97843f63d521bcd877e36e685
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ab\ab218cb97843f63d521bcd877e36e685
-    projectPath: Library\Artifacts\ab\ab218cb97843f63d521bcd877e36e685
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ab\ab35b20a81311541833daf108e0e4944
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ab\ab35b20a81311541833daf108e0e4944
-    projectPath: Library\Artifacts\ab\ab35b20a81311541833daf108e0e4944
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\ad\ad1b1489f90182cfe23b3019723c8153
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ad\ad1b1489f90182cfe23b3019723c8153
-    projectPath: Library\Artifacts\ad\ad1b1489f90182cfe23b3019723c8153
+  - path: Library\Artifacts\a7\a71b6c5bc63ad1968afbb8b8a140c8c8
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\a7\a71b6c5bc63ad1968afbb8b8a140c8c8
+    projectPath: Library\Artifacts\a7\a71b6c5bc63ad1968afbb8b8a140c8c8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\a7\a7a02ccb196890e0f818dbb0152c6657
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\a7\a7a02ccb196890e0f818dbb0152c6657
+    projectPath: Library\Artifacts\a7\a7a02ccb196890e0f818dbb0152c6657
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\aa\aaa5f31d23a942bc1b40acbbefafe64e
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\aa\aaa5f31d23a942bc1b40acbbefafe64e
+    projectPath: Library\Artifacts\aa\aaa5f31d23a942bc1b40acbbefafe64e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\aa\aaba2512b13e4619084affb455a11321
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\aa\aaba2512b13e4619084affb455a11321
+    projectPath: Library\Artifacts\aa\aaba2512b13e4619084affb455a11321
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1124,113 +884,71 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ae\ae3cc057d0b07164f979e02d7a23ebfb
     projectPath: Library\Artifacts\ae\ae3cc057d0b07164f979e02d7a23ebfb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b0\b01f33da3e0ee44ab0459ff389e0ecdc
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\b0\b01f33da3e0ee44ab0459ff389e0ecdc
-    projectPath: Library\Artifacts\b0\b01f33da3e0ee44ab0459ff389e0ecdc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b0\b0d98352ea43c73f308389b3f8ce6fe4
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\b0\b0d98352ea43c73f308389b3f8ce6fe4
-    projectPath: Library\Artifacts\b0\b0d98352ea43c73f308389b3f8ce6fe4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b3\b39c8f3091d063e629cc08f74146d532
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\b3\b39c8f3091d063e629cc08f74146d532
-    projectPath: Library\Artifacts\b3\b39c8f3091d063e629cc08f74146d532
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\b3\b3e2dff470fb0fbed31e07fa588ff7b2
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\b3\b3e2dff470fb0fbed31e07fa588ff7b2
-    projectPath: Library\Artifacts\b3\b3e2dff470fb0fbed31e07fa588ff7b2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\bd\bda4230160081e18aac540bd432dcee8
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\bd\bda4230160081e18aac540bd432dcee8
-    projectPath: Library\Artifacts\bd\bda4230160081e18aac540bd432dcee8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\bf\bf1419e7ba0fc42e242e1c8c6ac21894
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\bf\bf1419e7ba0fc42e242e1c8c6ac21894
-    projectPath: Library\Artifacts\bf\bf1419e7ba0fc42e242e1c8c6ac21894
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\c0\c0a82d414a67857ef5765ce56c43ef5c
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c0\c0a82d414a67857ef5765ce56c43ef5c
-    projectPath: Library\Artifacts\c0\c0a82d414a67857ef5765ce56c43ef5c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c1\c1ec7fe61834d156f41fcf682e1c43a3
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c1\c1ec7fe61834d156f41fcf682e1c43a3
-    projectPath: Library\Artifacts\c1\c1ec7fe61834d156f41fcf682e1c43a3
+  - path: Library\Artifacts\af\af0679aa8808709188293911f95d3bb8
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\af\af0679aa8808709188293911f95d3bb8
+    projectPath: Library\Artifacts\af\af0679aa8808709188293911f95d3bb8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\c4\c4534dc3b9e1e67cb1754b61243a66f3
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c4\c4534dc3b9e1e67cb1754b61243a66f3
-    projectPath: Library\Artifacts\c4\c4534dc3b9e1e67cb1754b61243a66f3
+  - path: Library\Artifacts\b2\b25ca9022e681b99b5e406897fb2c038
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\b2\b25ca9022e681b99b5e406897fb2c038
+    projectPath: Library\Artifacts\b2\b25ca9022e681b99b5e406897fb2c038
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\c4\c464ca818ce9bd196aac479f27fa07ab
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c4\c464ca818ce9bd196aac479f27fa07ab
-    projectPath: Library\Artifacts\c4\c464ca818ce9bd196aac479f27fa07ab
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b3\b3bea7a99f8f00ccdf22fedde1692c8f
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\b3\b3bea7a99f8f00ccdf22fedde1692c8f
+    projectPath: Library\Artifacts\b3\b3bea7a99f8f00ccdf22fedde1692c8f
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b4\b46e5740f6cb9b29b93909af3a5943ae
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\b4\b46e5740f6cb9b29b93909af3a5943ae
+    projectPath: Library\Artifacts\b4\b46e5740f6cb9b29b93909af3a5943ae
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\b7\b77de2a5d61a66a5fae728c321df4b34
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\b7\b77de2a5d61a66a5fae728c321df4b34
+    projectPath: Library\Artifacts\b7\b77de2a5d61a66a5fae728c321df4b34
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ba\bac0f1b96fbd2c33c82ffdceff2a510a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ba\bac0f1b96fbd2c33c82ffdceff2a510a
+    projectPath: Library\Artifacts\ba\bac0f1b96fbd2c33c82ffdceff2a510a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c1\c1893bd17f41af4ec8f56b89ac7e3f28
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c1\c1893bd17f41af4ec8f56b89ac7e3f28
+    projectPath: Library\Artifacts\c1\c1893bd17f41af4ec8f56b89ac7e3f28
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\c3\c3a3ec61bb6ddfe6723ca32b259e549f
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c3\c3a3ec61bb6ddfe6723ca32b259e549f
+    projectPath: Library\Artifacts\c3\c3a3ec61bb6ddfe6723ca32b259e549f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\c4\c4ac554f97bae4f3a392f19634ec8b48
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c4\c4ac554f97bae4f3a392f19634ec8b48
     projectPath: Library\Artifacts\c4\c4ac554f97bae4f3a392f19634ec8b48
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c4\c4c000b1a31ce250165943133323a90f
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c4\c4c000b1a31ce250165943133323a90f
-    projectPath: Library\Artifacts\c4\c4c000b1a31ce250165943133323a90f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c7\c708bd5a3ed01566ffb5f1dd43d1f91b
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c7\c708bd5a3ed01566ffb5f1dd43d1f91b
-    projectPath: Library\Artifacts\c7\c708bd5a3ed01566ffb5f1dd43d1f91b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c8\c8ff5a09086128f137dde6cc537557a3
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c8\c8ff5a09086128f137dde6cc537557a3
-    projectPath: Library\Artifacts\c8\c8ff5a09086128f137dde6cc537557a3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\c9\c98ba93b31b247e6ab2b369f7c5d0a9f
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c9\c98ba93b31b247e6ab2b369f7c5d0a9f
-    projectPath: Library\Artifacts\c9\c98ba93b31b247e6ab2b369f7c5d0a9f
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\c9\c9c85940d5b9239e748ba5bc95700189
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c9\c9c85940d5b9239e748ba5bc95700189
-    projectPath: Library\Artifacts\c9\c9c85940d5b9239e748ba5bc95700189
+  - path: Library\Artifacts\c8\c8912bd4354ed76be3602214ab93cb9f
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\c8\c8912bd4354ed76be3602214ab93cb9f
+    projectPath: Library\Artifacts\c8\c8912bd4354ed76be3602214ab93cb9f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\ca\ca9a1d2c7c1884f8af76876d82d937e6
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ca\ca9a1d2c7c1884f8af76876d82d937e6
-    projectPath: Library\Artifacts\ca\ca9a1d2c7c1884f8af76876d82d937e6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\cb\cbd66ef24345b8d3f6edbd4b1c4332e4
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\cb\cbd66ef24345b8d3f6edbd4b1c4332e4
-    projectPath: Library\Artifacts\cb\cbd66ef24345b8d3f6edbd4b1c4332e4
+  - path: Library\Artifacts\cd\cd1caabc9bf3060eae1f15500b76add2
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\cd\cd1caabc9bf3060eae1f15500b76add2
+    projectPath: Library\Artifacts\cd\cd1caabc9bf3060eae1f15500b76add2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1238,11 +956,11 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\cd\cd77cc245e5e8a6270910f1652fd06a8
     projectPath: Library\Artifacts\cd\cd77cc245e5e8a6270910f1652fd06a8
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ce\ce80b17012192c3918c1764bf71c16ba
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ce\ce80b17012192c3918c1764bf71c16ba
-    projectPath: Library\Artifacts\ce\ce80b17012192c3918c1764bf71c16ba
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\ce\ce4cad39406ac0ac33231e2182a5d8ed
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ce\ce4cad39406ac0ac33231e2182a5d8ed
+    projectPath: Library\Artifacts\ce\ce4cad39406ac0ac33231e2182a5d8ed
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1250,47 +968,59 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\d0\d0f6ed9c0ca96e7c29aa6538072cc4c7
     projectPath: Library\Artifacts\d0\d0f6ed9c0ca96e7c29aa6538072cc4c7
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\d3\d3626547de39964396748d3e537f4290
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\d3\d3626547de39964396748d3e537f4290
     projectPath: Library\Artifacts\d3\d3626547de39964396748d3e537f4290
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d3\d3d5fae5bf6c01ca073af3d6d58c25ec
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\d3\d3d5fae5bf6c01ca073af3d6d58c25ec
-    projectPath: Library\Artifacts\d3\d3d5fae5bf6c01ca073af3d6d58c25ec
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d6\d6cbaa810042526b34e76eaa82d0f87d
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\d6\d6cbaa810042526b34e76eaa82d0f87d
-    projectPath: Library\Artifacts\d6\d6cbaa810042526b34e76eaa82d0f87d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\d8\d8b34f67b5be1c398d3505a8e968f15c
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\d8\d8b34f67b5be1c398d3505a8e968f15c
-    projectPath: Library\Artifacts\d8\d8b34f67b5be1c398d3505a8e968f15c
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\da\daa41abff45e295407333c204dabcebe
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\da\daa41abff45e295407333c204dabcebe
-    projectPath: Library\Artifacts\da\daa41abff45e295407333c204dabcebe
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\db\db2b5874cee941d21e655697f82a11be
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\db\db2b5874cee941d21e655697f82a11be
-    projectPath: Library\Artifacts\db\db2b5874cee941d21e655697f82a11be
+  - path: Library\Artifacts\d4\d43bf83e08b20bc5d0f026d91b70445e
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\d4\d43bf83e08b20bc5d0f026d91b70445e
+    projectPath: Library\Artifacts\d4\d43bf83e08b20bc5d0f026d91b70445e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\e1\e1efee05bbd9527c4b7a7a7b98d4b24e
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e1\e1efee05bbd9527c4b7a7a7b98d4b24e
-    projectPath: Library\Artifacts\e1\e1efee05bbd9527c4b7a7a7b98d4b24e
+  - path: Library\Artifacts\dc\dcf493064716fde9823fe998993a2a05
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\dc\dcf493064716fde9823fe998993a2a05
+    projectPath: Library\Artifacts\dc\dcf493064716fde9823fe998993a2a05
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\dd\dda82cf93e582c773a7077f323231a6b
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\dd\dda82cf93e582c773a7077f323231a6b
+    projectPath: Library\Artifacts\dd\dda82cf93e582c773a7077f323231a6b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\df\dfa572e45fce5ddb965e73dc3fb2b897
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\df\dfa572e45fce5ddb965e73dc3fb2b897
+    projectPath: Library\Artifacts\df\dfa572e45fce5ddb965e73dc3fb2b897
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e0\e08329c92ce63550c215679fd2f6b300
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e0\e08329c92ce63550c215679fd2f6b300
+    projectPath: Library\Artifacts\e0\e08329c92ce63550c215679fd2f6b300
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e0\e0c0486e3dd33ad89203abf842adb4a7
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e0\e0c0486e3dd33ad89203abf842adb4a7
+    projectPath: Library\Artifacts\e0\e0c0486e3dd33ad89203abf842adb4a7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e1\e1b5f7fa0940fe3279b0b4ff6a72d58e
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e1\e1b5f7fa0940fe3279b0b4ff6a72d58e
+    projectPath: Library\Artifacts\e1\e1b5f7fa0940fe3279b0b4ff6a72d58e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\e1\e1b9acba38d7574dc890df513aeeda5e
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e1\e1b9acba38d7574dc890df513aeeda5e
+    projectPath: Library\Artifacts\e1\e1b9acba38d7574dc890df513aeeda5e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1298,11 +1028,23 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e5\e5000899677296c54ca1ce5f20d1d8ff
     projectPath: Library\Artifacts\e5\e5000899677296c54ca1ce5f20d1d8ff
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e5\e51aa11e4617ee218b07ca77d8dbbaf0
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e5\e51aa11e4617ee218b07ca77d8dbbaf0
+    projectPath: Library\Artifacts\e5\e51aa11e4617ee218b07ca77d8dbbaf0
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Library\Artifacts\e5\e55dea70becd7485fb05e45046044f1d
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e5\e55dea70becd7485fb05e45046044f1d
     projectPath: Library\Artifacts\e5\e55dea70becd7485fb05e45046044f1d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\e5\e5ebffe3f5cf024b0c7f2eb5788e6fa3
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e5\e5ebffe3f5cf024b0c7f2eb5788e6fa3
+    projectPath: Library\Artifacts\e5\e5ebffe3f5cf024b0c7f2eb5788e6fa3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1310,59 +1052,47 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e6\e60c37e982631250abb86f8736b7d4ad
     projectPath: Library\Artifacts\e6\e60c37e982631250abb86f8736b7d4ad
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e6\e61a3d83d4d851a1cbbf667c5894432f
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e6\e61a3d83d4d851a1cbbf667c5894432f
-    projectPath: Library\Artifacts\e6\e61a3d83d4d851a1cbbf667c5894432f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\e8\e8a64c49a252aa817aba91edc8729fe5
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\e8\e8a64c49a252aa817aba91edc8729fe5
-    projectPath: Library\Artifacts\e8\e8a64c49a252aa817aba91edc8729fe5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ea\ead975f1b4a6cb59dca28f36652be9df
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ea\ead975f1b4a6cb59dca28f36652be9df
-    projectPath: Library\Artifacts\ea\ead975f1b4a6cb59dca28f36652be9df
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\eb\eb4752c717b21ec6de4777a22814fa4f
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\eb\eb4752c717b21ec6de4777a22814fa4f
     projectPath: Library\Artifacts\eb\eb4752c717b21ec6de4777a22814fa4f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ec\ec4294dbf5a4f78eb98633f1b45a4461
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ec\ec4294dbf5a4f78eb98633f1b45a4461
-    projectPath: Library\Artifacts\ec\ec4294dbf5a4f78eb98633f1b45a4461
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Library\Artifacts\ec\ecb7e952f5fb9480a84398c7660c6c93
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ec\ecb7e952f5fb9480a84398c7660c6c93
-    projectPath: Library\Artifacts\ec\ecb7e952f5fb9480a84398c7660c6c93
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f0\f0c29c31e2f43ad904ddfe37e72c536a
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f0\f0c29c31e2f43ad904ddfe37e72c536a
-    projectPath: Library\Artifacts\f0\f0c29c31e2f43ad904ddfe37e72c536a
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\f2\f2347fb5d84c283c8631ac3db18c0212
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f2\f2347fb5d84c283c8631ac3db18c0212
-    projectPath: Library\Artifacts\f2\f2347fb5d84c283c8631ac3db18c0212
+  - path: Library\Artifacts\eb\ebd04a482e4db0493e60d8a74fa1ca3b
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\eb\ebd04a482e4db0493e60d8a74fa1ca3b
+    projectPath: Library\Artifacts\eb\ebd04a482e4db0493e60d8a74fa1ca3b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\Artifacts\f2\f29884d281c9ab1a2850a01149eb08cc
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f2\f29884d281c9ab1a2850a01149eb08cc
-    projectPath: Library\Artifacts\f2\f29884d281c9ab1a2850a01149eb08cc
+  - path: Library\Artifacts\ec\ec3c5efe55fee7a51ec0af63cded6fff
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ec\ec3c5efe55fee7a51ec0af63cded6fff
+    projectPath: Library\Artifacts\ec\ec3c5efe55fee7a51ec0af63cded6fff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ec\eced2ecc314dc4861c3a62c4f2eabef4
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ec\eced2ecc314dc4861c3a62c4f2eabef4
+    projectPath: Library\Artifacts\ec\eced2ecc314dc4861c3a62c4f2eabef4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ee\ee01f0984d2749ee22d0c410d8aa4464
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ee\ee01f0984d2749ee22d0c410d8aa4464
+    projectPath: Library\Artifacts\ee\ee01f0984d2749ee22d0c410d8aa4464
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ee\ee619007cc6ead39e10020e6e5f6c059
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ee\ee619007cc6ead39e10020e6e5f6c059
+    projectPath: Library\Artifacts\ee\ee619007cc6ead39e10020e6e5f6c059
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\ee\eeaa8cbd500d9a4d3b725070abb8439b
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ee\eeaa8cbd500d9a4d3b725070abb8439b
+    projectPath: Library\Artifacts\ee\eeaa8cbd500d9a4d3b725070abb8439b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1370,47 +1100,53 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f2\f2b9c8f258a2908afadffc48dd25c4bf
     projectPath: Library\Artifacts\f2\f2b9c8f258a2908afadffc48dd25c4bf
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f4\f41a3891a7e7aebdc72b4424f4341854
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f4\f41a3891a7e7aebdc72b4424f4341854
-    projectPath: Library\Artifacts\f4\f41a3891a7e7aebdc72b4424f4341854
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\f3\f3b6231752d1f429f2258db5e9a83f2a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f3\f3b6231752d1f429f2258db5e9a83f2a
+    projectPath: Library\Artifacts\f3\f3b6231752d1f429f2258db5e9a83f2a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\f4\f46ceda12c9362ee39eaa665b4083ba3
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f4\f46ceda12c9362ee39eaa665b4083ba3
     projectPath: Library\Artifacts\f4\f46ceda12c9362ee39eaa665b4083ba3
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\f6\f6a9d21b7a3ef82a4ed9445bd5a0ef3f
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f6\f6a9d21b7a3ef82a4ed9445bd5a0ef3f
     projectPath: Library\Artifacts\f6\f6a9d21b7a3ef82a4ed9445bd5a0ef3f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\Artifacts\f7\f711d986052b5bb24b5cd9a3fae4b7e9
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f7\f711d986052b5bb24b5cd9a3fae4b7e9
     projectPath: Library\Artifacts\f7\f711d986052b5bb24b5cd9a3fae4b7e9
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\f9\f98b951287d605350fb63e585cd0e3f6
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f9\f98b951287d605350fb63e585cd0e3f6
-    projectPath: Library\Artifacts\f9\f98b951287d605350fb63e585cd0e3f6
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
+  - path: Library\Artifacts\f7\f7ee486e68d72b33db37503d6aef8fe4
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f7\f7ee486e68d72b33db37503d6aef8fe4
+    projectPath: Library\Artifacts\f7\f7ee486e68d72b33db37503d6aef8fe4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\Artifacts\f7\f7fb3b2057047fd1fca4bfb7f8126393
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f7\f7fb3b2057047fd1fca4bfb7f8126393
+    projectPath: Library\Artifacts\f7\f7fb3b2057047fd1fca4bfb7f8126393
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\Artifacts\f9\f9c04d26af560d5f784976cce0d16c8b
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\f9\f9c04d26af560d5f784976cce0d16c8b
     projectPath: Library\Artifacts\f9\f9c04d26af560d5f784976cce0d16c8b
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\fa\fa5e046871b5d1d7232a40bece19b2de
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\fa\fa5e046871b5d1d7232a40bece19b2de
-    projectPath: Library\Artifacts\fa\fa5e046871b5d1d7232a40bece19b2de
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fa\fa9094cec5dcf8f4afeb2fcd6d01c14c
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\fa\fa9094cec5dcf8f4afeb2fcd6d01c14c
+    projectPath: Library\Artifacts\fa\fa9094cec5dcf8f4afeb2fcd6d01c14c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1418,23 +1154,17 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\fc\fc2d76d8c1e503fc4d765d9cfc9f6555
     projectPath: Library\Artifacts\fc\fc2d76d8c1e503fc4d765d9cfc9f6555
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\fc\fc8b42a48f49a799f759620e8b59b55d
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\fc\fc8b42a48f49a799f759620e8b59b55d
-    projectPath: Library\Artifacts\fc\fc8b42a48f49a799f759620e8b59b55d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Library\Artifacts\fc\fcf131516da9341b03d6bb90ec66ff1b
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\fc\fcf131516da9341b03d6bb90ec66ff1b
-    projectPath: Library\Artifacts\fc\fcf131516da9341b03d6bb90ec66ff1b
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Library\Artifacts\fd\fd44afd5e9270f1f14b7c025bfad3ba4
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\fd\fd44afd5e9270f1f14b7c025bfad3ba4
     projectPath: Library\Artifacts\fd\fd44afd5e9270f1f14b7c025bfad3ba4
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\Artifacts\fe\fec1d685e570c433b0d43d5a596a7cf5
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\fe\fec1d685e570c433b0d43d5a596a7cf5
+    projectPath: Library\Artifacts\fe\fec1d685e570c433b0d43d5a596a7cf5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1442,14 +1172,8 @@ MonoBehaviour:
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ff\ff0c095bb6c908150676f15fe08cf4f2
     projectPath: Library\Artifacts\ff\ff0c095bb6c908150676f15fe08cf4f2
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\Artifacts\ff\ff24c28bc2504b39554f4efc27ca205d
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\Artifacts\ff\ff24c28bc2504b39554f4efc27ca205d
-    projectPath: Library\Artifacts\ff\ff24c28bc2504b39554f4efc27ca205d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\CurrentLayout-default.dwlt
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\CurrentLayout-default.dwlt
     projectPath: Library\CurrentLayout-default.dwlt
@@ -1522,6 +1246,60 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\ShaderCache\2\2dbbd42f383fac479f65d0900c468987.bin
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\ShaderCache\2\2dbbd42f383fac479f65d0900c468987.bin
+    projectPath: Library\ShaderCache\2\2dbbd42f383fac479f65d0900c468987.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\3d1a475b86ca3e437da5f1e539aa3836.bin
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\ShaderCache\3\3d1a475b86ca3e437da5f1e539aa3836.bin
+    projectPath: Library\ShaderCache\3\3d1a475b86ca3e437da5f1e539aa3836.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\6146a1a57092d96ee99962bbf8ad5213.bin
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\ShaderCache\6\6146a1a57092d96ee99962bbf8ad5213.bin
+    projectPath: Library\ShaderCache\6\6146a1a57092d96ee99962bbf8ad5213.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\6\6dca976db5506e8351570de419017bce.bin
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\ShaderCache\6\6dca976db5506e8351570de419017bce.bin
+    projectPath: Library\ShaderCache\6\6dca976db5506e8351570de419017bce.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b347141a84807051f8b1a50a750735c7.bin
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\ShaderCache\b\b347141a84807051f8b1a50a750735c7.bin
+    projectPath: Library\ShaderCache\b\b347141a84807051f8b1a50a750735c7.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\c\c17920c0ed3272b00a478ba43ec195e2.bin
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\ShaderCache\c\c17920c0ed3272b00a478ba43ec195e2.bin
+    projectPath: Library\ShaderCache\c\c17920c0ed3272b00a478ba43ec195e2.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\EditorEncounteredVariants
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache\f\f0272fc1b7b21fb2463f9530c6d6bdb5.bin
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\ShaderCache\f\f0272fc1b7b21fb2463f9530c6d6bdb5.bin
+    projectPath: Library\ShaderCache\f\f0272fc1b7b21fb2463f9530c6d6bdb5.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\f84a19c6bb137e28c12b899aa8ae987a.bin
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\ShaderCache\f\f84a19c6bb137e28c12b899aa8ae987a.bin
+    projectPath: Library\ShaderCache\f\f84a19c6bb137e28c12b899aa8ae987a.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\SourceAssetDB
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
@@ -1531,6 +1309,24 @@ MonoBehaviour:
   - path: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
     projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\PrefabStageHierarchy\85\85aea724a47d5bab6e059c140d8c7f90.json
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\StateCache\PrefabStageHierarchy\85\85aea724a47d5bab6e059c140d8c7f90.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\85\85aea724a47d5bab6e059c140d8c7f90.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\PrefabStageHierarchy\f1\f165635855324ede72e614df59d92941.json
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\StateCache\PrefabStageHierarchy\f1\f165635855324ede72e614df59d92941.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\f1\f165635855324ede72e614df59d92941.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\StateCache\SceneView\54\5441be3f6a52b2d17fd95af357a25724.json
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Library\StateCache\SceneView\54\5441be3f6a52b2d17fd95af357a25724.json
+    projectPath: Library\StateCache\SceneView\54\5441be3f6a52b2d17fd95af357a25724.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -1558,18 +1354,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Logs\AssetImportWorker1.log
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\AssetImportWorker1.log
-    projectPath: Logs\AssetImportWorker1.log
+  - path: Logs\AssetImportWorker1-prev.log
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\AssetImportWorker1-prev.log
+    projectPath: Logs\AssetImportWorker1-prev.log
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Logs\shadercompiler-AssetImportWorker0.log
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-AssetImportWorker0.log
-    projectPath: Logs\shadercompiler-AssetImportWorker0.log
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Logs\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
@@ -1581,13 +1371,67 @@ MonoBehaviour:
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe10.log
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-UnityShaderCompiler.exe10.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe10.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe11.log
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-UnityShaderCompiler.exe11.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe11.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Logs\shadercompiler-UnityShaderCompiler.exe2.log
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-UnityShaderCompiler.exe2.log
     projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 5
+    workTreeStatus: 3
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe6.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe7.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe8.log
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-UnityShaderCompiler.exe8.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe8.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Logs\shadercompiler-UnityShaderCompiler.exe9.log
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Logs\shadercompiler-UnityShaderCompiler.exe9.log
+    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe9.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
@@ -1603,12 +1447,6 @@ MonoBehaviour:
   - path: Temp\__Backupscenes\0.backup
     fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\ApiUpdater_CheckMovedFrom59cd8473507a58144939b693042798a1
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\ApiUpdater_CheckMovedFrom59cd8473507a58144939b693042798a1
-    projectPath: Temp\ApiUpdater_CheckMovedFrom59cd8473507a58144939b693042798a1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1636,171 +1474,315 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1fe12ab2a547a504fa3ab51fbc45c4e6
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-1fe12ab2a547a504fa3ab51fbc45c4e6
-    projectPath: Temp\UnityTempFile-1fe12ab2a547a504fa3ab51fbc45c4e6
+  - path: Temp\UnityTempFile-05f9e426e997383489548ddf7c81f42a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-05f9e426e997383489548ddf7c81f42a
+    projectPath: Temp\UnityTempFile-05f9e426e997383489548ddf7c81f42a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-23e1aee7d6274174887855e344ff02e5
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-23e1aee7d6274174887855e344ff02e5
-    projectPath: Temp\UnityTempFile-23e1aee7d6274174887855e344ff02e5
+  - path: Temp\UnityTempFile-17a1b4bbdcd17844c82a96e0244a8010
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-17a1b4bbdcd17844c82a96e0244a8010
+    projectPath: Temp\UnityTempFile-17a1b4bbdcd17844c82a96e0244a8010
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-28c59cb652517ec4a9cefd0332713f2c
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-28c59cb652517ec4a9cefd0332713f2c
-    projectPath: Temp\UnityTempFile-28c59cb652517ec4a9cefd0332713f2c
+  - path: Temp\UnityTempFile-18c2bb9e159380644bd7df0c835cdeb1
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-18c2bb9e159380644bd7df0c835cdeb1
+    projectPath: Temp\UnityTempFile-18c2bb9e159380644bd7df0c835cdeb1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-31adf99a3ea029f45b9ae5515d1e6588
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-31adf99a3ea029f45b9ae5515d1e6588
-    projectPath: Temp\UnityTempFile-31adf99a3ea029f45b9ae5515d1e6588
+  - path: Temp\UnityTempFile-1eb2c3a00bf8d6046a5183f3c97a7c8a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-1eb2c3a00bf8d6046a5183f3c97a7c8a
+    projectPath: Temp\UnityTempFile-1eb2c3a00bf8d6046a5183f3c97a7c8a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-33e0819ff1604ae499126c5ee59a9005
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-33e0819ff1604ae499126c5ee59a9005
-    projectPath: Temp\UnityTempFile-33e0819ff1604ae499126c5ee59a9005
+  - path: Temp\UnityTempFile-2981f4eb6ed2c814f863620760fafbdc
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-2981f4eb6ed2c814f863620760fafbdc
+    projectPath: Temp\UnityTempFile-2981f4eb6ed2c814f863620760fafbdc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-50a62c544c969af4c985dcfa3d1e31e5
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-50a62c544c969af4c985dcfa3d1e31e5
-    projectPath: Temp\UnityTempFile-50a62c544c969af4c985dcfa3d1e31e5
+  - path: Temp\UnityTempFile-2e6a6ef9e433d194ebb4cf64afdadeea
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-2e6a6ef9e433d194ebb4cf64afdadeea
+    projectPath: Temp\UnityTempFile-2e6a6ef9e433d194ebb4cf64afdadeea
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-541efd5c8c8fcf84fb11cb7a5d83451a
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-541efd5c8c8fcf84fb11cb7a5d83451a
-    projectPath: Temp\UnityTempFile-541efd5c8c8fcf84fb11cb7a5d83451a
+  - path: Temp\UnityTempFile-3269ee75d312cb447a38c56d68d3fd63
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-3269ee75d312cb447a38c56d68d3fd63
+    projectPath: Temp\UnityTempFile-3269ee75d312cb447a38c56d68d3fd63
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-55327c0567724974582b5420960794ca
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-55327c0567724974582b5420960794ca
-    projectPath: Temp\UnityTempFile-55327c0567724974582b5420960794ca
+  - path: Temp\UnityTempFile-37a024625adde7441891da4a7a27cfaa
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-37a024625adde7441891da4a7a27cfaa
+    projectPath: Temp\UnityTempFile-37a024625adde7441891da4a7a27cfaa
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5909eab415ae63549abcd89740650f73
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-5909eab415ae63549abcd89740650f73
-    projectPath: Temp\UnityTempFile-5909eab415ae63549abcd89740650f73
+  - path: Temp\UnityTempFile-38077d535aecb604da7ec244cc4e9762
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-38077d535aecb604da7ec244cc4e9762
+    projectPath: Temp\UnityTempFile-38077d535aecb604da7ec244cc4e9762
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-67943d2e616e98e49bed4c8a80afddf9
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-67943d2e616e98e49bed4c8a80afddf9
-    projectPath: Temp\UnityTempFile-67943d2e616e98e49bed4c8a80afddf9
+  - path: Temp\UnityTempFile-3eaff20ea3407524293bd65fa1fded6e
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-3eaff20ea3407524293bd65fa1fded6e
+    projectPath: Temp\UnityTempFile-3eaff20ea3407524293bd65fa1fded6e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-71e5a4e05d7da3043a03a92d140b3c36
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-71e5a4e05d7da3043a03a92d140b3c36
-    projectPath: Temp\UnityTempFile-71e5a4e05d7da3043a03a92d140b3c36
+  - path: Temp\UnityTempFile-3eb1385cab9463a4bb2b29375102edb6
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-3eb1385cab9463a4bb2b29375102edb6
+    projectPath: Temp\UnityTempFile-3eb1385cab9463a4bb2b29375102edb6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-855ead22906c8254c8d971cd413d0bee
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-855ead22906c8254c8d971cd413d0bee
-    projectPath: Temp\UnityTempFile-855ead22906c8254c8d971cd413d0bee
+  - path: Temp\UnityTempFile-3fa6500940cba2a4dbb461867d80bb29
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-3fa6500940cba2a4dbb461867d80bb29
+    projectPath: Temp\UnityTempFile-3fa6500940cba2a4dbb461867d80bb29
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-888c1971d9eec0245a8091dc477ffd40
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-888c1971d9eec0245a8091dc477ffd40
-    projectPath: Temp\UnityTempFile-888c1971d9eec0245a8091dc477ffd40
+  - path: Temp\UnityTempFile-4288f0aee3d58bc42abf9c608b9cdb0c
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-4288f0aee3d58bc42abf9c608b9cdb0c
+    projectPath: Temp\UnityTempFile-4288f0aee3d58bc42abf9c608b9cdb0c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-8f2cb81fed646f94b9356c8fcdfb731a
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-8f2cb81fed646f94b9356c8fcdfb731a
-    projectPath: Temp\UnityTempFile-8f2cb81fed646f94b9356c8fcdfb731a
+  - path: Temp\UnityTempFile-43521a4533e7f7841a979979393f29d4
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-43521a4533e7f7841a979979393f29d4
+    projectPath: Temp\UnityTempFile-43521a4533e7f7841a979979393f29d4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-920fcec121118d649be93786e20919f0
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-920fcec121118d649be93786e20919f0
-    projectPath: Temp\UnityTempFile-920fcec121118d649be93786e20919f0
+  - path: Temp\UnityTempFile-43eabf24b17cc9b4288b5b13d4c28575
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-43eabf24b17cc9b4288b5b13d4c28575
+    projectPath: Temp\UnityTempFile-43eabf24b17cc9b4288b5b13d4c28575
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-9c5f764570ed84c499c417cf9f836e26
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-9c5f764570ed84c499c417cf9f836e26
-    projectPath: Temp\UnityTempFile-9c5f764570ed84c499c417cf9f836e26
+  - path: Temp\UnityTempFile-454189bf1e884a048a9b80f898291e26
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-454189bf1e884a048a9b80f898291e26
+    projectPath: Temp\UnityTempFile-454189bf1e884a048a9b80f898291e26
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-aabe15a32f180bd47816ec87f00c4cca
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-aabe15a32f180bd47816ec87f00c4cca
-    projectPath: Temp\UnityTempFile-aabe15a32f180bd47816ec87f00c4cca
+  - path: Temp\UnityTempFile-50d76878a2ee9c24b8a6e2488c3147f0
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-50d76878a2ee9c24b8a6e2488c3147f0
+    projectPath: Temp\UnityTempFile-50d76878a2ee9c24b8a6e2488c3147f0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ac43ca6984540cd499f7bce3c5040a38
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-ac43ca6984540cd499f7bce3c5040a38
-    projectPath: Temp\UnityTempFile-ac43ca6984540cd499f7bce3c5040a38
+  - path: Temp\UnityTempFile-5cd17c36cad93b041b8726baf66a1b2a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-5cd17c36cad93b041b8726baf66a1b2a
+    projectPath: Temp\UnityTempFile-5cd17c36cad93b041b8726baf66a1b2a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-aca7032f3f248e54f9d21b0bd4805b11
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-aca7032f3f248e54f9d21b0bd4805b11
-    projectPath: Temp\UnityTempFile-aca7032f3f248e54f9d21b0bd4805b11
+  - path: Temp\UnityTempFile-5dd2e83c0e16c0d44b9cc5de77882882
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-5dd2e83c0e16c0d44b9cc5de77882882
+    projectPath: Temp\UnityTempFile-5dd2e83c0e16c0d44b9cc5de77882882
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ae5db45279dceaa43b6eb06ebb332890
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-ae5db45279dceaa43b6eb06ebb332890
-    projectPath: Temp\UnityTempFile-ae5db45279dceaa43b6eb06ebb332890
+  - path: Temp\UnityTempFile-62480bd5bf528f145887944aa830d7a2
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-62480bd5bf528f145887944aa830d7a2
+    projectPath: Temp\UnityTempFile-62480bd5bf528f145887944aa830d7a2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ae92b586fb4e9f14797039ff4a9aa194
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-ae92b586fb4e9f14797039ff4a9aa194
-    projectPath: Temp\UnityTempFile-ae92b586fb4e9f14797039ff4a9aa194
+  - path: Temp\UnityTempFile-6474a5d44ecaa1145b0187f17f7cad10
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-6474a5d44ecaa1145b0187f17f7cad10
+    projectPath: Temp\UnityTempFile-6474a5d44ecaa1145b0187f17f7cad10
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-beb8ade9601899740bd8ec6b29f0d6c1
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-beb8ade9601899740bd8ec6b29f0d6c1
-    projectPath: Temp\UnityTempFile-beb8ade9601899740bd8ec6b29f0d6c1
+  - path: Temp\UnityTempFile-6ce7a7f32cc793e4f818dd4f8e907cea
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-6ce7a7f32cc793e4f818dd4f8e907cea
+    projectPath: Temp\UnityTempFile-6ce7a7f32cc793e4f818dd4f8e907cea
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-d6ce62751392d344ba3c462a4834cb84
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-d6ce62751392d344ba3c462a4834cb84
-    projectPath: Temp\UnityTempFile-d6ce62751392d344ba3c462a4834cb84
+  - path: Temp\UnityTempFile-7a11d03b7b28e44468f50fecb458ba99
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-7a11d03b7b28e44468f50fecb458ba99
+    projectPath: Temp\UnityTempFile-7a11d03b7b28e44468f50fecb458ba99
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-e5d898b35c1aca448bf706aed7aaeb2e
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-e5d898b35c1aca448bf706aed7aaeb2e
-    projectPath: Temp\UnityTempFile-e5d898b35c1aca448bf706aed7aaeb2e
+  - path: Temp\UnityTempFile-7b8ae3a22ceea464e8e66435cb1ea3d1
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-7b8ae3a22ceea464e8e66435cb1ea3d1
+    projectPath: Temp\UnityTempFile-7b8ae3a22ceea464e8e66435cb1ea3d1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-e76ffa648be0d1c41bdd0fde8a9f5d11
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-e76ffa648be0d1c41bdd0fde8a9f5d11
-    projectPath: Temp\UnityTempFile-e76ffa648be0d1c41bdd0fde8a9f5d11
+  - path: Temp\UnityTempFile-7ed802df4eb2d9f48a377c8b2ae5c529
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-7ed802df4eb2d9f48a377c8b2ae5c529
+    projectPath: Temp\UnityTempFile-7ed802df4eb2d9f48a377c8b2ae5c529
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-e97907efde48e9749923130ee86aae66
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-e97907efde48e9749923130ee86aae66
-    projectPath: Temp\UnityTempFile-e97907efde48e9749923130ee86aae66
+  - path: Temp\UnityTempFile-7fbb1c300835018419da2d4a64920329
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-7fbb1c300835018419da2d4a64920329
+    projectPath: Temp\UnityTempFile-7fbb1c300835018419da2d4a64920329
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-f13548d71c788ba42aeda8861ce00d44
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-f13548d71c788ba42aeda8861ce00d44
-    projectPath: Temp\UnityTempFile-f13548d71c788ba42aeda8861ce00d44
+  - path: Temp\UnityTempFile-83beb1bb6bc8a00419904f1d7a68801a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-83beb1bb6bc8a00419904f1d7a68801a
+    projectPath: Temp\UnityTempFile-83beb1bb6bc8a00419904f1d7a68801a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-fababf6a55003d841bc275e289dd1cce
-    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-fababf6a55003d841bc275e289dd1cce
-    projectPath: Temp\UnityTempFile-fababf6a55003d841bc275e289dd1cce
+  - path: Temp\UnityTempFile-85aa508fb8dd3e64192f2187c5edb946
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-85aa508fb8dd3e64192f2187c5edb946
+    projectPath: Temp\UnityTempFile-85aa508fb8dd3e64192f2187c5edb946
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-8d1147b9f98faed438fb5e635247c12d
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-8d1147b9f98faed438fb5e635247c12d
+    projectPath: Temp\UnityTempFile-8d1147b9f98faed438fb5e635247c12d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-92e0c0292f74a73459dfdbbccf42093d
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-92e0c0292f74a73459dfdbbccf42093d
+    projectPath: Temp\UnityTempFile-92e0c0292f74a73459dfdbbccf42093d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-936494b905e9cbf4fa7af59e62a99aef
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-936494b905e9cbf4fa7af59e62a99aef
+    projectPath: Temp\UnityTempFile-936494b905e9cbf4fa7af59e62a99aef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-93659870dffe15e4686d5f49b1ede36a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-93659870dffe15e4686d5f49b1ede36a
+    projectPath: Temp\UnityTempFile-93659870dffe15e4686d5f49b1ede36a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-97e3959a4dc1ff94b93df0dad48fc05d
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-97e3959a4dc1ff94b93df0dad48fc05d
+    projectPath: Temp\UnityTempFile-97e3959a4dc1ff94b93df0dad48fc05d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9abe8700c9cb20945bfc05c042416f7b
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-9abe8700c9cb20945bfc05c042416f7b
+    projectPath: Temp\UnityTempFile-9abe8700c9cb20945bfc05c042416f7b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a1a0ab71b556a824bbf2f2364429848e
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-a1a0ab71b556a824bbf2f2364429848e
+    projectPath: Temp\UnityTempFile-a1a0ab71b556a824bbf2f2364429848e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a29b8826623c10c42bbfc38c04423edb
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-a29b8826623c10c42bbfc38c04423edb
+    projectPath: Temp\UnityTempFile-a29b8826623c10c42bbfc38c04423edb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a6ef2eca9c24f91439931d7be82a59f0
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-a6ef2eca9c24f91439931d7be82a59f0
+    projectPath: Temp\UnityTempFile-a6ef2eca9c24f91439931d7be82a59f0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a9855d2cbaa2360468c716f4dfa261e5
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-a9855d2cbaa2360468c716f4dfa261e5
+    projectPath: Temp\UnityTempFile-a9855d2cbaa2360468c716f4dfa261e5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b014842d62219a842b511c79739822d3
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-b014842d62219a842b511c79739822d3
+    projectPath: Temp\UnityTempFile-b014842d62219a842b511c79739822d3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b298bf7c565b9444daa54b1f7d74a34a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-b298bf7c565b9444daa54b1f7d74a34a
+    projectPath: Temp\UnityTempFile-b298bf7c565b9444daa54b1f7d74a34a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b4f0c3af993efa846ad04bce7e61cd4a
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-b4f0c3af993efa846ad04bce7e61cd4a
+    projectPath: Temp\UnityTempFile-b4f0c3af993efa846ad04bce7e61cd4a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-bb4a3ea59646d754bba4230ecdd003c4
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-bb4a3ea59646d754bba4230ecdd003c4
+    projectPath: Temp\UnityTempFile-bb4a3ea59646d754bba4230ecdd003c4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c3ca27ae37be3d04382e50bf92f5e53b
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-c3ca27ae37be3d04382e50bf92f5e53b
+    projectPath: Temp\UnityTempFile-c3ca27ae37be3d04382e50bf92f5e53b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c498eb0af0456eb4b82816727e12380c
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-c498eb0af0456eb4b82816727e12380c
+    projectPath: Temp\UnityTempFile-c498eb0af0456eb4b82816727e12380c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c7a861346005a10489aa357b358ffedc
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-c7a861346005a10489aa357b358ffedc
+    projectPath: Temp\UnityTempFile-c7a861346005a10489aa357b358ffedc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-cb7f9c4b579399f4e9e2065367c56bdc
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-cb7f9c4b579399f4e9e2065367c56bdc
+    projectPath: Temp\UnityTempFile-cb7f9c4b579399f4e9e2065367c56bdc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d4716e9b77deeb14da2fe1a6c9d908c8
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-d4716e9b77deeb14da2fe1a6c9d908c8
+    projectPath: Temp\UnityTempFile-d4716e9b77deeb14da2fe1a6c9d908c8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ec331b9f6e9fe044bbf8a7acaa82e645
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-ec331b9f6e9fe044bbf8a7acaa82e645
+    projectPath: Temp\UnityTempFile-ec331b9f6e9fe044bbf8a7acaa82e645
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f3a3506e14b0e9d4ea74c940d9bb1328
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-f3a3506e14b0e9d4ea74c940d9bb1328
+    projectPath: Temp\UnityTempFile-f3a3506e14b0e9d4ea74c940d9bb1328
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f74cffefaf8527a4baa073f70b0ffdc6
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-f74cffefaf8527a4baa073f70b0ffdc6
+    projectPath: Temp\UnityTempFile-f74cffefaf8527a4baa073f70b0ffdc6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fb37ab0e3f2feb940a29a576ef232930
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-fb37ab0e3f2feb940a29a576ef232930
+    projectPath: Temp\UnityTempFile-fb37ab0e3f2feb940a29a576ef232930
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fdc082409885d664b9b5bb819a51d0d6
+    fullPath: H:\unity stuff\GunWizardGame\GunWizardGame\Temp\UnityTempFile-fdc082409885d664b9b5bb819a51d0d6
+    projectPath: Temp\UnityTempFile-fdc082409885d664b9b5bb819a51d0d6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

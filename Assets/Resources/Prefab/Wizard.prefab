@@ -68,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1897749827
-  m_SortingLayer: 3
+  m_SortingLayerID: 951469979
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dd289442aab19c44787e349075fbee6f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 5162628128050837003}
   - component: {fileID: 5162628128050836997}
   - component: {fileID: 5162628128050836998}
+  - component: {fileID: 4359867629576784984}
   m_Layer: 8
   m_Name: Wizard
   m_TagString: Untagged
@@ -191,7 +192,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1326936091
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 0da6d31af4f6d384eb45c86091ea56cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -249,6 +250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0433baae739fc264a9b2e7dc35e7929b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TargetingCircle: {fileID: 0}
 --- !u!114 &5162628128050836992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,7 +263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcc84205e37283d488cee75176bebfe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeScale: 0
+  timeScale: 0.01
+  UIAnimator: {fileID: 0}
 --- !u!114 &5162628128050836996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,3 +330,18 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0012748018, y: -0.04461793}
   m_Size: {x: 0.07076414, y: 0.07076414}
   m_Direction: 0
+--- !u!114 &4359867629576784984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162628128050837006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d01a501ae14c5d4c89f2472cb01d5a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  health: 0
+  Healthbar: {fileID: 0}

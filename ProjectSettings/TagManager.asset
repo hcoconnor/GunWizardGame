@@ -44,11 +44,17 @@ TagManager:
   - name: Background
     uniqueID: 4025908207
     locked: 0
+  - name: Doors
+    uniqueID: 1675882427
+    locked: 0
   - name: UntargetableSprites
     uniqueID: 1326936091
     locked: 0
   - name: Foreground
     uniqueID: 2704313185
+    locked: 0
+  - name: ForgroundDoor
+    uniqueID: 1895797595
     locked: 0
   - name: SlowTimeOverlay
     uniqueID: 1897749827

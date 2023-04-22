@@ -18,7 +18,7 @@ public class EnemySlime : ObjectStats
     EnemyState state;
 
     // Start is called before the first frame update
-    void Start()
+    new void Start()
     {
         base.Start();
         anim = GetComponent<Animator>();
@@ -26,7 +26,7 @@ public class EnemySlime : ObjectStats
     }
 
     // Update is called once per frame
-    void Update() 
+    new void Update() 
     {
         base.Update();
 
@@ -69,6 +69,9 @@ public class EnemySlime : ObjectStats
             case (EnemyState.NULL):
                 break;
         }
+
+        sr.sortingOrder = (int)((-transform.position.y + .08f) * (100));
+
     }
 }
 

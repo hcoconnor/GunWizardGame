@@ -5,12 +5,13 @@ using UnityEngine;
 public class ObjectStats : MonoBehaviour
 {
     // Start is called before the first frame update\
-
-    public float health = 10;
+    public float maxHealth = 10;
+    [HideInInspector]
+    public float health;
 
     protected void Start()
     {
-        
+        health = maxHealth;
     }
 
     // Update is called once per frame
@@ -22,7 +23,7 @@ public class ObjectStats : MonoBehaviour
         }
     }
 
-    public void hurt(float damage, DamageType dt)
+    public virtual void hurt(float damage, DamageType dt)
     {
         health -= damage;
     }
