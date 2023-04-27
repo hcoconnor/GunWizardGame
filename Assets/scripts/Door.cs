@@ -9,14 +9,15 @@ public class Door : MonoBehaviour
 {
     [HideInInspector]
     public SpriteRenderer sr;
-    [HideInInspector]
+    
+    public BoxCollider2D doorWall; 
     public List<BoxCollider2D> bx;
 
     // Start is called before the first frame update
     public void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        GetComponents(bx);
+        //GetComponents(bx);
         
 
     }
@@ -26,6 +27,7 @@ public class Door : MonoBehaviour
     public void toggleDoor()
     {
         sr.enabled = !sr.enabled;
+        doorWall.enabled = !doorWall.enabled;
         //for(int x = 0; x < bx.Count;x++)
         //{
         //    bx[x].enabled = !bx[x].enabled;
