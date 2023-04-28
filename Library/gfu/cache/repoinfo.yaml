@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:RepositoryInfoCache
   cacheType: 1
-  lastUpdatedAtString: 2023-04-26T22:44:33.116-04:00
-  initializedAtString: 2023-04-26T20:36:35.756-04:00
+  lastUpdatedAtString: 2023-04-27T23:49:47.795-04:00
+  initializedAtString: 2023-04-27T20:45:05.560-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/hcoconnor/GunWizardGame.git

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4372104926586662659}
   - component: {fileID: 4372104926586662668}
+  - component: {fileID: 721524220643147163}
   - component: {fileID: 4372104926586662671}
   - component: {fileID: 4372104926586662670}
   m_Layer: 11
@@ -70,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1895797595
-  m_SortingLayer: 5
+  m_SortingLayerID: 1326936091
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -3904808057939260044, guid: f3d01ecefd2d0ca4e951389d935aa01b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -84,6 +85,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &721524220643147163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372104926586662658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf1d33f6754b67a4cab272c01b39c202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStatic: 1
+  originOffset: -0.0154
 --- !u!114 &4372104926586662671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,7 +131,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.14, y: 0.03}
+    oldSize: {x: 0.1, y: 0.03}
     newSize: {x: 0.14, y: 0.08}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

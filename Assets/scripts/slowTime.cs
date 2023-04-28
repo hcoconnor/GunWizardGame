@@ -13,6 +13,9 @@ public class slowTime : MonoBehaviour
     
     Animator UIAnimator;
 
+    [HideInInspector]
+    public static bool isSlow = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,12 +29,15 @@ public class slowTime : MonoBehaviour
         {
             UIAnimator.SetTrigger("FadeIn");
             Time.timeScale = timeScale;
+            isSlow = true;
             
         }
         else if (Input.GetButtonUp("SlowTime"))
         {
             Time.timeScale = 1;
             UIAnimator.SetTrigger("FadeOut");
+
+            isSlow = false;
         }
     }
 }
