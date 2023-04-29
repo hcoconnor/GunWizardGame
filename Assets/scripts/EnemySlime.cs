@@ -9,6 +9,7 @@ public class EnemySlime : ObjectStats
     public GameObject player;
     public float attackCooldown;
     public float attackRange;
+    public float collisionDamage;
 
     public AnimationCurve walkSpeed;
     public AnimationCurve attackSpeed;
@@ -56,13 +57,11 @@ public class EnemySlime : ObjectStats
                 state = EnemyState.WALKING;
 
             }
-            else if(toPlayer.magnitude <= attackRange || cooldown > 0)
-            {
-                state = EnemyState.IDLE;
-            }
+            
 
             anim.SetInteger("State", (int)state);
-            int frame;
+            int frameNum;
+            float frameSpeed;
             switch (state)
             {
                 
@@ -71,28 +70,78 @@ public class EnemySlime : ObjectStats
                     break;
                 case (EnemyState.WALKING):
 
-                    frame = sr.sprite.name[sr.sprite.name.Length - 1] - '0';
+                    frameNum = sr.sprite.name[sr.sprite.name.Length - 1] - '0';
 
 
 
 
-                    float frameSpeed = walkSpeed.Evaluate(frame) * speed * Time.deltaTime;
+                    frameSpeed = walkSpeed.Evaluate(frameNum) * speed * Time.deltaTime;
 
                     toPlayer = toPlayer.normalized * frameSpeed;
                     transform.Translate(toPlayer);
 
                     break;
                 case (EnemyState.ATTACKING):
+                    string attackSpriteName = "Slime_Attack";
+                    while (!sr.sprite.name.Contains(attackSpriteName))
+                    {
+                        yield return null;
+                    }
                     
+                    //Debug.Log("|"+sr.sprite.name.Substring(attackSpriteName.Length)+"|");
+                    frameNum = int.Parse(sr.sprite.name.Substring(attackSpriteName.Length));
+                    while (frameNum < 10)
+                    {
+                        //Debug.Log(sr.sprite.name);
+                        toPlayer = player.transform.position - transform.position;
+                        frameSpeed = walkSpeed.Evaluate(frameNum) * speed * Time.deltaTime;
+                        toPlayer = toPlayer.normalized * frameSpeed;
+                        transform.Translate(toPlayer);
+
+                        yield return null;
+                        //Debug.Log("|" + sr.sprite.name.Substring(attackSpriteName.Length) + "|");
+                        frameNum = int.Parse(sr.sprite.name.Substring(attackSpriteName.Length));
+                        //Debug.Log(state + " " + frameNum);
+                    }
+                    //Debug.Log(state + " " + frameNum);
+                    //frame 10
+                    toPlayer = player.transform.position - transform.position;
+
+                    frameSpeed = walkSpeed.Evaluate(frameNum) * speed * Time.deltaTime;
+                    Vector2 mvmt = toPlayer.normalized * frameSpeed;
+                    transform.Translate(mvmt);
+                    yield return null;
+
+                    //frame 11 
+                    frameNum = int.Parse(sr.sprite.name.Substring(attackSpriteName.Length));
+
+                    frameSpeed = walkSpeed.Evaluate(frameNum) * speed * Time.deltaTime;
+                    mvmt = toPlayer.normalized * frameSpeed;
+                    //Debug.Log("frameSP:" + frameSpeed);
+                    transform.Translate(mvmt);
+                    yield return null;
+                    cooldown = attackCooldown;
+
                     break;
                 case (EnemyState.NULL):
                     break;
             }
 
             yield return null;
+            cooldown -= Time.deltaTime;
+            cooldown = Mathf.Max(cooldown, 0);
+            //Debug.Log(state +" " + cooldown);
         }
-        cooldown -= Time.deltaTime;
+        
         yield return null;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject == player)
+        {
+            player.GetComponent<playerStats>().hurt(collisionDamage, DamageType.physical);
+        }
     }
 }
 

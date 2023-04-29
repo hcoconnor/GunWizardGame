@@ -69,7 +69,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 951469979
-  m_SortingLayer: 10
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: dd289442aab19c44787e349075fbee6f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 5162628128050837001}
   - component: {fileID: 5162628128050837000}
   - component: {fileID: 5162628128050837007}
+  - component: {fileID: 4359867629576784984}
   - component: {fileID: 5162628128050837002}
   - component: {fileID: 5162628128050836999}
   - component: {fileID: 5162628128050836992}
@@ -131,7 +132,6 @@ GameObject:
   - component: {fileID: 5162628128050837003}
   - component: {fileID: 5162628128050836997}
   - component: {fileID: 5162628128050836998}
-  - component: {fileID: 4359867629576784984}
   m_Layer: 8
   m_Name: Wizard
   m_TagString: Untagged
@@ -224,6 +224,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4359867629576784984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5162628128050837006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d01a501ae14c5d4c89f2472cb01d5a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  health: 0
+  Healthbar: {fileID: 0}
+  invincibilityTime: 0
 --- !u!114 &5162628128050837002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,18 +346,3 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0012748018, y: -0.04461793}
   m_Size: {x: 0.07076414, y: 0.07076414}
   m_Direction: 0
---- !u!114 &4359867629576784984
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5162628128050837006}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d01a501ae14c5d4c89f2472cb01d5a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 10
-  health: 0
-  Healthbar: {fileID: 0}
