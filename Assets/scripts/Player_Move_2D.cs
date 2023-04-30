@@ -36,10 +36,14 @@ public class Player_Move_2D : MonoBehaviour
         //rb.AddForce(new Vector2(deltaX, deltaY));
         Vector2 delta = new Vector2(deltaX, deltaY);
         RaycastHit2D[] hits = new RaycastHit2D[1];
-        if (rb.Cast(delta, hits, delta.magnitude) > 0)
+        ContactFilter2D contactFilter = new ContactFilter2D();
+
+        contactFilter.layerMask = LayerMask.NameToLayer("RoomTrigger");
+        if (rb.Cast(delta,contactFilter, hits, delta.magnitude) > 0)
         {
             delta = delta.normalized*hits[0].distance;
         }
+        //Debug.Log(deltaX);
         transform.Translate(delta.x, delta.y, 0);
         sr.sortingOrder = (int)((-transform.position.y+.08f)*(SetLayer.SortingOrderMulti));
         //Debug.Log("Player: " + sr.sortingOrder+" "+ (-transform.position.y + .08f) * (100));

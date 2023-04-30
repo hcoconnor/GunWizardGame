@@ -138,9 +138,14 @@ public class EnemySlime : ObjectStats
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject == player)
+        Debug.Log("Collider: " + collision.collider.name);
+        if (collision.gameObject == player)
         {
             player.GetComponent<playerStats>().hurt(collisionDamage, DamageType.physical);
+        }
+        else
+        {
+            
         }
     }
 }
