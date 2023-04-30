@@ -17,7 +17,7 @@ TagManager:
   - Particles
   - Room
   - Door
-  - 
+  - RoomTrigger
   - 
   - 
   - 
@@ -47,7 +47,7 @@ TagManager:
   - name: Doors
     uniqueID: 1675882427
     locked: 0
-  - name: UntargetableSprites
+  - name: Sprites
     uniqueID: 1326936091
     locked: 0
   - name: Foreground
@@ -56,17 +56,8 @@ TagManager:
   - name: ForgroundDoor
     uniqueID: 1895797595
     locked: 0
-  - name: SlowTimeOverlay
-    uniqueID: 1897749827
-    locked: 0
-  - name: TargetableSprites
-    uniqueID: 3078823717
-    locked: 0
   - name: Particle
     uniqueID: 3363358221
-    locked: 0
-  - name: Targeting
-    uniqueID: 69847629
     locked: 0
   - name: UI
     uniqueID: 951469979
