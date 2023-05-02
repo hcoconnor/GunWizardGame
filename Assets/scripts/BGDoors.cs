@@ -13,7 +13,7 @@ public class BGDoors : MonoBehaviour
 
 
     public List<BoxCollider2D> walls;
-
+    public List<SpriteRenderer>forgroundsSR;
 
 
     [HideInInspector]

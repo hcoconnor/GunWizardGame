@@ -51,6 +51,19 @@ public class BGDoorEditor : Editor
                 DestroyImmediate(wall);
             }
         }
+
+        SpriteRenderer[] oldSRs = doorsScript.transform.Find("ForgroundParent").GetComponentsInChildren<SpriteRenderer>();
+
+        //rest first forground wall SR based on room SR
+        oldSRs[0].size = new Vector2(oldSRs[0].transform.parent.GetComponentInParent<SpriteRenderer>().size.x,
+            oldSRs[0].size.y);
+        oldSRs[0].transform.localPosition = new Vector3(0, oldSRs[0].transform.localPosition.y,0);
+
+        //skip first wall
+        for(int i = 1;i < oldSRs.Length; i++)
+        {
+            DestroyImmediate(oldSRs[i].gameObject);
+        }
     }
 
     void setupDoors(BGDoors doorsScript)
@@ -95,6 +108,9 @@ public class BGDoorEditor : Editor
                         continue;
                     }
 
+
+                    
+
                     //horizontal wall
 
                     BoxCollider2D firstWall = doorsScript.gameObject.AddComponent<BoxCollider2D>();
@@ -119,9 +135,42 @@ public class BGDoorEditor : Editor
 
                     secondWall.offset = new Vector2(-(-doorCol.offset.x - door.transform.localPosition.x) + (doorCol.size.x/2) + (secondWall.size.x /2) ,  //x
                         wall.offset.y);                                                                                                                     //y
-                    //Debug.Log(secondWall.offset);   
+                                                                                                                                                            //Debug.Log(secondWall.offset);   
+
+
+
+                    if (door.sr.sprite.name.Equals(BGDoors.spriteName.Replace("&n", BGDoors.sideToNum["bottom"])))
+                    {
+                        //if bottom door, update forground
+
+                        SpriteRenderer oldSr = doorsScript.forgroundsSR.Find(x =>
+                            x.size.x == wall.size.x &&
+                            x.transform.localPosition.x == wall.offset.x);
+
+                        oldSr.size= new Vector2(firstWall.size.x,oldSr.size.y);
+                        
+                        oldSr.transform.localPosition = new Vector3(firstWall.offset.x,oldSr.transform.localPosition.y,0);
+
+                        GameObject newSrObj = GameObject.Instantiate<GameObject>(oldSr.gameObject,oldSr.transform.parent);
+                        
+                        //Debug.Log(newSrObj);
                         
                         
+                        SpriteRenderer newSr = newSrObj.GetComponent<SpriteRenderer>();
+
+                        //copy oldSr fields to newSr
+                        //System.Reflection.FieldInfo[] fields = oldSr.GetType().GetFields();
+                        //Debug.Log("|"+fields[0]+"|");
+                        //foreach(System.Reflection.FieldInfo field in fields)
+                        //{
+                        //    field.SetValue(newSr, field.GetValue(oldSr));
+                        //}
+
+                        newSr.size = new Vector2(secondWall.size.x,oldSr.size.y);
+                        newSr.transform.localPosition = new Vector3(secondWall.offset.x, oldSr.transform.localPosition.y, 0);
+                        doorsScript.forgroundsSR.Add(newSr);
+
+                    }
 
                 }
                 else
