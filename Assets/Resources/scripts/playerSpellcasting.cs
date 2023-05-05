@@ -141,7 +141,7 @@ public class FireSpell : Spell
             explosionPrefab = (GameObject)Resources.Load("Prefab/FireExplosion",typeof(GameObject));
         }
        
-        Debug.Log(explosionPrefab);
+        //Debug.Log(explosionPrefab);
     }
 
     protected override void drawTargetUI(Texture2D targetUI, Vector3 mouseCoord, Transform targetTrans)

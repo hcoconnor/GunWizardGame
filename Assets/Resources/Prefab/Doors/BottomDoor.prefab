@@ -146,6 +146,8 @@ MonoBehaviour:
   sr: {fileID: 4372104926586662668}
   doorWall: {fileID: 4372104926586662670}
   bx: []
+  connectingDoor: {fileID: 0}
+  connectingNavPoint: {fileID: 0}
 --- !u!61 &4372104926586662670
 BoxCollider2D:
   m_ObjectHideFlags: 0

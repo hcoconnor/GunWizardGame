@@ -49,4 +49,20 @@ public class Player_Move_2D : MonoBehaviour
         //Debug.Log("Player: " + sr.sortingOrder+" "+ (-transform.position.y + .08f) * (100));
 
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("wizard collision: " + other.name);
+        if (other.CompareTag("RoomTrigger"))
+        {
+            other.transform.parent.GetComponent<Room>().playerEnter();
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("RoomTrigger"))
+        {
+            other.transform.parent.GetComponent<Room>().playerExit();
+        }
+    }
 }

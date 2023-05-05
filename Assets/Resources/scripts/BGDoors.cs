@@ -16,16 +16,8 @@ public class BGDoors : MonoBehaviour
     public List<SpriteRenderer>forgroundsSR;
 
 
-    [HideInInspector]
-    public static string spriteName = "DungeonBG_Doors&n_0";
-    [HideInInspector]
-    public static Dictionary<string, string> sideToNum = new Dictionary<string, string>()
-    {
-        {"top","0" },
-        {"right","1" },
-        {"bottom","2" },
-        {"left","3" },
-    };
+    
+    
 
     //replace &n with:
     //  - 0 = top

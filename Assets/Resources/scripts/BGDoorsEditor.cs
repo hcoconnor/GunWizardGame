@@ -97,8 +97,8 @@ public class BGDoorEditor : Editor
                     
                 //Debug.Log("1  "+firstWall.size.x);
                 //Debug.Log(door.sr.sprite.name+" "+BGDoors.spriteName.Replace("&n", BGDoors.sideToNum["top"])+" ");
-                if (door.sr.sprite.name.Equals(BGDoors.spriteName.Replace("&n",BGDoors.sideToNum["top"])) ||
-                    door.sr.sprite.name.Equals(BGDoors.spriteName.Replace("&n",BGDoors.sideToNum["bottom"])))
+                if (door.sr.sprite.name.Equals(Door.spriteName.Replace("&n", Door.sideToNum["top"])) ||
+                    door.sr.sprite.name.Equals(Door.spriteName.Replace("&n", Door.sideToNum["bottom"])))
                 {
                     if(doorCol.size.x < doorCol.size.y)
                     {
@@ -139,7 +139,7 @@ public class BGDoorEditor : Editor
 
 
 
-                    if (door.sr.sprite.name.Equals(BGDoors.spriteName.Replace("&n", BGDoors.sideToNum["bottom"])))
+                    if (door.sr.sprite.name.Equals(Door.spriteName.Replace("&n", Door.sideToNum["bottom"])))
                     {
                         //if bottom door, update forground
 
