@@ -200,6 +200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TargetingCollider
       objectReference: {fileID: 0}
+    - target: {fileID: 3650660098186421010, guid: e4c513e86f3b6bb468f75d44c194d355, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4c513e86f3b6bb468f75d44c194d355, type: 3}
 --- !u!4 &2643263867895128022 stripped

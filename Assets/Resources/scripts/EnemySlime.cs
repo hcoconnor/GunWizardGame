@@ -17,15 +17,26 @@ public class EnemySlime : ObjectStats
     Animator anim;
     SpriteRenderer sr;
 
+    [HideInInspector]
+    public bool aggro;
+
+
+    Room startRoom;
     EnemyState state;
 
     // Start is called before the first frame update
     new void Start()
-    {
+    { 
         base.Start();
+
+        player = this.transform.root.Find("Wizard").gameObject;
+        Debug.Log(player.name);
+        startRoom = GetComponentInParent<Room>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+        aggro = false;
         StartCoroutine("AIStateMachine");
+        
     }
 
     // Update is called once per frame
@@ -35,7 +46,16 @@ public class EnemySlime : ObjectStats
 
         sr.sortingOrder = (int)((-transform.position.y + .08f) * (100));
 
+
+
+        if (!aggro && startRoom.playerInRoom)
+        {
+            Debug.Log("AGGRO!");
+            aggro = true;
+        }
+
     }
+    
 
     IEnumerator AIStateMachine()
     {
@@ -48,7 +68,7 @@ public class EnemySlime : ObjectStats
             {
                 state = EnemyState.ATTACKING;
             }
-            else if (toPlayer.magnitude <= attackRange || cooldown > 0)
+            else if ((!aggro)||(toPlayer.magnitude <= attackRange || cooldown > 0))
             {
                 state = EnemyState.IDLE;
             }
@@ -138,7 +158,7 @@ public class EnemySlime : ObjectStats
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Collider: " + collision.collider.name);
+        //Debug.Log("Collider: " + collision.collider.name);
         if (collision.gameObject == player)
         {
             player.GetComponent<playerStats>().hurt(collisionDamage, DamageType.physical);

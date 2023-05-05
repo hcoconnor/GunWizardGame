@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-
+[RequireComponent(typeof(playerStats))]
 public class playerSpellcasting : MonoBehaviour
 
 {
@@ -14,6 +14,8 @@ public class playerSpellcasting : MonoBehaviour
     public Spell equippedSpell;
     public Image TargetingCircle;
     
+    [HideInInspector]
+    public playerStats pStats;
     
 
     // Start is called before the first frame update
@@ -28,6 +30,8 @@ public class playerSpellcasting : MonoBehaviour
 
         Sprite newSprite = Sprite.Create(newTexture, new Rect(0, 0, newTexture.width,newTexture.height), new Vector2(0, 0));
         TargetingCircle.sprite = newSprite;
+
+        pStats = GetComponent<playerStats>();
     }
 
     // Update is called once per frame
@@ -79,13 +83,17 @@ public abstract class Spell
 {
     public GameObject targetObj;
     bool targeting;
-    MonoBehaviour monoBehaviour;
+    protected playerSpellcasting monoBehaviour;
+    protected float maxCost;
+    protected float maxDist;
 
-    public Spell(MonoBehaviour mb)
+    public Spell(playerSpellcasting mb)
     {
         targetObj = null;
         targeting = false;
         monoBehaviour = mb;
+        maxCost = 0;
+        maxDist = 0;
 
     }
 
@@ -112,7 +120,32 @@ public abstract class Spell
     }
 
     abstract protected IEnumerator effect(Vector3 mouseCoords);
-    
+
+
+    protected float getCost(float dist)
+    {
+        return (dist / maxDist) * maxCost;
+    }
+    protected float getDistGivenMana(float dist)
+    {
+        dist = Mathf.Min(maxDist, dist);
+        if (getCost(dist) > monoBehaviour.pStats.mana)
+        {
+            //math stuff
+
+            dist = (monoBehaviour.pStats.mana * maxDist) / maxCost;
+            return dist;
+        }
+        else
+        {
+            //can afford what we doin
+            return dist;
+        }
+
+
+
+
+    }
 
     public void cast(Texture2D targetUI)
     {
@@ -134,15 +167,18 @@ public class FireSpell : Spell
     static float fireTime = 3;
     static GameObject explosionPrefab;
 
-    public FireSpell(MonoBehaviour mb) : base(mb)
+    public FireSpell(playerSpellcasting mb) : base(mb)
     {
         if(explosionPrefab == null)
         {
             explosionPrefab = (GameObject)Resources.Load("Prefab/FireExplosion",typeof(GameObject));
         }
-       
+        maxCost = 5;
+        maxDist = .3f;
         //Debug.Log(explosionPrefab);
     }
+
+    
 
     protected override void drawTargetUI(Texture2D targetUI, Vector3 mouseCoord, Transform targetTrans)
     {
@@ -155,8 +191,20 @@ public class FireSpell : Spell
         //Debug.Log(Camera.main.WorldToScreenPoint(targetTrans.position).x/playerSpellcasting.PIXEL_SCALE + " "+ Camera.main.WorldToScreenPoint(targetTrans.position).y / playerSpellcasting.PIXEL_SCALE);
         //Debug.Log(mouseCoord.x / playerSpellcasting.PIXEL_SCALE + " " + mouseCoord.y / playerSpellcasting.PIXEL_SCALE);
         float radius = (int)(Vector3.Distance(mouseCoord / playerSpellcasting.PIXEL_SCALE, Camera.main.WorldToScreenPoint(targetTrans.position)/playerSpellcasting.PIXEL_SCALE));
+        //float radius = (int)(Vector3.Distance(mouseCoord , Camera.main.WorldToScreenPoint(targetTrans.position)));
+        //radius = getDistGivenMana(radius*playerSpellcasting.PIXEL_SCALE) /playerSpellcasting.PIXEL_SCALE;
+        //Debug.Log(radius + " "+radius/playerSpellcasting.PIXEL_SCALE+" "+ getDistGivenMana(radius/playerSpellcasting.PIXEL_SCALE));
+
+
+
+        float WSradius = (Vector3.Distance(Camera.main.ScreenToWorldPoint(mouseCoord), targetObj.transform.position));
+        float modifiedWSradius = getDistGivenMana(WSradius);
+        float ratio =  modifiedWSradius/WSradius;
+
+        radius *= ratio;
+
         //Debug.Log(radius);
-        for(int x=0; x < targetUI.width; x++)
+        for (int x=0; x < targetUI.width; x++)
         {
             for(int y=0; y < targetUI.height; y++)
             {
@@ -167,7 +215,7 @@ public class FireSpell : Spell
                 //    (Mathf.Abs((Mathf.Pow(x - (Camera.main.WorldToScreenPoint(targetTrans.position).x / playerSpellcasting.PIXEL_SCALE), 2) + 
                 //    Mathf.Pow(y - (Camera.main.WorldToScreenPoint(targetTrans.position).y / playerSpellcasting.PIXEL_SCALE), 2))
                 //    - Mathf.Pow(radius, 2))));
-                if(Mathf.Abs((Mathf.Pow(x-(Camera.main.WorldToScreenPoint(targetTrans.position).x / playerSpellcasting.PIXEL_SCALE), 2)+Mathf.Pow(y-( Camera.main.WorldToScreenPoint(targetTrans.position).y / playerSpellcasting.PIXEL_SCALE), 2)) - Mathf.Pow(radius,2) ) <= radius)
+                if(Mathf.Abs((Mathf.Pow(x-(Camera.main.WorldToScreenPoint(targetTrans.position).x / playerSpellcasting.PIXEL_SCALE), 2)+Mathf.Pow(y-( Camera.main.WorldToScreenPoint(targetTrans.position).y / playerSpellcasting.PIXEL_SCALE), 2)) - Mathf.Pow(radius,2) ) <= (radius+.1f))
                 {
                     //Debug.Log("true");
                     pixels[y*targetUI.width+x] = Color.white;
@@ -189,9 +237,20 @@ public class FireSpell : Spell
     {
 
         float radius = (Vector3.Distance(Camera.main.ScreenToWorldPoint(mouseCoords), targetObj.transform.position));
+
+
+        radius = getDistGivenMana(radius);
+        monoBehaviour.pStats.castSpell(getCost(radius));
+        Debug.Log("final: " + radius + " " + getDistGivenMana(radius));
+        Debug.Log(Camera.main.pixelWidth + " " + Camera.main.pixelHeight);
+        
+
+
+
+
         RaycastHit2D[] hits = Physics2D.CircleCastAll(this.targetObj.transform.position, radius, Vector2.zero, 0f);
         //Debug.Log(mouseCoords+" "+Camera.main.ScreenToWorldPoint(mouseCoords)+" "+ targetObj.transform.position + " "+radius);
-
+        
 
 
         Transform parent = targetObj.transform;

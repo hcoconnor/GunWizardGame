@@ -38,7 +38,8 @@ public class Player_Move_2D : MonoBehaviour
         RaycastHit2D[] hits = new RaycastHit2D[1];
         ContactFilter2D contactFilter = new ContactFilter2D();
 
-        contactFilter.layerMask = LayerMask.NameToLayer("RoomTrigger");
+        contactFilter.layerMask = LayerMask.GetMask("Room");
+        contactFilter.useLayerMask = true;
         if (rb.Cast(delta,contactFilter, hits, delta.magnitude) > 0)
         {
             delta = delta.normalized*hits[0].distance;

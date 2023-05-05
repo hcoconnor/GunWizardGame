@@ -239,7 +239,7 @@ MonoBehaviour:
   maxHealth: 10
   health: 0
   Healthbar: {fileID: 0}
-  invincibilityTime: 0
+  invincibilityTime: 0.05
 --- !u!114 &5162628128050837002
 MonoBehaviour:
   m_ObjectHideFlags: 0

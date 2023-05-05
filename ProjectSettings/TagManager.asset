@@ -55,7 +55,7 @@ TagManager:
   - name: Foreground
     uniqueID: 2704313185
     locked: 0
-  - name: ForgroundDoor
+  - name: SlowTime
     uniqueID: 1895797595
     locked: 0
   - name: Particle

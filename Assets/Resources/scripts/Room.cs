@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(BGDoors))]
 public class Room : MonoBehaviour
 {
+    
     public int maxConnections = 3;
     public int minConnections = 3;
 
@@ -29,7 +31,18 @@ public class Room : MonoBehaviour
     [HideInInspector]
     public BoxCollider2D roomTrigger;
 
-    
+
+    [System.Serializable]
+    public struct ObjectQuantityPair
+    {
+        public GameObject name;
+        public int quantity;
+    }
+    public ObjectQuantityPair[] populateValues;
+
+    protected Dictionary<GameObject, int> populations;
+
+
 
     void Awake()
     {
@@ -45,6 +58,17 @@ public class Room : MonoBehaviour
 
         height = GetComponent<SpriteRenderer>().size.x * transform.localScale.x;
         width = GetComponent<SpriteRenderer>().size.y * transform.localScale.y;
+
+        maxConnections = Mathf.Clamp(maxConnections, 1, bgDoors.doors.Count);
+        minConnections = Mathf.Clamp(minConnections, 0, maxConnections);
+
+
+        populations = new Dictionary<GameObject, int>();
+
+        foreach(ObjectQuantityPair pair in populateValues)
+        {
+            populations.Add(pair.name, pair.quantity);
+        }
 
     }
 
@@ -95,12 +119,12 @@ public class Room : MonoBehaviour
         return null;
     }
 
-    bool isConnected(Room other)
+    protected bool isConnected(Room other)
     {
         return this.adjRooms.Find(x => x == other) != null;
     }
 
-    void connectDoors(Door door1, Door door2,Room room2)
+    protected void connectDoors(Door door1, Door door2,Room room2)
     {
         door1.setConnectingDoor(door2);
         door1.setDoor(true);
@@ -120,16 +144,16 @@ public class Room : MonoBehaviour
         {
             return false;
         }
-        Debug.Log(this.bgDoors.doors.Count);
-        Debug.Log("," + other.bgDoors.doors.Count);
-        Debug.Log("," + doors);
-        Debug.Log("," + doors[1]);
-        Debug.Log("," + doors[0]);
+        //Debug.Log(this.bgDoors.doors.Count);
+        //Debug.Log("," + other.bgDoors.doors.Count);
+        //Debug.Log("," + doors);
+        //Debug.Log("," + doors[1]);
+        //Debug.Log("," + doors[0]);
             
             
-        Debug.Log((this == null) + "," + (doors[0] == null) + "," + (doors[1] == null) + "," + (other == null));
-        Debug.Log(this+","+doors[0] + "," + doors[1] + "," + other);
-        Debug.Log((this==null) + "," +( doors[0] == null) + "," +( doors[1] == null) +"," +( other == null) );
+        //Debug.Log((this == null) + "," + (doors[0] == null) + "," + (doors[1] == null) + "," + (other == null));
+        //Debug.Log(this+","+doors[0] + "," + doors[1] + "," + other);
+        //Debug.Log((this==null) + "," +( doors[0] == null) + "," +( doors[1] == null) +"," +( other == null) );
 
         connectDoors(doors[0], doors[1], other);
         this.adjRooms.Add(other);
@@ -170,18 +194,49 @@ public class Room : MonoBehaviour
 
     //}
 
+    protected IEnumerator populate(GameObject obj, int num)
+    {
+        float timeSinceStart = 0;
 
-    public void playerEnter()
+        while(num > 0 || timeSinceStart == 5)
         {
-            if(this.adjRooms.Count <= 0)
+            GameObject newObj = Instantiate(obj, this.transform.Find("Populations"));
+            CapsuleCollider2D newObjCap = newObj.GetComponent<CapsuleCollider2D>();
+
+            do
             {
-                
-                
-            }
+                //Debug.Log(-(roomTrigger.size.y - newObjCap.size.y - newObjCap.offset.y)+","+ (roomTrigger.size.y - newObjCap.size.y - newObjCap.offset.y));
+                newObj.transform.localPosition = new Vector3(
+                    Random.Range(-(roomTrigger.size.x - newObjCap.size.x - newObjCap.offset.x), (roomTrigger.size.x - newObjCap.size.x - newObjCap.offset.x)),
+                    Random.Range(-(roomTrigger.size.y - newObjCap.size.y - newObjCap.offset.y), (roomTrigger.size.y - newObjCap.size.y - newObjCap.offset.y)),
+                    0);
+                yield return null;
+                timeSinceStart -= Time.deltaTime;
+            } while (Physics2D.CapsuleCast((Vector2)newObj.transform.position + newObjCap.offset, newObjCap.size, newObjCap.direction, 0, Vector2.zero, 0f, LayerMask.GetMask("Room")));
+
+            num--;
+
+        }
+        yield return null;
+    }
+
+    public void populate()
+    {
+        foreach(KeyValuePair<GameObject,int> entry in populations)
+        {
+            StartCoroutine(populate(entry.Key, entry.Value));
+        }
+    }
+
+
+    virtual public void playerEnter()
+    {
+            
+        transform.Find("Fog").GetComponent<Animator>().SetTrigger("PlayerEnter");
         playerInRoom = true;
         StartCoroutine( lg.expandRoom(this));
            
-        }
+    }
     public void playerExit()
     {
         if (this.adjRooms.Count <= 0)

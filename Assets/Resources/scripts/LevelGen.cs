@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class LevelGen : MonoBehaviour
 {
-    static string roomPrefabsPath = "Prefab/Rooms";
+    static string roomPrefabsPath = "Prefab/Rooms/RoomsToGenerate";
     static GameObject[] roomPrefabs;
 
     List<Room> roomsToExpand;
     public Room initialRoom;
 
 
-    float maxDistToOldRoom = 5f;
-    float percentChanceOfOldRoom = 50f;
+    public float maxDistToOldRoom = 5f;
+    public float percentChanceOfOldRoom = 50f;
 
     IEnumerator GenerateRooms(Room thisRoom)
     {
@@ -58,7 +58,7 @@ public class LevelGen : MonoBehaviour
         }
 
 
-
+        //Debug.Log("temp");
         while (thisRoom.adjRooms.Count < thisRoom.maxConnections && timeSinceStart < 1)
         {
             //Debug.Log("max");
@@ -71,7 +71,7 @@ public class LevelGen : MonoBehaviour
                 Room newRoom = Instantiate(roomsToTest[rndInt], transform).GetComponent<Room>();
                 //newRoom.name += Random.Range(0, 10000);
                 //Debug.Log(newRoom);
-
+                //Debug.Log("temp");
                 List<Vector3> possibleLocations = getPossibleLocations(thisRoom, newRoom);
                 //Debug.Log(possibleLocations.Count);
                 while(possibleLocations.Count > 0)
@@ -80,7 +80,7 @@ public class LevelGen : MonoBehaviour
                     Vector3 currentPossibleLocation = possibleLocations[Random.Range(0, possibleLocations.Count)];
                     //Debug.Log(currentPossibleLocation);
                     newRoom.transform.position = thisRoom.transform.position + currentPossibleLocation;
-
+                    //Debug.Log("temp");
 
                     //check if overlapping another room
 
@@ -123,6 +123,7 @@ public class LevelGen : MonoBehaviour
                             //successfull connected rooms
                             //Debug.Log("room added");
                             roomsToExpand.Add(newRoom);
+                            newRoom.populate();
                             yield return null;
                             break;
                         }
@@ -235,7 +236,7 @@ public class LevelGen : MonoBehaviour
 
     public IEnumerator expandRoom(Room room, int maxDist = 2)
     {
-        Debug.Log("expanding: " + maxDist);
+        //Debug.Log("expanding: " + maxDist);
         if (!room.expanded)
         {
             yield return GenerateRooms(room);
