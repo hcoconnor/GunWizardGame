@@ -51,9 +51,10 @@ public class Player_Move_2D : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("wizard collision: " + other.name);
+        Debug.Log("wizard collision: " + other.name+" "+other.transform.parent.name);
         if (other.CompareTag("RoomTrigger"))
         {
+
             other.transform.parent.GetComponent<Room>().playerEnter();
         }
     }

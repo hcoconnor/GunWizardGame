@@ -14,38 +14,43 @@ public class LevelGen : MonoBehaviour
     float maxDistToOldRoom = 5f;
     float percentChanceOfOldRoom = 50f;
 
-    bool GenerateRooms(Room thisRoom)
+    IEnumerator GenerateRooms(Room thisRoom)
     {
+        float timeSinceStart = 0;
+        //Debug.Log("starting");
         if(thisRoom.adjRooms.Count > thisRoom.maxConnections || thisRoom.expanded)
         {
-            return false;
+            //Debug.Log("oops");
+            yield break;
         }
-       
+
         //connect with previous rooms if space for connection and still space for new room
-        if(thisRoom.adjRooms.Count < thisRoom.maxConnections - 1)
+        if (thisRoom.adjRooms.Count < thisRoom.maxConnections - 1)
         {
             List<Room> potentialPrevious = new List<Room>();
 
-            foreach(Room room in roomsToExpand)
+            foreach (Room room in roomsToExpand)
             {
                 if (Vector3.Distance(room.transform.position, thisRoom.transform.position) < maxDistToOldRoom && //if close enough
-                    thisRoom.adjRooms.Find(x=> x==room && x.adjRooms.Find(y=> y==room)) == null &&   //and if room not adjacent and close to adjacent
-     
-                    thisRoom.getConnectedDoor(room) != null) {  //and rooms have connected door
+                    thisRoom.adjRooms.Find(x => x == room && x.adjRooms.Find(y => y == room)) == null &&   //and if room not adjacent and close to adjacent
+
+                    thisRoom.getConnectedDoor(room) != null)
+                {  //and rooms have connected door
                     potentialPrevious.Add(room);
-                    
+
                 }
-                
+
             }
-            if(potentialPrevious.Count > 0)
+            if (potentialPrevious.Count > 0)
             {
-                Room oldRoom = potentialPrevious[Random.Range(0, potentialPrevious.Count - 1)];
-                float rnd = Random.Range(1, 100);
+                Room oldRoom = potentialPrevious[Random.Range(0, potentialPrevious.Count)];
+                float rnd = Random.Range(0, 100);
 
                 //percentChanceOfOldRoom of connecting to old room
                 if (rnd <= percentChanceOfOldRoom)
                 {
                     thisRoom.connectRooms(oldRoom);
+                    yield return null;
                     Debug.DrawRay(thisRoom.transform.position, -thisRoom.transform.position + oldRoom.transform.position, Color.red, 20);
                 }
 
@@ -53,15 +58,18 @@ public class LevelGen : MonoBehaviour
         }
 
 
-        
-        while(thisRoom.adjRooms.Count < thisRoom.maxConnections)
+
+        while (thisRoom.adjRooms.Count < thisRoom.maxConnections && timeSinceStart < 1)
         {
             //Debug.Log("max");
             List<GameObject> roomsToTest = new List<GameObject>(roomPrefabs);
             while(roomsToTest.Count >= 0)
             {
                 //Debug.Log("rooms");
-                Room newRoom = Instantiate(roomsToTest[Random.Range(0, roomsToTest.Count - 1)].GetComponent<Room>(), transform);
+                int rndInt = Random.Range(0, roomsToTest.Count);
+                //Debug.Log("rand: " + rndInt+" "+ (roomsToTest.Count));
+                Room newRoom = Instantiate(roomsToTest[rndInt], transform).GetComponent<Room>();
+                //newRoom.name += Random.Range(0, 10000);
                 //Debug.Log(newRoom);
 
                 List<Vector3> possibleLocations = getPossibleLocations(thisRoom, newRoom);
@@ -69,19 +77,19 @@ public class LevelGen : MonoBehaviour
                 while(possibleLocations.Count > 0)
                 {
                     //Debug.Log("posLoc");
-                    Vector3 currentPossibleLocation = possibleLocations[Random.Range(0, possibleLocations.Count - 1)];
+                    Vector3 currentPossibleLocation = possibleLocations[Random.Range(0, possibleLocations.Count)];
                     //Debug.Log(currentPossibleLocation);
                     newRoom.transform.position = thisRoom.transform.position + currentPossibleLocation;
 
 
                     //check if overlapping another room
 
-                    //ContactFilter2D filter = new ContactFilter2D();
-                    //filter.layerMask = (LayerMask.NameToLayer("RoomTrigger")+LayerMask.NameToLayer("Room"));
-                    //filter.useLayerMask = true; 
-                    //filter.useTriggers=true;
+                    ContactFilter2D filter = new ContactFilter2D();
+                    filter.layerMask = LayerMask.GetMask("RoomTrigger");
+                    filter.useLayerMask = true;
+                    filter.useTriggers = true;
 
-                    //Debug.Log("FILTER: " + filter.IsFilteringTrigger(newRoom.roomTrigger));
+                    //Debug.Log("FILTER: " + filter.IsFilteringLayerMask(newRoom.roomTrigger.gameObject));
                     //List<RaycastHit2D> results = new List<RaycastHit2D>();
                     //newRoom.roomTrigger.OverlapCollider(filter, results);
                     //foreach(Collider2D col in results)
@@ -92,35 +100,45 @@ public class LevelGen : MonoBehaviour
                     //Debug.Log(results.Find(x => x.transform.parent.GetComponent<Room>().adjRooms.Count > 0));
 
 
-                    RaycastHit2D result = new RaycastHit2D();
-                    Physics2D.BoxCast(newRoom.transform.position, newRoom.roomTrigger.size, 0, Vector2.up, 0f,LayerMask.GetMask("RoomTrigger"));
-                    Debug.DrawLine(newRoom.transform.position + new Vector3(newRoom.roomTrigger.size.x, newRoom.roomTrigger.size.y, 0),
-                        newRoom.transform.position - new Vector3(newRoom.roomTrigger.size.x, newRoom.roomTrigger.size.y, 0),
-                        Color.green, 20 ); 
+                    //RaycastHit2D result = new RaycastHit2D();
+                    List<RaycastHit2D> results = new List<RaycastHit2D>();
+                    Physics2D.BoxCast((Vector2)(newRoom.transform.position)+newRoom.roomTrigger.offset, newRoom.roomTrigger.size*2, 0, Vector2.zero,filter, results,1f);
+                    //Debug.DrawLine(newRoom.transform.position + new Vector3(newRoom.roomTrigger.size.x, newRoom.roomTrigger.size.y, 0),
+                    //    newRoom.transform.position - new Vector3(newRoom.roomTrigger.size.x, newRoom.roomTrigger.size.y, 0),
+                    //    Color.green, 20 );
+                    RaycastHit2D result = results.Find(x => x.collider != newRoom.roomTrigger);
+                    //Debug.Log(result+" "+results.Count);
+                    
+
                     //!newRoom.roomTrigger.IsTouchingLayers(~LayerMask.NameToLayer("RoomTrigger"))
                     //( thisRoom.name == "Init" && thisRoom.adjRooms.Count == 0 ) || results.Find(x => x.GetComponent<Room>().adjRooms.Count > 0) == null
                     //&& result.collider.transform.parent != null && result.collider.transform.parent.GetComponent<Room>()
-                    if (!result ){
+                    if (result.collider == null ){
                         //Debug.Log("not TOUCHING");
                         bool connectSuccess = thisRoom.connectRooms(newRoom);
                         if (connectSuccess)
                         {
-                            Debug.DrawRay(thisRoom.transform.position, -thisRoom.transform.position + newRoom.transform.position, Color.blue,20);
+                            //Debug.Log("yay: "+newRoom.transform.position);
+                            //Debug.DrawRay(thisRoom.transform.position, -thisRoom.transform.position + newRoom.transform.position, Color.blue,20);
                             //successfull connected rooms
                             //Debug.Log("room added");
                             roomsToExpand.Add(newRoom);
+                            yield return null;
                             break;
                         }
                     }
                     else
                     {
-                        Debug.Log("Space Not Available");
+                        //result.collider.transform.parent.GetComponent<SpriteRenderer>().enabled = false;
+                        //Debug.Log("boo: "+newRoom.transform.position);
+                        //Debug.Log("Space Not Available: "+result.collider.transform.position);
                     }
                     
                     possibleLocations.Remove(currentPossibleLocation);
                     //Debug.Log("posLoc end");
                 } //cycle through all posible locations
                 //Debug.Log("out posLoc"+possibleLocations.Count);
+                yield return null;
                 if (possibleLocations.Count > 0)
                 {
                     //room connected
@@ -129,8 +147,10 @@ public class LevelGen : MonoBehaviour
                 else
                 {
                     //room not conncted
-                    Destroy(newRoom);
-                    Debug.Log(roomsToTest.Remove(roomsToTest.Find(x => (x.name + "(Clone)").Equals(newRoom.name))));
+
+                    roomsToTest.Remove(roomsToTest.Find(x => (x.name + "(Clone)").Equals(newRoom.name)));
+                    Destroy(newRoom.gameObject);
+                    //Debug.Log();
                     if(roomsToTest.Count <= 0)
                     {
                         break;
@@ -138,10 +158,13 @@ public class LevelGen : MonoBehaviour
                 }
 
             }//cycle through all possible rooms
+
+            yield return null;
+            timeSinceStart += Time.deltaTime;
             if(roomsToTest.Count <= 0)
             {
                 //no room possible
-                return false;
+                yield break;
             }
 
             //break;
@@ -149,7 +172,7 @@ public class LevelGen : MonoBehaviour
 
         }
 
-        return true;
+        yield break;
     }
 
     static List<Vector3> getPossibleLocations(Room room1, Room room2)
@@ -192,7 +215,17 @@ public class LevelGen : MonoBehaviour
                     }
                     //Debug.Log("Side: "+door1.gameObject.name+"+"+door2.gameObject.name
                     //    +"|x: " + x + "|y: " + y+"|sp: "+ Door.spaceBetweenDoors(door1, door2));
-                    possibleLocations.Add(new Vector3(x, y, 0));
+
+                    Vector3 newPosLoc = new Vector3(x, y, 0);
+                    if (!possibleLocations.Contains(newPosLoc))
+                    {
+                        possibleLocations.Add(newPosLoc);
+                    }
+                    else
+                    {
+                        //Debug.Log("containts");
+                    }
+                    
                 }
             }
         }
@@ -200,21 +233,26 @@ public class LevelGen : MonoBehaviour
         return possibleLocations;
     }
 
-    public void expandRoom(Room room, int maxDist = 1)
+    public IEnumerator expandRoom(Room room, int maxDist = 2)
     {
-        
+        Debug.Log("expanding: " + maxDist);
         if (!room.expanded)
         {
-            GenerateRooms(room);
+            yield return GenerateRooms(room);
+            
         }
         if (maxDist > 0)
         {
-            foreach(Room adjRoom in room.adjRooms)
+            foreach (Room adjRoom in room.adjRooms)
             {
-                expandRoom(adjRoom, maxDist - 1);
+                yield return expandRoom(adjRoom, maxDist - 1);
             }
+            //expandRoom(room.adjRooms[0], maxDist - 1);
+            //yield return null;
+            //expandRoom(room.adjRooms[1], maxDist - 1);
             room.expanded = true;
             roomsToExpand.Remove(room);
+            yield return null;
         }
     }
 
@@ -224,6 +262,10 @@ public class LevelGen : MonoBehaviour
     {
         roomPrefabs = Resources.LoadAll<GameObject>(roomPrefabsPath);
         roomsToExpand = new List<Room>();
+
+        int seed = Random.Range(0, 10000);
+        Random.InitState(seed);
+        Debug.Log("SEED: " + seed);
         //GenerateRooms(initialRoom);
     }
 

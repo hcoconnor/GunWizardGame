@@ -156,7 +156,15 @@ public class Door : MonoBehaviour
             {
                 continue;
             }
-            trans.gameObject.SetActive(!active);
+            if (Door.getSide(this).Equals("bottom"))
+            {
+                trans.gameObject.SetActive(!active);
+            }
+            else
+            {
+                trans.gameObject.SetActive(active);
+            }
+            
         }
     } 
       

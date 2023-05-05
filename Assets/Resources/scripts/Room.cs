@@ -62,7 +62,7 @@ public class Room : MonoBehaviour
 
                     if (Door.isTopBottomDoor(door) && Door.isTopBottomDoor(otherDoor))
                     {
-                        if (door.doorWall.size.y + otherDoor.doorWall.size.y >=
+                        if (door.doorWall.size.y + otherDoor.doorWall.size.y +.01f>=
                             Vector3.Distance(door.transform.position, otherDoor.transform.position))
                         {
                             Door[] newDoors = { door, otherDoor };
@@ -71,7 +71,7 @@ public class Room : MonoBehaviour
                     }
                     else
                     {
-                        if (door.doorWall.size.x + otherDoor.doorWall.size.x >=
+                        if (door.doorWall.size.x + otherDoor.doorWall.size.x +.01f>=
                             Vector3.Distance(door.transform.position, otherDoor.transform.position))
                         {
                             Door[] newDoors = { door, otherDoor };
@@ -81,8 +81,8 @@ public class Room : MonoBehaviour
                 }
                 else
                 {
-                    if(door.sr.enabled || otherDoor.sr.enabled)
-                    Debug.Log("Ignoring disabled Door");
+                    //if(door.sr.enabled || otherDoor.sr.enabled)
+                    //Debug.Log("Ignoring disabled Door");
                 }
                 
             }
@@ -90,7 +90,7 @@ public class Room : MonoBehaviour
         if(doorPairs.Count > 0)
         {
 
-            return doorPairs[Random.Range(0, doorPairs.Count - 1)]; 
+            return doorPairs[Random.Range(0, doorPairs.Count)]; 
         }
         return null;
     }
@@ -108,8 +108,8 @@ public class Room : MonoBehaviour
         door2.setConnectingDoor(door1);
         door2.setDoor(true);
 
-        this.bgDoors.doors.Remove(door1);
-        room2.bgDoors.doors.Remove(door2);
+        //this.bgDoors.doors.Remove(door1);
+        //room2.bgDoors.doors.Remove(door2);
 
     }
 
@@ -120,6 +120,17 @@ public class Room : MonoBehaviour
         {
             return false;
         }
+        Debug.Log(this.bgDoors.doors.Count);
+        Debug.Log("," + other.bgDoors.doors.Count);
+        Debug.Log("," + doors);
+        Debug.Log("," + doors[1]);
+        Debug.Log("," + doors[0]);
+            
+            
+        Debug.Log((this == null) + "," + (doors[0] == null) + "," + (doors[1] == null) + "," + (other == null));
+        Debug.Log(this+","+doors[0] + "," + doors[1] + "," + other);
+        Debug.Log((this==null) + "," +( doors[0] == null) + "," +( doors[1] == null) +"," +( other == null) );
+
         connectDoors(doors[0], doors[1], other);
         this.adjRooms.Add(other);
         other.adjRooms.Add(this);
@@ -127,14 +138,25 @@ public class Room : MonoBehaviour
     }
 
 
-    void OnTriggerEnter2D(Collider2D collision)
+    //void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    Debug.Log(collision.transform.parent.name + " " + collision.transform.position + " " + this.transform.position);
+    //    if (collision.CompareTag("Player"))
+    //    {
+    //        playerInRoom = true;
+    //        lg.expandRoom(this);
+    //    }
+    //}
+    private void Update()
     {
-        Debug.Log(collision.transform.parent.name + " " + collision.transform.position + " " + this.transform.position);
-        if (collision.CompareTag("Player"))
-        {
-            playerInRoom = true;
-            lg.expandRoom(this);
-        }
+        //RaycastHit2D result = Physics2D.BoxCast(this.transform.position, this.roomTrigger.size, 0, Vector2.zero, 0f, LayerMask.GetMask("RoomTrigger"));
+        Debug.DrawLine((this.transform.position) + (Vector3)this.roomTrigger.offset + new Vector3(this.roomTrigger.size.x, this.roomTrigger.size.y, 0),
+                        (this.transform.position) + (Vector3)this.roomTrigger.offset - new Vector3(this.roomTrigger.size.x, this.roomTrigger.size.y, 0),
+                        Color.green, 0);
+        //if (result.collider != this.roomTrigger)
+        //{
+        //    //Debug.Log(this.name +" "+result.collider.transform.parent.name);
+        //}
     }
 
 
@@ -153,17 +175,20 @@ public class Room : MonoBehaviour
         {
             if(this.adjRooms.Count <= 0)
             {
-                playerInRoom = true;
-                lg.expandRoom(this);
+                
+                
             }
+        playerInRoom = true;
+        StartCoroutine( lg.expandRoom(this));
            
         }
     public void playerExit()
     {
         if (this.adjRooms.Count <= 0)
         {
-            playerInRoom = false;
+            
         }
+        playerInRoom = false;
     }
 
 }
