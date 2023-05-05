@@ -29,7 +29,8 @@ public class LevelGen : MonoBehaviour
             foreach(Room room in roomsToExpand)
             {
                 if (Vector3.Distance(room.transform.position, thisRoom.transform.position) < maxDistToOldRoom && //if close enough
-                    !thisRoom.adjRooms.Find(x=> x==room) &&   //and if room not adjacent
+                    thisRoom.adjRooms.Find(x=> x==room && x.adjRooms.Find(y=> y==room)) == null &&   //and if room not adjacent and close to adjacent
+     
                     thisRoom.getConnectedDoor(room) != null) {  //and rooms have connected door
                     potentialPrevious.Add(room);
                     
@@ -45,6 +46,7 @@ public class LevelGen : MonoBehaviour
                 if (rnd <= percentChanceOfOldRoom)
                 {
                     thisRoom.connectRooms(oldRoom);
+                    Debug.DrawRay(thisRoom.transform.position, -thisRoom.transform.position + oldRoom.transform.position, Color.red, 20);
                 }
 
             }
@@ -74,25 +76,36 @@ public class LevelGen : MonoBehaviour
 
                     //check if overlapping another room
 
-                    ContactFilter2D filter = new ContactFilter2D();
-                    filter.layerMask = LayerMask.NameToLayer("RoomTrigger");
-                    filter.useLayerMask = true; 
-                    filter.useTriggers=true;
+                    //ContactFilter2D filter = new ContactFilter2D();
+                    //filter.layerMask = (LayerMask.NameToLayer("RoomTrigger")+LayerMask.NameToLayer("Room"));
+                    //filter.useLayerMask = true; 
+                    //filter.useTriggers=true;
 
-                    List<Collider2D> results = new List<Collider2D>();
-                    newRoom.roomTrigger.OverlapCollider(filter, results);
+                    //Debug.Log("FILTER: " + filter.IsFilteringTrigger(newRoom.roomTrigger));
+                    //List<RaycastHit2D> results = new List<RaycastHit2D>();
+                    //newRoom.roomTrigger.OverlapCollider(filter, results);
                     //foreach(Collider2D col in results)
                     //{
                     //    Debug.Log(col.name);
                     //}
-                    Debug.Log(results.Count);
-                    Debug.Log(results.Find(x => x.GetComponent<Room>().adjRooms.Count > 0));
+                    //Debug.Log(results.Count);
+                    //Debug.Log(results.Find(x => x.transform.parent.GetComponent<Room>().adjRooms.Count > 0));
+
+
+                    RaycastHit2D result = new RaycastHit2D();
+                    Physics2D.BoxCast(newRoom.transform.position, newRoom.roomTrigger.size, 0, Vector2.up, 0f,LayerMask.GetMask("RoomTrigger"));
+                    Debug.DrawLine(newRoom.transform.position + new Vector3(newRoom.roomTrigger.size.x, newRoom.roomTrigger.size.y, 0),
+                        newRoom.transform.position - new Vector3(newRoom.roomTrigger.size.x, newRoom.roomTrigger.size.y, 0),
+                        Color.green, 20 ); 
                     //!newRoom.roomTrigger.IsTouchingLayers(~LayerMask.NameToLayer("RoomTrigger"))
-                    if (( thisRoom.name == "Init" && thisRoom.adjRooms.Count == 0 ) || results.Find(x => x.GetComponent<Room>().adjRooms.Count > 0) == null){
+                    //( thisRoom.name == "Init" && thisRoom.adjRooms.Count == 0 ) || results.Find(x => x.GetComponent<Room>().adjRooms.Count > 0) == null
+                    //&& result.collider.transform.parent != null && result.collider.transform.parent.GetComponent<Room>()
+                    if (!result ){
                         //Debug.Log("not TOUCHING");
                         bool connectSuccess = thisRoom.connectRooms(newRoom);
                         if (connectSuccess)
                         {
+                            Debug.DrawRay(thisRoom.transform.position, -thisRoom.transform.position + newRoom.transform.position, Color.blue,20);
                             //successfull connected rooms
                             //Debug.Log("room added");
                             roomsToExpand.Add(newRoom);

@@ -57,8 +57,9 @@ public class Room : MonoBehaviour
         {
             foreach(Door otherDoor in room.bgDoors.doors)
             {
-                if (Door.canConnect(door, otherDoor))
+                if (Door.canConnect(door, otherDoor)&& !door.sr.enabled && !otherDoor.sr.enabled)
                 {
+
                     if (Door.isTopBottomDoor(door) && Door.isTopBottomDoor(otherDoor))
                     {
                         if (door.doorWall.size.y + otherDoor.doorWall.size.y >=
@@ -78,6 +79,11 @@ public class Room : MonoBehaviour
                         }
                     }
                 }
+                else
+                {
+                    if(door.sr.enabled || otherDoor.sr.enabled)
+                    Debug.Log("Ignoring disabled Door");
+                }
                 
             }
         }
@@ -94,13 +100,17 @@ public class Room : MonoBehaviour
         return this.adjRooms.Find(x => x == other) != null;
     }
 
-    static void connectDoors(Door door1, Door door2)
+    void connectDoors(Door door1, Door door2,Room room2)
     {
         door1.setConnectingDoor(door2);
         door1.setDoor(true);
 
         door2.setConnectingDoor(door1);
         door2.setDoor(true);
+
+        this.bgDoors.doors.Remove(door1);
+        room2.bgDoors.doors.Remove(door2);
+
     }
 
     public bool connectRooms(Room other)
@@ -110,23 +120,24 @@ public class Room : MonoBehaviour
         {
             return false;
         }
-        connectDoors(doors[0], doors[1]);
+        connectDoors(doors[0], doors[1], other);
         this.adjRooms.Add(other);
         other.adjRooms.Add(this);
         return true;
     }
-    
 
-    //void OnTriggerEnter2D(Collider2D collision)
-    //{
-    //    Debug.Log(collision.transform.parent.name+" "+collision.transform.position+" "+this.transform.position);
-    //    if (collision.CompareTag("Player")){
-    //        playerInRoom = true;
-    //        lg.expandRoom(this);
-    //    }
-    //}
 
-    
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log(collision.transform.parent.name + " " + collision.transform.position + " " + this.transform.position);
+        if (collision.CompareTag("Player"))
+        {
+            playerInRoom = true;
+            lg.expandRoom(this);
+        }
+    }
+
+
     //private void OnTriggerExit2D(Collider2D collision)
     //{
     //    if (collision.CompareTag("Player"))
