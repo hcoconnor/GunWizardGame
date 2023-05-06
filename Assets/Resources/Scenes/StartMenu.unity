@@ -1329,9 +1329,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: There have been many story's of what lurks in the Dungeon of Doom. Legend
-    has it that the dungeon is always shift, so no one has ever been able to map
-    its layout. Many have entered, but none have returned
+  m_text: There have been many stories of what lurks in the Dungeon of Doom. Legend
+    has it that the dungeon is always shifting so that no one can ever find the unimaginable
+    power hidden within. Many have entered in search of it, but none have returned.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2294,9 +2294,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: 'Thats were you come in. You are a couragous wizard, capable of creating
-    fireballs. And you are equipped with an invention that would rival any sword:
-    a gun. While your gun is not particularly powerful, when you combine it with
-    your arcane knowhow, you are unstoppable.'
+    fireballs. And you are equipped with an invention that would rival any adventurer''s
+    sword: a gun. While your gun is not particularly powerful, when you combine it
+    with your arcane know-how, you are unstoppable.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2482,8 +2482,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' You get points from exploring the dungeon and for killing monster. Try
-    to get the high score.'
+  m_text: ' You get points from  killing monster. Try to get the high score.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

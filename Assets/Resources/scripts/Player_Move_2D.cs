@@ -11,12 +11,14 @@ public class Player_Move_2D : MonoBehaviour
     Rigidbody2D rb;
     SpriteRenderer sr;
 
+    Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
         rb= this.GetComponent<Rigidbody2D>();
         sr = this.GetComponent<SpriteRenderer>();
-
+        anim = this.GetComponent<Animator>();
         
     }
 
@@ -27,8 +29,13 @@ public class Player_Move_2D : MonoBehaviour
         float deltaX = 0f;
         float deltaY = 0f;
 
+        
+
         deltaX += Input.GetAxis("Horizontal");
         deltaY += Input.GetAxis("Vertical");
+
+        anim.SetBool("walking", Mathf.Abs(deltaX) + Mathf.Abs(deltaY) > 0);
+        //Debug.Log(Mathf.Abs(deltaX) + Mathf.Abs(deltaY));
 
         deltaX = deltaX * speedX * Time.deltaTime;
         deltaY = deltaY * speedY * Time.deltaTime;

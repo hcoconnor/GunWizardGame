@@ -19,8 +19,12 @@ public class ObjectStats : MonoBehaviour
     {
         if(health <= 0)
         {
-            Destroy(gameObject);
+            onDeath();
         }
+    }
+    public virtual void onDeath()
+    {
+        Destroy(gameObject);
     }
 
     public virtual void hurt(float damage, DamageType dt)

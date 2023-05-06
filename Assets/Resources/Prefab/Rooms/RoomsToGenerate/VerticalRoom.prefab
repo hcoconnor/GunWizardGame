@@ -334,7 +334,9 @@ MonoBehaviour:
   roomTrigger: {fileID: 0}
   populateValues:
   - name: {fileID: 2643263867672022231, guid: da464bdc975d7ee4aa2c64acbca0d068, type: 3}
-    quantity: 5
+    rand: 070000000f000000
+  - name: {fileID: 9151561653829361734, guid: cb8e534e05f66434ba55a111b8710687, type: 3}
+    rand: 0100000005000000
 --- !u!61 &4452299712442666479
 BoxCollider2D:
   m_ObjectHideFlags: 0

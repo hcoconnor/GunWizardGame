@@ -36,11 +36,11 @@ public class Room : MonoBehaviour
     public struct ObjectQuantityPair
     {
         public GameObject name;
-        public int quantity;
+        public int[] rand;
     }
     public ObjectQuantityPair[] populateValues;
 
-    protected Dictionary<GameObject, int> populations;
+    protected Dictionary<GameObject, int[]> populations;
 
 
 
@@ -63,11 +63,11 @@ public class Room : MonoBehaviour
         minConnections = Mathf.Clamp(minConnections, 0, maxConnections);
 
 
-        populations = new Dictionary<GameObject, int>();
+        populations = new Dictionary<GameObject, int[]>();
 
         foreach(ObjectQuantityPair pair in populateValues)
         {
-            populations.Add(pair.name, pair.quantity);
+            populations.Add(pair.name, pair.rand);
         }
 
     }
@@ -222,9 +222,9 @@ public class Room : MonoBehaviour
 
     public void populate()
     {
-        foreach(KeyValuePair<GameObject,int> entry in populations)
+        foreach(KeyValuePair<GameObject,int[]> entry in populations)
         {
-            StartCoroutine(populate(entry.Key, entry.Value));
+            StartCoroutine(populate(entry.Key, Random.Range(entry.Value[0],entry.Value[1]+1)));
         }
     }
 

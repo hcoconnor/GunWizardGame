@@ -14,12 +14,20 @@ public class EnemySlime : ObjectStats
     public AnimationCurve walkSpeed;
     public AnimationCurve attackSpeed;
 
+    public int pointsPerKill = 10;
+    public int manaReturn = 2;
+
     Animator anim;
     SpriteRenderer sr;
 
     [HideInInspector]
     public bool aggro;
 
+    List<Transform> aStarPath;
+    bool pathSafe;
+    bool aStarRunning;
+
+    Vector3 toPlayer;
 
     Room startRoom;
     EnemyState state;
@@ -27,14 +35,18 @@ public class EnemySlime : ObjectStats
     // Start is called before the first frame update
     new void Start()
     { 
+        
         base.Start();
-
+        pathSafe = false;
+        aStarRunning = false;
+        aStarPath = new List<Transform>();
         player = this.transform.root.Find("Wizard").gameObject;
         Debug.Log(player.name);
         startRoom = GetComponentInParent<Room>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         aggro = false;
+        toPlayer = player.transform.position - transform.position;
         StartCoroutine("AIStateMachine");
         
     }
@@ -55,6 +67,13 @@ public class EnemySlime : ObjectStats
         }
 
     }
+    override public void onDeath()
+    {
+        playerStats pStats = player.GetComponent<playerStats>();
+        pStats.points += pointsPerKill;
+        pStats.restoreMana(manaReturn);
+        base.onDeath();
+    }
     
 
     IEnumerator AIStateMachine()
@@ -62,20 +81,39 @@ public class EnemySlime : ObjectStats
         float cooldown = 0;
         while (health > 0)
         {
-            Vector3 toPlayer = player.transform.position - transform.position;
+            toPlayer = player.transform.position - transform.position;
 
-            if (toPlayer.magnitude <= attackRange && cooldown <= 0)
-            {
-                state = EnemyState.ATTACKING;
-            }
-            else if ((!aggro)||(toPlayer.magnitude <= attackRange || cooldown > 0))
+
+            if (!aggro)
             {
                 state = EnemyState.IDLE;
             }
-            else if (toPlayer.magnitude > attackRange)
+            else
             {
-                state = EnemyState.WALKING;
 
+
+                //check if need to pathfind
+                RaycastHit2D hit = Physics2D.Raycast((Vector2)this.transform.position, toPlayer, toPlayer.magnitude, LayerMask.GetMask("Room"));
+                if (hit && !aStarRunning)
+                {
+                    //no straight line path, so path find
+                    //StartCoroutine(getPath(player.transform));
+                    state = EnemyState.IDLE;
+                }
+
+                else if (!hit && toPlayer.magnitude <= attackRange && cooldown <= 0)
+                {
+                    state = EnemyState.ATTACKING;
+                }
+                else if ((hit && aStarRunning) ||  (toPlayer.magnitude <= attackRange || cooldown > 0))
+                {
+                    state = EnemyState.IDLE;
+                }
+                else if (hit || toPlayer.magnitude > attackRange)
+                {
+                    state = EnemyState.WALKING;
+
+                }
             }
             
 
@@ -90,12 +128,24 @@ public class EnemySlime : ObjectStats
                     break;
                 case (EnemyState.WALKING):
 
+                    
                     frameNum = sr.sprite.name[sr.sprite.name.Length - 1] - '0';
 
-
-
-
                     frameSpeed = walkSpeed.Evaluate(frameNum) * speed * Time.deltaTime;
+
+
+                    if (aStarPath.Count > 0)
+                    {
+                        toPlayer = aStarPath[0].transform.position - transform.position;
+
+                        if (toPlayer.magnitude <= frameSpeed)
+                        {
+                            aStarPath.RemoveAt(0);
+                        }
+                    }
+                    
+
+                    
 
                     toPlayer = toPlayer.normalized * frameSpeed;
                     transform.Translate(toPlayer);
@@ -152,6 +202,9 @@ public class EnemySlime : ObjectStats
             cooldown = Mathf.Max(cooldown, 0);
             //Debug.Log(state +" " + cooldown);
         }
+        // dead
+
+       
         
         yield return null;
     }
@@ -168,6 +221,87 @@ public class EnemySlime : ObjectStats
             
         }
     }
+
+
+    private Room getRoom(Vector3 pos)
+    {
+        RaycastHit2D hit = Physics2D.Raycast(pos, toPlayer, 0, LayerMask.GetMask("RoomTrigger"));
+        Debug.Log(hit.collider.name);
+        return hit.collider.transform.parent.GetComponent<Room>();
+    }
+
+    IEnumerator getPath(Transform goal)
+    {
+        aStarRunning = true;
+        List<PathNode> open = new List<PathNode>();
+        List<PathNode> closed = new List<PathNode>();
+        PathNode start = new PathNode(this.transform,0,goal,null);
+        open.Add(start);
+        PathNode current = null;
+
+        int loopsSinceFrame = 0;
+        while (open.Count > 0)
+        {
+            loopsSinceFrame++;
+            if (loopsSinceFrame > 50)
+            {
+                yield return null;
+                loopsSinceFrame = 0;
+            }
+
+
+            open.Sort();
+            current = open[0];
+            open.RemoveAt(0);
+
+
+            Debug.Log("current: " + current.here.position);
+            if (getRoom(current.here.position).playerInRoom)
+            {
+                break;
+            }
+            List<Door> doors = getNeighbors(getRoom(this.transform.position));
+
+
+            foreach(Door door in doors)
+            {
+                Transform firstNavPoint = door.transform.Find("PathFindPoint");
+                PathNode node1 = new PathNode(firstNavPoint, Vector3.Distance(current.here.position, firstNavPoint.position) + current.pathCost, goal, current);
+                PathNode node2 = new PathNode(door.connectingNavPoint, Vector3.Distance(firstNavPoint.position, door.connectingNavPoint.position) + node1.pathCost, goal, node1);
+                closed.Add(node1);
+                open.Add(node2);
+            }
+
+            closed.Add(current);
+
+        }
+        pathSafe = false;
+        aStarPath = new List<Transform>();
+        while(current.parent != null)
+        {
+            aStarPath.Add(current.here);
+            current = current.parent;
+        }
+        aStarPath.Reverse();
+        pathSafe = true;
+        aStarRunning = false;
+        yield return null;
+    }
+
+    private List<Door> getNeighbors(Room room)
+    {
+        List<Door> doors = new List<Door>();
+
+        foreach(Door door in room.bgDoors.doors)
+        {
+            if (door.sr.enabled)
+            {
+                doors.Add(door);
+            }
+        }
+        return doors;
+    }
+    
 }
 
 
@@ -177,3 +311,48 @@ enum EnemyState{
     ATTACKING,
     NULL
 }
+
+class PathNode : System.IComparable
+{
+    public PathNode parent;
+    public Transform here;
+    public float pathCost;
+    public Transform goal;
+
+    public PathNode(Transform trans, float cost,Transform goal, PathNode last)
+    {
+        here = trans;
+        pathCost = cost;
+        this.goal = goal;
+        parent = last;
+    }
+
+    public int CompareTo(object obj)
+    {
+        if(obj == null)
+        {
+            return 1;
+        }
+        PathNode other = obj as PathNode;
+        if (other != null)
+        {
+
+            return this.getFCost(this.goal).CompareTo(other.getFCost(this.goal));
+        }
+        else
+        {
+            throw new System.ArgumentException("Not Comparable");
+        }
+
+    }
+
+    static float getHcost(Transform node, Transform goal)
+    {
+        return Vector3.Distance(node.position, goal.position);
+    }
+    public float getFCost(Transform goal)
+    {
+        return pathCost + getHcost(this.here, goal);
+    }
+}
+    

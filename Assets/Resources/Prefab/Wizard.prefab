@@ -216,7 +216,7 @@ Animator:
   m_GameObject: {fileID: 5162628128050837006}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6a5d7f3656dfdec4bad9199cebd83291, type: 2}
+  m_Controller: {fileID: 9100000, guid: e6fec05cdace86245bfaf4fc405e7460, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -239,11 +239,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 10
   health: 0
+  looseScreen: {fileID: 0}
   Healthbar: {fileID: 0}
   ManaBar: {fileID: 0}
+  scoreText: {fileID: 0}
   invincibilityTime: 0.05
-  maxMana: 0
+  maxMana: 10
   mana: 0
+  points: 0
 --- !u!114 &5162628128050837002
 MonoBehaviour:
   m_ObjectHideFlags: 0

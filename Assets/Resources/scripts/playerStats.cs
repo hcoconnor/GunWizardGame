@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,11 +11,15 @@ public class playerStats : ObjectStats
 
     public Slider Healthbar;
     public Slider ManaBar;
+    public TextMeshProUGUI scoreText;
+
     public float invincibilityTime;
 
     public float maxMana;
     [HideInInspector]
     public float mana;
+    [HideInInspector]
+    public int points;
 
     float damageCooldown = 0;
     // Start is called before the first frame update
@@ -32,6 +37,8 @@ public class playerStats : ObjectStats
     {
         damageCooldown -= Time.deltaTime;
         damageCooldown = Mathf.Max(0, damageCooldown);
+
+        scoreText.text = "Score: " + points;
     }
 
     public override void hurt(float damage, DamageType dt)
@@ -46,6 +53,7 @@ public class playerStats : ObjectStats
         if(health <= 0)
         {
             Die();
+            PlayerPrefs.SetInt("highScore", Mathf.Max(points, PlayerPrefs.GetInt("highScore")));
         }
         
     }

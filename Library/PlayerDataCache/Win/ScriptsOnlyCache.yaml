@@ -23,6 +23,7 @@ ScriptsOnlyBuild:
     - playerSpellcasting
     - playerStats
     - slowTime
+    - updateHighScore
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -161,6 +162,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5430}
     - Class: 114
       Script: {instanceID: 30838}
+    - Class: 114
+      Script: {instanceID: 65616}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -465,7 +468,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: e5465ace928627fcbaa1bec1a32ddd62
+      Hash: c26dd0c1151e52493c1ec986c58626c2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: playerStats
@@ -603,7 +606,7 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: d98fa3ba81ba321f240d5201c2fa9879
+      Hash: 21d43aa77dda0a7913cc5f03d58bd7ba
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Room
@@ -633,7 +636,7 @@ ScriptsOnlyBuild:
     className: ContentSizeFitter
   - hash:
       serializedVersion: 2
-      Hash: 418aaf395cdad21af954c772f234cc25
+      Hash: d0076ee56956c819ae27d853fb662aae
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemySlime
@@ -861,7 +864,7 @@ ScriptsOnlyBuild:
     className: SpriteLibraryAsset
   - hash:
       serializedVersion: 2
-      Hash: d98fa3ba81ba321f240d5201c2fa9879
+      Hash: 21d43aa77dda0a7913cc5f03d58bd7ba
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InitialRoom
@@ -949,6 +952,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PauseMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 5e8c70ab186544352af22e3e8d438c48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: updateHighScore
   platform: 5
   scenePathNames:
   - Assets/Resources/Scenes/StartMenu.unity
