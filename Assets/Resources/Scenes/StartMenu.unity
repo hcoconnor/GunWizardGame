@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'When casting fire balls, you can need cast the spell on an object. This
+  m_text: 'When casting fire balls, you need to cast the spell on an object. This
     can be anything you find laying around the dungeon. It can also be your bullet.
     If you find it difficult to aim your spells, you can press LCRTL to slow time
     and highlight what objects you can target.

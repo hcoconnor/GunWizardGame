@@ -53,13 +53,14 @@ public class playerStats : ObjectStats
         if(health <= 0)
         {
             Die();
-            PlayerPrefs.SetInt("highScore", Mathf.Max(points, PlayerPrefs.GetInt("highScore")));
+            
         }
         
     }
 
     public void Die()
     {
+        PlayerPrefs.SetInt("highScore", Mathf.Max(points, PlayerPrefs.GetInt("highScore")));
         Time.timeScale = 0;
         looseScreen.active = true;
     }

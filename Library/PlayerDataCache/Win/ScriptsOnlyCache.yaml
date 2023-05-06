@@ -962,4 +962,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Resources/Scenes/StartMenu.unity
   - Assets/Resources/Scenes/SampleScene.unity
-  playerPath: H:/unity stuff/Builds/Gun Wizard/GunWizardGame.exe
+  playerPath: H:/unity stuff/GunWizardGame/GunWizardGame/Build/GunWizardGame.exe
