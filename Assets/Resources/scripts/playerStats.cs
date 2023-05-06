@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class playerStats : ObjectStats
 {
 
+    public GameObject looseScreen; 
+
     public Slider Healthbar;
     public Slider ManaBar;
     public float invincibilityTime;
@@ -41,7 +43,17 @@ public class playerStats : ObjectStats
             Healthbar.value = health;
             damageCooldown = invincibilityTime;
         }
+        if(health <= 0)
+        {
+            Die();
+        }
         
+    }
+
+    public void Die()
+    {
+        Time.timeScale = 0;
+        looseScreen.active = true;
     }
 
     public void castSpell(float cost)
